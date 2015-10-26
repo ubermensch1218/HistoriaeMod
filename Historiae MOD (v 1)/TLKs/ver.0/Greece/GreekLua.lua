@@ -5,8 +5,9 @@
 GameEvents.PlayerDoTurn.Add(function(player)
 	local iActivePlayer = Game.GetActivePlayer();
 	local pPlayer = Players[iActivePlayer];
+	local pMinor;
 	if pPlayer:IsMinorCiv() then
-		local pMinor = Players[iActivePlayer];
+		pMinor = Players[iActivePlayer];
 	end
 	if pPlayer:IsEverAlive() and pPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_GREECE"] then
 		
