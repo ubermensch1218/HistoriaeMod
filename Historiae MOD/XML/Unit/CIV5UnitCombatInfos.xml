@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<!-- Table data -->
+	<UnitCombatInfos>
+		<Delete/>
+		<Row>
+			<ID>0</ID>
+			<Type>UNITCOMBAT_RECON</Type>
+			<Description>TXT_KEY_UNITCOMBAT_RECON</Description>
+		</Row>
+		<Row>
+			<ID>1</ID>
+			<Type>UNITCOMBAT_ARCHER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ARCHER</Description>
+		</Row>
+		<Row>
+			<ID>2</ID>
+			<Type>UNITCOMBAT_MOUNTED</Type>
+			<Description>TXT_KEY_UNITCOMBAT_MOUNTED</Description>
+		</Row>
+		<Row>
+			<ID>3</ID>
+			<Type>UNITCOMBAT_MELEE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_MELEE</Description>
+		</Row>
+		<Row>
+			<ID>4</ID>
+			<Type>UNITCOMBAT_SIEGE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_SIEGE</Description>
+		</Row>
+		<Row>
+			<ID>5</ID>
+			<Type>UNITCOMBAT_GUN</Type>
+			<Description>TXT_KEY_UNITCOMBAT_GUN</Description>
+		</Row>
+		<Row>
+			<ID>6</ID>
+			<Type>UNITCOMBAT_ARMOR</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ARMOR</Description>
+		</Row>
+		<Row>
+			<ID>7</ID>
+			<Type>UNITCOMBAT_HELICOPTER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_HELICOPTER</Description>
+		</Row>
+		<Row>
+			<ID>8</ID>
+			<Type>UNITCOMBAT_NAVALRANGED</Type>
+			<Description>TXT_KEY_UNITCOMBAT_NAVALRANGED</Description>
+		</Row>
+		<Row>
+			<ID>9</ID>
+			<Type>UNITCOMBAT_FIGHTER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_FIGHTER</Description>
+		</Row>
+		<Row>
+			<ID>10</ID>
+			<Type>UNITCOMBAT_BOMBER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_BOMBER</Description>
+		</Row>
+		<Row>
+			<ID>11</ID>
+			<Type>UNITCOMBAT_NAVALMELEE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_NAVALMELEE</Description>
+		</Row>
+		<Row>
+			<ID>12</ID>
+			<Type>UNITCOMBAT_SUBMARINE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_SUBMARINE</Description>
+		</Row>
+		<Row>
+			<ID>13</ID>
+			<Type>UNITCOMBAT_CARRIER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_CARRIER</Description>
+		</Row>
+		<Row>
+			<ID>14</ID>
+			<Type>UNITCOMBAT_HORSEARCHER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_HORSEARCHER</Description>
+		</Row>
+		<Row>
+			<ID>15</ID>
+			<Type>UNITCOMBAT_ARCHAEOLOGIST</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ARCHAEOLOGIST</Description>
+		</Row>
+
+		<Row>
+			<ID>16</ID>
+			<Type>UNITCOMBAT_TRADE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_TRADE</Description>
+		</Row>
+		<Row>
+			<ID>17</ID>
+			<Type>UNITCOMBAT_MERCHANT</Type>
+			<Description>TXT_KEY_UNITCOMBAT_MERCHANT</Description>
+		</Row>
+
+	</UnitCombatInfos>
+	<DeleteMissingReferences table="UnitCombatInfos" column="Type"/>
+</GameData>

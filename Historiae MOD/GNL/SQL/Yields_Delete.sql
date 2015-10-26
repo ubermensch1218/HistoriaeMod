@@ -1,0 +1,1 @@
+DELETE FROM Yields;-- Insert SQL Rules Here 

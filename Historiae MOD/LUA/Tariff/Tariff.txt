@@ -1,0 +1,32 @@
+-- Tariff
+-- Author: Jeongseok
+-- DateCreated: 6/23/2015 4:07:35 PM
+--------------------------------------------------------------
+Tariff - trading fee. when open border is not activated
+
+Erafee = {
+	Ancient = 0.25
+	Classic = .5
+	Medieval = 2
+	Renaissance = 8
+	Industrial = 160
+	PostModern = 320
+	Modern = 640
+	Future = 1280}
+
+Cargoship -> city = 20G * Erafee 
+	normal sea = 2Erafee
+	4tiles/turn
+
+Caravan -> city = 10G * Erafee
+	Land wo road = Erafee
+	Land w road = 2Erafee
+	Land w railroad = 5Erafee
+	2tiles/turn
+
+How to count how many.
+1. Get the unit
+2. get the hex of the tile which unit was or is on.
+3. get the hex's owner and whether road or not. 
+4. count and set the price.
+5. price is deducted every turn.

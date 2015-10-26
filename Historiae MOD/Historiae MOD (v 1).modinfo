@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e7bd5251-b58f-4843-84b6-5d2ecf065ceb" version="1">
+  <Properties>
+    <Name>Historiae MOD</Name>
+    <Stability>Experimental</Stability>
+    <Teaser>The Whole Conversion MOD</Teaser>
+    <Description>Historiae MOD[NEWLINE]
+[COLOR_WARNING_TEXT]모드 실행에 필수적인 파일들을 모두 활성화시켜주시길 바랍니다.[ENDCOLOR][NEWLINE]
+필요한 파일들:  Historiae MOD 그래픽 
+v.1.0
+
+
+Credits are in the ReadMe.txt</Description>
+    <Authors>JS_KANG</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8133930f-f211-47fe-826c-ab8c007219b1" minversion="0" maxversion="999" title="Historiae MOD Graphics" />
+    <Mod id="762d7c44-f85c-41ec-a0c9-2d86a6591a14" minversion="0" maxversion="999" title="Historiar Mod Resource Pack" />
+  </Dependencies>
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="66" maxversion="999" title="DLL - Various Mod Components" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="501936505E87D8875EB9C9968629106B" import="0">Desc/TechText.xml</File>
+    <File md5="D531B7C2BFAB0E2D56CBDB267B09E734" import="0">LUA/CoastalAtillary/CoastalArtillary.lua</File>
+    <File md5="C5309D037965BE118176044837BF6E88" import="0">LUA/CulturalOverview/CultureOverview.lua</File>
+    <File md5="95C939422206DB2ABFD029318ADC6FA9" import="0">LUA/ModTools.lua</File>
+    <File md5="900A0BBAD8575A874BEE24317607825F" import="0">LUA/RandEvents/MyUserEvents.lua</File>
+    <File md5="A23A482C8C1E2544D3BB3557BE63BDAE" import="0">LUA/RandEvents/RandEvents.txt</File>
+    <File md5="E6659146CCD9AA9D26729548FE16B730" import="0">LUA/RandEvents/UserEvents.lua</File>
+    <File md5="0A950F627E4EDD875CFA0A8C89162206" import="0">LUA/RandEvents/UserEvents.xml</File>
+    <File md5="0149D3C37724E5A11749BC49C204EECC" import="0">LUA/RandEvents/UserEventsPopup.lua</File>
+    <File md5="C6B61696C729D3210873B6AD6CB08781" import="0">LUA/RandEvents/UserEventsPopup.xml</File>
+    <File md5="9349436164306D788C38CD4CB3889F58" import="0">LUA/RandEvents/UserEventsUtils.lua</File>
+    <File md5="A8595F6BF456E6DBECB358DE8C57EAB3" import="0">LUA/Tariff/Tariff.txt</File>
+    <File md5="6A289A3ABE9A68D150E74015B2E65E44" import="0">LUA/Tariff/TariffLua.lua</File>
+    <File md5="8E929635B6AADDDB97EA37EAE44D7F07" import="0">LUA/TopPanelOvr/TopPanel.lua</File>
+    <File md5="1E22DB65B1304DC7CC4343ACC279340F" import="0">LUA/TopPanelOvr/TopPanel.xml</File>
+    <File md5="AD8E868B424350660826738E3A3F03D9" import="0">LUA/UnHapPerPop/UnHapPerPop.lua</File>
+    <File md5="748F2D66ADCEDC5381CE36A4AC7CD8AB" import="1">LUA/UnitPanelOvr/UnitPanel.lua</File>
+    <File md5="C233E40BF898AC9BE1769E59C79DC9D6" import="0">LUA/UnitPromotion/OnlyOnPlotPromotion.lua</File>
+    <File md5="1917024138955B99E6D779C94F817F0C" import="0">LUA/TourToGold/TourToGold.lua</File>
+    <File md5="BF74FB8E0827564F9332383D666D7CB5" import="0">patch.txt</File>
+    <File md5="EC5C13A17C29D6F889211C67942BF005" import="0">RP/NewUI/PolicyAsset.xml</File>
+    <File md5="6B4B810745D06EE6B2A550D494949281" import="1">RP/NewUI/SocialPolicyPopup.lua</File>
+    <File md5="A9438B8BCF1F6B91B465A327D8D68BF8" import="1">RP/NewUI/SocialPolicyPopup.xml</File>
+    <File md5="7046EBFF5008EA874F102E174E546239" import="0">RP/NewUI/Vanilla_Changes.sql</File>
+    <File md5="094EE183A64854464F5F9C78C5A75748" import="0">RP/XML/CIV5Policies.xml</File>
+    <File md5="DAB1A597C7623C00092F4A350B58E490" import="0">RP/XML/CIV5PolicyBranchTypes.xml</File>
+    <File md5="B7068379794CDE14E6F9A4CA21B46289" import="0">RP/XML/CIV5_Policies_Text.xml</File>
+    <File md5="BCDFE56499F97C3780F17F0E15B2BEC1" import="0">RP/XML/Policy.sql</File>
+    <File md5="E179D6BD00DF4705D23996BE6DC20FA1" import="0">RP/XML/PolicyBranch_del.sql</File>
+    <File md5="451E20313485DB474C3F1C0EC7C64050" import="0">RP/XML/Policy_delete.sql</File>
+    <File md5="F1280775FF59D6098C8E117FC32DC372" import="0">SQL/Others.sql</File>
+    <File md5="1F0B6759AB2FE3BE6490A7275920C050" import="0">SQL/Others2.sql</File>
+    <File md5="23E5F68ED0C69C1D6998FD3DF51FB318" import="0">SQL/PromotionDel.sql</File>
+    <File md5="37B3F9A6F0870CC2705C261825B64989" import="0">TLKs/Africa/Ethiopia/Ethiopia_UB.xml</File>
+    <File md5="770DFD93C9F9C112C1E2FB462A3DD4A8" import="0">TLKs/Africa/Zulu/Zulu.xml</File>
+    <File md5="B8079500F49E06CAA8681F8DB68B1B2D" import="0">TLKs/Africa/Zulu/ZuluUA.lua</File>
+    <File md5="620014FC6BE27D7B7C429D2F6B27A576" import="0">TLKs/All in one/CIV5Buildings.xml</File>
+    <File md5="C301FDDC32F11ACFC83EC7092A784ECC" import="0">TLKs/All in one/CIV5Civilizations.xml</File>
+    <File md5="B46F3104DE68E31C68F03DC48337100D" import="0">TLKs/All in one/CIV5Units.xml</File>
+    <File md5="D958CAED5CF27F61E764B06565B15F4A" import="0">TLKs/America/Shoshone/UA/BuffaloSpawn.lua</File>
+    <File md5="44F7D8B89AE21B2174AC932E92364205" import="0">TLKs/Europe/Portugal/LUA/PortugalUA.lua</File>
+    <File md5="D0CCB4F96ABA54D01ED7E54E57B2668E" import="0">TLKs/ver.1/Arabia/Arabia_UB.xml</File>
+    <File md5="EC7EF07D3FB86100B3AEBFAAFE7F1FAD" import="0">TLKs/ver.1/Celt/LUA/CeltUA.lua</File>
+    <File md5="9BA378247FF86819F447990275E090C4" import="0">TLKs/ver.1/Hunic/Hunic.sql</File>
+    <File md5="39220E99E6EAC6927BBE16B386D2C2C3" import="0">TLKs/ver.1/Hunic/HunicUA.lua</File>
+    <File md5="C0226180CB33877C4BAA3CF1A3946EB3" import="0">TLKs/ver.1/Iroquois/Iroquois_UB.xml</File>
+    <File md5="FD4FC0D8115638CFE9C1567E7F54485A" import="0">TLKs/ver.1/Persia/PersiaUA.lua</File>
+    <File md5="BF120DD979CC9534C9CC8071CC72D519" import="0">TLKs/ver.1/Venezia/LUA/VeneziaUA.lua</File>
+    <File md5="25EA949C14ABC83F733158F735EB6F5B" import="0">TLKs/ver.2/US/America.sql</File>
+    <File md5="3771C9A757D7920230B58CBC0D2DC487" import="0">TLKs/ver.2/US/America.xml</File>
+    <File md5="A7447136D06F3B74A0B50C02F2179268" import="0">TLKs/ver.2/US/USPopup.lua</File>
+    <File md5="128905C8AF1B9B359AC6822F852B73F8" import="0">TLKs/ver.2/US/USPopup.xml</File>
+    <File md5="9D5433931E8B4B528450C4D3D72172DF" import="0">TLKs/Africa/Moroco/Morocco_UB.xml</File>
+    <File md5="C26F73DC05E8188962FEB3C2F9972187" import="0">TLKs/Africa/Songhai/Songhai_UB.xml</File>
+    <File md5="AD455AF0A7DF5FD4FFEFB25929F660C3" import="0">TLKs/America/Aztec/Aztec_UB.xml</File>
+    <File md5="FF115DA0D54B9FE0D61495596B46C1DB" import="0">TLKs/America/Brazil/Brazil_UB.xml</File>
+    <File md5="3329A459D14731425C2CF4D455FCAA6B" import="0">TLKs/America/Inca/Inca_UB.xml</File>
+    <File md5="7F3EA31469E2C97CEB1BA5C893FCAC50" import="0">TLKs/America/Maya/Maya_UB.xml</File>
+    <File md5="B9573FC9A2F0A78FADF544D1E5FB3B5F" import="0">TLKs/America/Polinesia/Polinesia_UB.xml</File>
+    <File md5="66D0F8955B4D36BCEE719C8819E949A1" import="0">TLKs/America/Shoshone/Shoshone_UB.xml</File>
+    <File md5="3D5C72D053A07679BA4FF4D6FBC5459F" import="0">TLKs/Asia/China/China_UB.xml</File>
+    <File md5="63A8B06885237F3C5F57391C12B2281D" import="0">TLKs/Asia/India/India.xml</File>
+    <File md5="793BE45B4F97A16128B51B24ADA3B760" import="0">TLKs/Asia/Indonesia/Indonesia_UB.xml</File>
+    <File md5="FAD17023061D5F247DC5FA2B1AC75A17" import="0">TLKs/Asia/Japan/Japan_UB.xml</File>
+    <File md5="C3C26C8CED9CC0D3E75E9063094F8522" import="0">TLKs/Asia/Korea/Korea_UB.xml</File>
+    <File md5="7F3AA53AA83A402AC72BE4A4EAFAB911" import="0">TLKs/Asia/Mongol/Mongol_UB.xml</File>
+    <File md5="A9107EA8E387F15E4A2D76D9B7BADE96" import="0">TLKs/Asia/Siam/Siam_UB.xml</File>
+    <File md5="EB26C4712BC6DA080E192C2D5F4CE288" import="0">TLKs/Europe/Austria/Austria_UB.xml</File>
+    <File md5="FDF2DAECCB3D0A2AE597641988C9220E" import="0">TLKs/Europe/Denmark/Denmark_UB.xml</File>
+    <File md5="BF0BA7F446C0AED1832C03F3A3BEA354" import="0">TLKs/Europe/England/England_UB.xml</File>
+    <File md5="5AF6FB20812ADBF7426A822CA7050430" import="0">TLKs/Europe/France/France_UB.xml</File>
+    <File md5="F2A7FF76B5867F06F85DF66EB6B115BB" import="0">TLKs/Europe/Germany/Germany_UB.xml</File>
+    <File md5="719FFBAA1A12C6F024D12B4D9F0086DD" import="0">TLKs/Europe/Netherland/Netherland_UB.xml</File>
+    <File md5="4B21DA71DA83ADB723C4A376275AA18C" import="0">TLKs/Europe/Osmanturk/Ottoman_UB.xml</File>
+    <File md5="B728F34FB6B5428F3CBB7500A087DECD" import="0">TLKs/Europe/Poland/Poland_UB.xml</File>
+    <File md5="D5E355B33E9E629A5F0C9BA1DB45F310" import="0">TLKs/Europe/Portugal/Portugal_UB.xml</File>
+    <File md5="5492B84CE24BD6C438BCE93FBA6A23E4" import="0">TLKs/Europe/Russia/Russia_UB.xml</File>
+    <File md5="4CFB2FD82809EA0C78AFD3D42851C7BE" import="0">TLKs/Europe/Spain/Spain_UB.xml</File>
+    <File md5="5F6E2B9CA7730199A8B51B4DE820F925" import="0">TLKs/Europe/Sweden/Sweden_UB.xml</File>
+    <File md5="FE6CEAA92DFE0E49CAA37A8600AE0399" import="0">TLKs/ver.0/Carthage/LUA/Carthage_Functions.lua</File>
+    <File md5="6D8893E96B1A217A3CB842C162BD30C3" import="0">TLKs/ver.0/Carthage/LUA/CedarOfLebanon.lua</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">TLKs/ver.0/Carthage/LUA/PlotIterators.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">TLKs/ver.0/Carthage/LUA/Sukritact_SaveUtils.lua</File>
+    <File md5="C7E131165450B135B5B9E5010E96FBEA" import="0">TLKs/ver.0/Carthage/Ver0sql.sql</File>
+    <File md5="831A15AB186004E2BEFF793D7A6CDC4E" import="0">TLKs/ver.0/Greece/GreekLua.lua</File>
+    <File md5="F6EA698CF728595591BF952F88B6B0AF" import="0">TLKs/ver.0/Rome/Rome.lua</File>
+    <File md5="90C9DF07ED55F80F5945FE872E21325F" import="0">TLKs/ver.0/Rome/Ver0XMLFile.xml</File>
+    <File md5="82BBF234892C2AC897ED26FE9290C539" import="0">TLKs/ver.1/Assyria/Assyria.xml</File>
+    <File md5="FBCF1147AF5C4E0A92CC0F7A78C4BECB" import="0">TLKs/ver.1/Babylon/Babylon.xml</File>
+    <File md5="3344DEB46B2321C3F3A109F0BC717BE3" import="0">TLKs/ver.1/Bizantium/Bizantium.sql</File>
+    <File md5="F28E4CC70694B928371EA6AEC425A1C0" import="0">TLKs/ver.1/Bizantium/Byzantium.xml</File>
+    <File md5="049AE5DBA94DAC553AA0AE54BE553B58" import="0">TLKs/ver.1/Celt/Celt.xml</File>
+    <File md5="887454B76964AF419E82501DF9DA44D7" import="0">TLKs/ver.1/Egypt/Egypt_UB.xml</File>
+    <File md5="B9690B4CF11734B6CB1654D901B473A5" import="0">TLKs/ver.1/Hunic/Hunic.xml</File>
+    <File md5="6274469D41F6AEAA32C8193AEF134451" import="0">TLKs/ver.1/Persia/Persia.xml</File>
+    <File md5="E2A88DDB83B83871C724A96469581106" import="0">TLKs/ver.1/Venezia/Venezia_UB.xml</File>
+    <File md5="AD9448F998D474C5AF603264C8CF32D6" import="0">Desc/Text.xml</File>
+    <File md5="3D42708A92877156AB5972AF2CDC39D2" import="0">LUA/Barbarian/BarbarianCampPopup.lua</File>
+    <File md5="115714D94C33DA129641C0F8D21154C0" import="0">LUA/Barbarian/BarbarianCampPopup.xml</File>
+    <File md5="9B7AA7AE5194E5C35E75EB4222997291" import="1">LUA/Barbarian/BarbarianEraScripts.lua</File>
+    <File md5="69A489A78396C2C5BFCA03D64F3E0EEE" import="0">LUA/Barbarian/BarbarianGeneral.xml</File>
+    <File md5="3E1B7138865C79AE8D54A6E1AFC134A0" import="1">LUA/Barbarian/BarbarianGGScripts.lua</File>
+    <File md5="0B6446CD5F9E530F927EDED5CC923861" import="0">LUA/Barbarian/BarbarianUnhappiness.lua</File>
+    <File md5="9D497B9EFCA5976C520D10C49FEEC500" import="1">LUA/Barbarian/Leugi_Barbarian_Settings.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">LUA/Barbarian/SaveUtils.lua</File>
+    <File md5="4580BB2A702B95561FF49E2BC068B7FD" import="0">LUA/GreatAdmiralAquaculture.lua</File>
+    <File md5="1EA3575C0EC3EF51F31BC3CA95457C53" import="0">Read me.txt</File>
+    <File md5="13DE24E10D751E41199B4BB600094489" import="0">SQL/Belief/Belief ID.sql</File>
+    <File md5="BDA78B84806D5D0D1D257D406438FAB2" import="0">SQL/Belief/BeliefDeleter.sql</File>
+    <File md5="7A3A3BAED445443CE11D4599223EABD2" import="0">SQL/Building/BuildingClassDel.sql</File>
+    <File md5="3AF4DB5B149C26DF0A194282BCE4A51A" import="0">SQL/Building/BuildingClassID.sql</File>
+    <File md5="5C4EABF3F19A854C50882608CBF4965F" import="0">SQL/Building/BuildingDel.sql</File>
+    <File md5="20505EA8026ABC5D64ECB46A41B2064C" import="0">SQL/Building/BuildingID.sql</File>
+    <File md5="4543C0090A8DDED1EF052547E077AB70" import="0">SQL/Civ/DelOverrides.sql</File>
+    <File md5="3C756ABA0CEE83E8BE55CD266C104DAC" import="0">SQL/UnitDel.sql</File>
+    <File md5="7D267040A4FE8671AF2B291371554E0F" import="0">SQL/Tech/Tech_Delete.sql</File>
+    <File md5="D8992A87307C75323C35377A9820B72A" import="0">SQL/Tech/Tech_ID.sql</File>
+    <File md5="76AFD764599C811AC1B94AE380EFB8AF" import="0">SQL/UnitPromo.sql</File>
+    <File md5="8745A5C1F04027F82EEF9BA4D0835676" import="0">SQL/UnitID.sql</File>
+    <File md5="6A24097E6F7D64EE453B29E391E4B938" import="0">SQL/Unit/UnitClassDel.sql</File>
+    <File md5="3627E6DA3B765F72E2DCDEA6864D7E56" import="0">SQL/Unit/UnitClassID.sql</File>
+    <File md5="31D76FFC7500E0D69B462AF445B3B8B2" import="0">UpdateLog.txt</File>
+    <File md5="73DB80FE816CECAEC84CFB85C776FE4B" import="0">XML/Buildings/Building_Classes.xml</File>
+    <File md5="61C3556805FE005F30ACCDC5DF62405B" import="0">XML/Buildings/Building.xml</File>
+    <File md5="CDABC4A1173F3ED7BFC3E0B6B58CE8C5" import="0">XML/Buildings/Newb.xml</File>
+    <File md5="6BBEDA1946ED7F558153BE355B068C46" import="0">XML/GameSpeeds/CIV5GameSpeeds.xml</File>
+    <File md5="E6388B10DD9B1DD1F08CA37C50C59737" import="0">XML/GlobalDefines.xml</File>
+    <File md5="FF5BB825909541BCF068527A138DAEB7" import="0">XML/PROMOTION/Promotion.xml</File>
+    <File md5="D6CFEEDA15E109537D2CA08C88A5FCAD" import="0">XML/Religion/CIV5Beliefs.xml</File>
+    <File md5="DAF6FEE22B330DBED93D9CD331BFE08E" import="0">XML/Routes/CIV5Routes.xml</File>
+    <File md5="51484D8176DD2DF633222DC18A156016" import="0">XML/Specialist/CIV5Specialists.xml</File>
+    <File md5="3DF3C35A6B7B826205A878C93FF13AB0" import="0">XML/Technology/Technology.xml</File>
+    <File md5="9221A193A169E86335C2ECCB78FCD5F3" import="0">XML/Unit/CIV5UnitClasses_Expansion2.xml</File>
+    <File md5="0065C6B6FA06EB9C0574CA8C875DC1C0" import="0">XML/Unit/CIV5UnitCombatInfos.xml</File>
+    <File md5="02A44401F3BB17D66B6CF43FA717DA23" import="0">XML/Unit/CIV5Units.xml</File>
+    <File md5="EE3735B85974B1A9FEDC969D218DF777" import="0">RP/LUA/Policies grant Buildings.lua</File>
+    <File md5="ED72FDC86A08EF2088E5EDD1573A4299" import="0">RP/LUA/Policy_PGB_FreeBuildingClassCapital_Table.lua</File>
+    <File md5="B445E90581DFA0EED6279B035749108E" import="0">RP/LUA/Policy_PGB_FreeBuildingClassCityState_Table.lua</File>
+    <File md5="25D0B93DDEC21FD03772EC51643F3801" import="0">RP/LUA/Policy_PGB_FreeBuildingClass_Table.lua</File>
+    <File md5="2E2224A8CCDBCC217AFB2A6C19EDF8F9" import="0">GNL/LUA/LumberMillControl.lua</File>
+    <File md5="CBC826BCCC8499D422C4DE70E40F16D9" import="0">GNL/SQL/Builds.sql</File>
+    <File md5="0EF612C89A5476DD854216D4E91DB5F9" import="0">GNL/SQL/Builds_Delete.sql</File>
+    <File md5="703C0BB28BFFF395F67FE842D2BE1565" import="0">GNL/SQL/Fake_Feature.sql</File>
+    <File md5="7378E83E30983975693C1ED14A34BDD8" import="0">GNL/SQL/Feature.sql</File>
+    <File md5="FB0A4F4E83FEB10D35AD96DC770A14FC" import="0">GNL/SQL/Feature_Delete.sql</File>
+    <File md5="9CFFF204D355E99ED0073DEC965B20EC" import="0">GNL/SQL/Improvements.sql</File>
+    <File md5="5DDA008DC5159982CFEF8E37F8B20249" import="0">GNL/SQL/Improvement_Delete.sql</File>
+    <File md5="26FFDF309C062572C60C21C365376C4D" import="0">GNL/SQL/Natural_wonder.sql</File>
+    <File md5="282E59F7297A95EDF75831BD19C85BCE" import="0">GNL/SQL/Resources.sql</File>
+    <File md5="AF9CE8C65369900A7814086C740CC4EF" import="0">GNL/SQL/Resources_Delete_sql.sql</File>
+    <File md5="E4F5B051DC3EDC019F93D817417A6299" import="0">GNL/SQL/Terrain.sql</File>
+    <File md5="9B5E404D9588A2EFD1BB19C026F9A86C" import="0">GNL/SQL/Terrain_Delete.sql</File>
+    <File md5="8DE82E5BB7777B0B3EDB3BDC3B929C20" import="0">GNL/SQL/Yields_Delete.sql</File>
+    <File md5="14C5B48F5B7B22828128D906D3BEA58A" import="0">GNL/XML/CIV5Builds.xml</File>
+    <File md5="65FD76DD058DD437A1EACABCE778A7C6" import="0">GNL/XML/CIV5Features.xml</File>
+    <File md5="2415CAD3109DB000D823799E3B323B06" import="0">GNL/XML/CIV5Improvements.xml</File>
+    <File md5="615D9E1E733A5C1985CFDC02BF24C808" import="0">GNL/XML/CIV5Resources.xml</File>
+    <File md5="51B2F81961062B94BBF50457DBF4F0C5" import="0">GNL/XML/CIV5Terrains.xml</File>
+    <File md5="1C755D10AED92EFDFFC7D2E6C1D8449C" import="0">GNL/XML/CIV5Yields.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/Tech/Tech_Delete.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Technology/Technology.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Tech/Tech_ID.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Specialist/CIV5Specialists.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Belief/BeliefDeleter.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Religion/CIV5Beliefs.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Belief/Belief ID.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Civ/DelOverrides.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Building/BuildingClassDel.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Building_Classes.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Building/BuildingClassID.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Building/BuildingDel.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Building.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Building/BuildingID.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Unit/UnitClassDel.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/CIV5UnitClasses_Expansion2.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Unit/UnitClassID.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitDel.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/CIV5Units.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitID.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/PromotionDel.sql</UpdateDatabase>
+      <UpdateDatabase>XML/PROMOTION/Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/UnitPromo.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/CIV5UnitCombatInfos.xml</UpdateDatabase>
+      <UpdateDatabase>Desc/Text.xml</UpdateDatabase>
+      <UpdateDatabase>RP/XML/Policy_delete.sql</UpdateDatabase>
+      <UpdateDatabase>RP/XML/CIV5Policies.xml</UpdateDatabase>
+      <UpdateDatabase>RP/XML/Policy.sql</UpdateDatabase>
+      <UpdateDatabase>RP/XML/PolicyBranch_del.sql</UpdateDatabase>
+      <UpdateDatabase>RP/XML/CIV5PolicyBranchTypes.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Yields_Delete.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/XML/CIV5Yields.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Terrain_Delete.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/XML/CIV5Terrains.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Terrain.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Feature_Delete.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/XML/CIV5Features.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Feature.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Fake_Feature.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Natural_wonder.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Resources_Delete_sql.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/XML/CIV5Resources.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Resources.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Improvement_Delete.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/XML/CIV5Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Builds_Delete.sql</UpdateDatabase>
+      <UpdateDatabase>GNL/XML/CIV5Builds.xml</UpdateDatabase>
+      <UpdateDatabase>GNL/SQL/Builds.sql</UpdateDatabase>
+      <UpdateDatabase>Desc/TechText.xml</UpdateDatabase>
+      <UpdateDatabase>LUA/Barbarian/BarbarianGeneral.xml</UpdateDatabase>
+      <UpdateDatabase>TLKs/ver.0/Carthage/Ver0sql.sql</UpdateDatabase>
+      <UpdateDatabase>TLKs/ver.0/Rome/Ver0XMLFile.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Others.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Others2.sql</UpdateDatabase>
+      <UpdateDatabase>RP/NewUI/PolicyAsset.xml</UpdateDatabase>
+      <UpdateDatabase>RP/NewUI/Vanilla_Changes.sql</UpdateDatabase>
+      <UpdateDatabase>TLKs/ver.1/Hunic/Hunic.sql</UpdateDatabase>
+      <UpdateDatabase>TLKs/ver.1/Hunic/Hunic.xml</UpdateDatabase>
+      <UpdateDatabase>TLKs/All in one/CIV5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>TLKs/All in one/CIV5Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>TLKs/All in one/CIV5Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="TLKs/ver.0/Greece/GreekLua.lua">
+      <Name>GreekFreePolicyUA</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="TLKs/ver.0/Carthage/LUA/Carthage_Functions.lua">
+      <Name>CarthageFunc</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="TLKs/ver.0/Carthage/LUA/CedarOfLebanon.lua">
+      <Name>CedarOfLebanon</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/GreatAdmiralAquaculture.lua">
+      <Name>AquaCulture</Name>
+      <Description>AquaCulture</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="RP/LUA/Policies grant Buildings.lua">
+      <Name>PGB</Name>
+      <Description>PGB</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="RP/LUA/Policy_PGB_FreeBuildingClass_Table.lua">
+      <Name>PGB_Table</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="RP/LUA/Policy_PGB_FreeBuildingClassCapital_Table.lua">
+      <Name>PGB_Capital</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="RP/LUA/Policy_PGB_FreeBuildingClassCityState_Table.lua">
+      <Name>PGB_CS</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="GNL/LUA/LumberMillControl.lua">
+      <Name>Lumber</Name>
+      <Description>Lumber</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/UnHapPerPop/UnHapPerPop.lua">
+      <Name>UnHapPerPop</Name>
+      <Description>UnHapPerPop</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="TLKs/ver.1/Hunic/HunicUA.lua">
+      <Name>HunicUA</Name>
+      <Description>HunicUA</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

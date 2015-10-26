@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/29/2014 9:13:28 AM -->
+<GameData>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+			<BuildingType>BUILDING_COWBOY</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DEPART</BuildingClassType>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY_AMERICA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_WHITE_HOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_WHITE_HOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_WHITE_HOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WHITE_HOUSE_TEXT</Civilopedia>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<EnhancedYieldTech>TECH_IMPERIALISM</EnhancedYieldTech>
+			<Defense>250</Defense>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<GreatPeopleRateModifier>50</GreatPeopleRateModifier>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CIV_BUILDING_ATLAS_HITM2</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+			<MutuallyExclusiveGroup>2</MutuallyExclusiveGroup>
+		</Row>
+		<Row>
+			<Type>BUILDING_INTELLIGENCE_AGENCY_AMERICA</Type>
+			<BuildingClass>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_SOCIAL_SCIENCE</PrereqTech>
+			<Help>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_AMERICA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_AMERICA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_AMERICA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_AMERICA_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_INTELLIGENCE_AGENCY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>50</NumCityCostMod>
+			<GlobalEspionageModifier>-15</GlobalEspionageModifier>
+			<SpyRankChange>1</SpyRankChange>
+			<InstantSpyRankChange>1</InstantSpyRankChange>
+			<ExtraSpies>1</ExtraSpies>
+			<Espionage>true</Espionage>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CM_5_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_HAVARD_UNIVERSITY</Type>
+			<BuildingClass>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HAVARD_UNIVERSITY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HAVARD_UNIVERSITY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HAVARD_UNIVERSITY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HAVARD_UNIVERSITY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
+			<CultureRateModifier>25</CultureRateModifier>
+			<ThemingBonusHelp>TXT_KEY_HAVARD_UNIVERSITY_THEMING_BONUS_HELP</ThemingBonusHelp>
+			<FreeTechs>1</FreeTechs>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CM_5_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_MILITARY_ASSEMBLY</Type>
+			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
+			<Cost>175</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MILITARY_ASSEMBLY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MILITARY_ASSEMBLY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MILITARY_ASSEMBLY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MILITARY_ASSEMBLY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>400</Defense>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CM_5_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SHOPPINGMALL</Type>
+			<BuildingClass>BUILDINGCLASS_DEPART</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<Help>TXT_KEY_BUILDING_SHOPPINGMALL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SHOPPINGMALL_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DEPART_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SHOPPINGMALL_STRATEGY</Strategy>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Happiness>1</Happiness>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>75</ConquestProb>
+			<HurryCostModifier>75</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_COWBOY</Type>
+			<BuildingClass>BUILDINGCLASS_CONSTABLE</BuildingClass>
+			<Cost>160</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_SOCIAL_SCIENCE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_COWBOY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COWBOY_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COWBOY_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_COWBOY_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<EspionageModifier>-35</EspionageModifier>
+			<Espionage>true</Espionage>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnmoddedHappiness>1</UnmoddedHappiness>
+			<HurryCostModifier>33</HurryCostModifier>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+
+		<Row>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY_AMERICA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY_AMERICA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY_AMERICA</BuildingType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY_AMERICA</BuildingType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY_AMERICA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_DomainFreeExperiences>
+		<!--모병소-->
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<DomainType>DOMAIN_HOVER</DomainType>
+			<Experience>20</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>20</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COWBOY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COWBOY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ASSEMBLY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COWBOY</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COWBOY</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WHITE_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_ThemingBonuses>
+		<Row>
+			<BuildingType>BUILDING_HAVARD_UNIVERSITY</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_HAVARD_UNIVERSITY</Description>
+			<Bonus>4</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+	</Building_ThemingBonuses>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_SHOPPINGMALL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+
+
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_TRAIT_US_AMERICA_SHORT">
+			<Text>A House Divided</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_US_AMERICA_LINCOLN">
+			<Text>Choose a unique, wartime bonus upon the outbreak of war with a major civilization. Cities construct [ICON_GOLD] Gold buildings automatically.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECHES_TITLE">
+			<Text>Address the nation!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECHES_MESSAGE">
+			<Text>The United States of America has entered a state of war against the {1_CivFullName}. As its leader, you must address the nation and inspire the people that victory is assured!</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_1_BUTTON">
+			<Text>Call for Courage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_1_TT">
+			<Text>Units gain a 15% [ICON_WAR] attack bonus.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_2_BUTTON">
+			<Text>Call for Duty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_2_TT">
+			<Text>-15% Unit [ICON_GOLD] Gold maintenance costs.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_3_BUTTON">
+			<Text>Call for Honour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_3_TT">
+			<Text>Great Generals and Great Admirals are generated 30% faster.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_4_BUTTON">
+			<Text>Call for Mobilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_4_TT">
+			<Text>Military Units are [ICON_PRODUCTION] Produced 20% faster.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_5_BUTTON">
+			<Text>Call for Unity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_5_TT">
+			<Text>-15% [ICON_HAPPINESS_4] Unhappiness empire-wide.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_6_BUTTON">
+			<Text>Call for Volunteers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_6_TT">
+			<Text>Units are 15% cheaper to purchase with [ICON_GOLD] Gold.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_SHORT">
+			<Text>You have addressed the nation!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_4">
+			<Text>Military units are trained 20% faster for the duration of this war against {1_Civ}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_6">
+			<Text>The cost of purchasing units is reduced by 15% for the duration of this war against {1_Civ}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_5">
+			<Text>Unhappiness is reduced by 15% for the duration of war!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_2">
+			<Text>Unit maintenance costs are reduced by 15% for the duration of this war against {1_Civ}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_3">
+			<Text>Great Generals and Great Admirals are born 30% faster for the duration of this war against {1_Civ}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_US_SPEECH_NOTIFICATION_1">
+			<Text>Military Units inflict 25% more damage when attacking for the duration of this war against {1_Civ}!</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_US_SPEECH_1">
+			<Text>Wartime Inspiration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_US_SPEECH_1_HELP">
+			<Text>+15% [ICON_WAR] Attack bonus.</Text>
+		</Row>
+	</Language_KO_KR>
+</GameData>

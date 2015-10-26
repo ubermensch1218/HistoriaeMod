@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_KO_KR>
+		<Row Tag="TXT_KEY_USER_EVENT_OPTION_SELECT">
+			<Text>Select</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_OPTION_OK">
+			<Text>OK</Text>
+		</Row>
+	</Language_KO_KR>
+	<Language_KO_KR>
+
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN">
+			<Text>Wandering Wiseman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_DESC">
+			<Text>A wandering wiseman appears at {2} and offers to share his knowledge with you in exchange for some gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_OPTION1_DESC">
+			<Text>Hire him to the full extent of his services.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_OPTION1_TIP">
+			<Text>-200 + Era x 50[ICON_GOLD] Gold, +1 Great Scientist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_OPTION2_DESC">
+			<Text>Pay him to assist your advisors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_OPTION2_TIP">
+			<Text>-100 + Era x 25[ICON_GOLD] Gold, random effect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_OPTION3_DESC">
+			<Text>"I have time nor money for this nonsense!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WANDERING_WISEMAN_OPTION3_TIP">
+			<Text>Send the man away.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT_NONE">
+			<Text>The wiseman leaves the city and is never seen again.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT1">
+			<Text>The wiseman agrees to stay.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT2A">
+			<Text>The wiseman's teachings have positively influenced your government structure, adding to your culture.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT2B">
+			<Text>The wiseman shares secret knowledge with your science advisor, giving you a free technology!</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT2C">
+			<Text>The wiseman's knowledge results in a technological breakthrough.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT2D">
+			<Text>The wiseman's teachings bring prosperity to your citizens, starting a short [ICON_GOLDEN_AGE]Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WANDERING_WISEMAN_EFFECT2E">
+			<Text>The "wiseman" was a fraud, and had nothing of value to teach...</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER">
+			<Text>Skilled Engineer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_DESC">
+			<Text>A skilled engineer comes to court, with a wish to oversee your cities' construction nationwide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_OPTION1_DESC">
+			<Text>Tell him he has unlimited credit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_OPTION1_TIP">
+			<Text>-125xEra[ICON_GOLD] Gold, construction hurried by 5 turns in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_OPTION2_DESC">
+			<Text>Give him a small share of our treasury to fund his work.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_OPTION2_TIP">
+			<Text>-75xEra[ICON_GOLD] Gold, construction hurried by 3 turns in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_OPTION3_DESC">
+			<Text>Let him see what he can do on his own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BUILDER_OPTION3_TIP">
+			<Text>Construction hurried by 1 turn in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_BUILDER_EFFECT_NONE">
+			<Text>Construction sped up in all your cities.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_BUILDER_EFFECT1">
+			<Text>Construction sped up in all your cities.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_BUILDER_EFFECT2">
+			<Text>Construction sped up in all your cities.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST">
+			<Text>Local Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_DESC">
+			<Text>A promising Artist in {2} has caught the attention of the population. Perhaps it would be a good idea to approach him somehow?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_OPTION1_DESC">
+			<Text>"Send him a sum of gold, with a desire to see him create a truly grand work."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_OPTION1_TIP">
+			<Text>-150[ICON_GOLD] Gold, {2} expands 3 extra tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_OPTION2_DESC">
+			<Text>"Set up a new atelier just for him."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_OPTION2_TIP">
+			<Text>-300[ICON_GOLD] Gold, culture building improved in {2}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_OPTION3_DESC">
+			<Text>"I'll write him a letter, for moral support."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ARTIST_OPTION3_TIP">
+			<Text>{2} expands 1 extra tile.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_ARTIST_EFFECT_NONE">
+			<Text>{2}'s borders have expanded.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_ARTIST_EFFECT1">
+			<Text>{2} gained a new cultural building.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_ARTIST_EFFECT2">
+			<Text>{2}'s borders have expanded.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_NEW_SPRING">
+			<Text>New Spring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEW_SPRING_DESC">
+			<Text>A new spring has been discovered in the desert near {2} and quickly it changes the area into an oasis.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEW_SPRING_OPTION1_DESC">
+			<Text>"It's not a mirage, is it?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEW_SPRING_OPTION1_TIP">
+			<Text>A new oasis has appeared.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEW_SPRING_EFFECT">
+			<Text>A spring creates a new oasis on the desert.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_NEWMINERAL">
+			<Text>New Mineral Discovered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEWMINERAL_DESC">
+			<Text>A new valuable mineral has been discovered in a mine near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEWMINERAL_OPTION1_DESC">
+			<Text>"Mine, mine it all."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEWMINERAL_OPTION1_TIP">
+			<Text>Iron, Gold, Gems, Silver, Coal, Aliminium or Uranium discovered near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT1">
+			<Text>A new source of Iron was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT2">
+			<Text>A new source of Gold was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT3">
+			<Text>A new source of Silver was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT4">
+			<Text>A new source of Gems was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT5">
+			<Text>A new source of Coal was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT6">
+			<Text>A new source of Aluminium was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWMINERAL_EFFECT7">
+			<Text>A new source of Uranium was found near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_NEWPLANT">
+			<Text>Saplings Planted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEWPLANT_DESC">
+			<Text>Botanists near {2} have successfully planted new saplings from an exotic plant type.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEWPLANT_OPTION1_DESC">
+			<Text>"Green fingers, eh? Maybe we'll build a plantation around them."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_NEWPLANT_OPTION1_TIP">
+			<Text>New Bananas, Sugar, Wine, Incense, Silk, Cotton, Dye or Spices near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT1">
+			<Text>A new source of Bananas was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT2">
+			<Text>A new source of Dye was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT3">
+			<Text>A new source of Spices was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT4">
+			<Text>A new source of Silk was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT5">
+			<Text>A new source of Sugar was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT6">
+			<Text>A new source of Cotton was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT7">
+			<Text>A new source of Wine was found near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_NEWPLANT_EFFECT8">
+			<Text>A new source of Incense was found near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_PARROTS">
+			<Text>Parrots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PARROTS_DESC">
+			<Text>Citizens of {2} discovered some rare parrots in the near jungle. They are selling them as exotic pets.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PARROTS_OPTION1_DESC">
+			<Text>"Can I have one?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PARROTS_OPTION1_TIP">
+			<Text>+2[ICON_GOLD] Gold yield in the tile.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_PARROTS_EFFECT">
+			<Text>Citizens of {2} now trade rare jungle parrots.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_FERTILESOIL">
+			<Text>Fertile Soil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_FERTILESOIL_DESC">
+			<Text>The fields near {2} are found to be exceptionally suitable for growing Wheat. This should improve our harvests there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_FERTILESOIL_OPTION1_DESC">
+			<Text>"This calls for a banquet."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_FERTILESOIL_OPTION1_TIP">
+			<Text>Farmed now has a source of Wheat.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_FERTILESOIL_EFFECT">
+			<Text>Agriculture near {2} has improved.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_RESORT">
+			<Text>Holiday Resort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RESORT_DESC">
+			<Text>An atol group near {2} has become a very popular holiday destination. The tourism should enhance our revenues.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RESORT_OPTION1_DESC">
+			<Text>"Maybe we could go there next year."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RESORT_OPTION1_TIP">
+			<Text>+1[ICON_GOLD] Gold yield in the tile.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_RESORT_EFFECT">
+			<Text>A new Holiday Island has been christened near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_MINERALS">
+			<Text>Quality Minerals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MINERALS_DESC">
+			<Text>Ore from a mine at {2} appears to be of high density. The mine's production value has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MINERALS_OPTION1_DESC">
+			<Text>"Ore, is it?"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MINERALS_OPTION1_TIP">
+			<Text>+1[ICON_PRODUCTION] Production yield in the tile.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_MINERALS_EFFECT">
+			<Text>Quality ore was found near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_TORNADO">
+			<Text>Tornado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TORNADO_DESC">
+			<Text>A tornado has ravaged the countryside near {2}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TORNADO_OPTION1_DESC">
+			<Text>"Grab a broom."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TORNADO_OPTION1_TIP">
+			<Text>The Improvement is destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_TORNADO_EFFECT">
+			<Text>A tornado caused havoc near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_METEOR">
+			<Text>Meteor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_METEOR_DESC">
+			<Text>A bright flash was seen in the skies, and moments later a meteor fell near {2}! The devestation is horrible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_METEOR_OPTION1_DESC">
+			<Text>"Activate the emergency program!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_METEOR_OPTION1_TIP">
+			<Text>Terrible, terrible damage.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_METEOR_EFFECT">
+			<Text>A meteor devestated the lands of {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_MELTDOWN">
+			<Text>Nuclear Meltdown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MELTDOWN_DESC">
+			<Text>Sir! A horrible accident happened at the nuclear power plant of {2}! The explosion laid waste to the city, and the surrounding area will be irradiated for years!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MELTDOWN_OPTION1_DESC">
+			<Text>"What a catastrophe!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MELTDOWN_OPTION1_TIP">
+			<Text>{2} is all but lost.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_MELTDOWN_EFFECT">
+			<Text>A nuclear disaster happened at {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_WORKER">
+			<Text>Nomads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WORKER_DESC">
+			<Text>You are approached by a group of wandering nomads. Tired of the wilderness, they seek to earn their keep in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WORKER_OPTION1_DESC">
+			<Text>"Give them wages and shelter, then send them to work."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_WORKER_OPTION1_TIP">
+			<Text>Gain a Worker unit.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_WORKER_EFFECT">
+			<Text>Nomads have joined you as Workers.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_GOLDENAGE">
+			<Text>Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_GOLDENAGE_DESC">
+			<Text>Due to your nation's extraordinary education system, an intellectual [ICON_GOLDEN_AGE]Golden Age has dawned!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_GOLDENAGE_OPTION1_DESC">
+			<Text>"That's great news."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_GOLDENAGE_OPTION1_TIP">
+			<Text>Starts a [ICON_GOLDEN_AGE]Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_GOLDENAGE_EFFECT">
+			<Text>An intellectual Golden Age has begun.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_DONATION">
+			<Text>Successful Investments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_DONATION_DESC">
+			<Text>Recent investments have paid off. You receive a large amount of [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_DONATION_OPTION1_DESC">
+			<Text>"Show me the money!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_DONATION_OPTION1_TIP">
+			<Text>[ICON_GOLD]_[ICON_GOLD]</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_DONATION_EFFECT">
+			<Text>You gold reserves have increased.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_MARKETCRASH">
+			<Text>Economic Collapse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MARKETCRASH_DESC">
+			<Text>Your country's economy took a nosedive. Consequently, your treasury has lowered percentually.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MARKETCRASH_OPTION1_DESC">
+			<Text>"Crap."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_MARKETCRASH_OPTION1_TIP">
+			<Text>20-50% of current [ICON_GOLD] Gold lost.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_MARKETCRASH_EFFECT">
+			<Text>You gold reserves have decreased.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_TRADECENTER">
+			<Text>Commercial Boom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TRADECENTER_DESC">
+			<Text>One of your Trading Posts near {2} has developed into a booming center of commerce!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TRADECENTER_OPTION1_DESC">
+			<Text>"This should improve business."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TRADECENTER_OPTION1_TIP">
+			<Text>A new Customs House has replaced the Trading Post.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_TRADECENTER_EFFECT">
+			<Text>A Trading Post has improved into a Customs House near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_RENOWN">
+			<Text>Famous Special Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RENOWN_DESC">
+			<Text>A Special Improvement near {2} has gained national renown!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RENOWN_OPTION1_DESC">
+			<Text>"The founder sure left a legacy!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RENOWN_OPTION1_TIP">
+			<Text>+3[ICON_CULTURE] Culture yield in the tile.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_RENOWN_EFFECT">
+			<Text>A tornado caused havoc near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_PLAGUE">
+			<Text>Plague</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PLAGUE_DESC">
+			<Text>A highly contagious and deadly virus has spread quickly throughout {2}, taking the lives of thousands of men and women!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PLAGUE_OPTION1_DESC">
+			<Text>"Burn the bodies! Don't let the plague spread any further."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PLAGUE_OPTION1_TIP">
+			<Text>Lose a number of Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_PLAGUE_EFFECT">
+			<Text>A plague has struck {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_PLOTPLUS">
+			<Text>Border Growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PLOTPLUS_DESC">
+			<Text>Pioneers from the infant town of {2} claimed a new plot on the outskirts of town.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PLOTPLUS_OPTION1_DESC">
+			<Text>"Raise the banner!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_PLOTPLUS_OPTION1_TIP">
+			<Text>The city claims an extra plot.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_PLOTPLUS_EFFECT">
+			<Text>{2}'s borders have expanded.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_BOOM">
+			<Text>Population Boom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BOOM_DESC">
+			<Text>{2} is enjoying an unexpected population boom!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BOOM_OPTION1_DESC">
+			<Text>"This will make the city grow rapidly."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_BOOM_OPTION1_TIP">
+			<Text>The city will gain a few citizens.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_BOOM_EFFECT">
+			<Text>{2} has had a population boom.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_RAREHERBS">
+			<Text>Rare Herbs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RAREHERBS_DESC">
+			<Text>A new, rare type of medicinal herb was discovered in the bogs near {2}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RAREHERBS_OPTION1_DESC">
+			<Text>"Sell these herbs as curatives."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_RAREHERBS_OPTION1_TIP">
+			<Text>+1[ICON_FOOD] Food and +1[ICON_GOLD] Gold yield in the tile.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_RAREHERBS_EFFECT">
+			<Text>A tornado caused havoc near {2}.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_SICKNESS">
+			<Text>Sickness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_SICKNESS_DESC">
+			<Text>Your {3} suffers from a strange sickness. It doesn't look contagious, but you never know...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_SICKNESS_OPTION1_DESC">
+			<Text>"That's bad!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_SICKNESS_OPTION1_TIP">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_SICKNESS_EFFECT">
+			<Text>Your {3} suffers from a strange sickness.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_POLICY">
+			<Text>Ancient Utopia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_POLICY_DESC">
+			<Text>Archaeologists have found old scrolls detailing an ancient and utopic form of government. Some of these ideas might be applicable in today's world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_POLICY_OPTION1_DESC">
+			<Text>"Devise a new policy based on the ideas."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_POLICY_OPTION1_TIP">
+			<Text>+1 Free Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_POLICY_EFFECT">
+			<Text>You gained a free policy.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_UNPUPPET">
+			<Text>City Assimilated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_UNPUPPET_DESC">
+			<Text>The citizens of {2} are very pleased with you as their leader, and consider themselves a true part of your empire!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_UNPUPPET_OPTION1_DESC">
+			<Text>"We welcome the people of {2}, and shall take an active hand in governing their city."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_UNPUPPET_OPTION1_TIP">
+			<Text>{2} will be a controlable, unoccupied city (instead of a Puppet).</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_UNPUPPET_EFFECT">
+			<Text>{2} has lost its puppet state.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_REVOLT">
+			<Text>City is Unhappy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_REVOLT_DESC">
+			<Text>The citizens of {2} are openly opposing your leadership!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_REVOLT_OPTION1_DESC">
+			<Text>"Let them demonstrate, as long as they keep it peaceful."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_REVOLT_OPTION1_TIP">
+			<Text>{2} now counts as [ICON_OCCUPIED] Occupied, and will need a Courthouse to fight its extra [ICON_HAPPINESS_4] Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_REVOLT_EFFECT">
+			<Text>Citizens in {2} are demonstrating.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_TIDALWAVE">
+			<Text>Tidal Wave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TIDALWAVE_DESC">
+			<Text>A massive tidal wave has hit the coastline of {2}, destroying all coastal buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TIDALWAVE_OPTION1_DESC">
+			<Text>"We're lucky it wasn't a true tsunami."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_TIDALWAVE_OPTION1_TIP">
+			<Text>Any Lighthouse, Harbor, or Seaport in the city are lost.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_TIDALWAVE_EFFECT">
+			<Text>{2} was hit by a tidal wave.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_FLASHFLOOD">
+			<Text>Flash Flood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_FLASHFLOOD_DESC">
+			<Text>The river at {2} has crept out of its bed, washing away all riverside constructions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_FLASHFLOOD_OPTION1_DESC">
+			<Text>"Bring me a damage report. And my rubber ducky."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_FLASHFLOOD_OPTION1_TIP">
+			<Text>Any Watermill or Hydro Plant in the city are lost.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_FLASHFLOOD_EFFECT">
+			<Text>{2} suffered from a flash flood.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_HURRICANE">
+			<Text>Hurricane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HURRICANE_DESC">
+			<Text>Extreme weather near {2} has torn apart some fragile buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HURRICANE_OPTION1_DESC">
+			<Text>"It's just material damage."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HURRICANE_OPTION1_TIP">
+			<Text>Any Windmill, Broadcast Tower or Solar Plant in the city are lost.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_HURRICANE_EFFECT">
+			<Text>{2} suffered hurricane damage.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_HASMONARCHY">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMONARCHY_DESC">
+			<Text>Your [ICON_CULTURE] Monarchical Government has made your [ICON_CAPITAL] Capital City a very pleasant place to live. Immigrants move form the countryside to {2}, increasing its population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMONARCHY_OPTION1_DESC">
+			<Text>"Roll out the red carpet."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMONARCHY_OPTION1_TIP">
+			<Text>[ICON_CAPITAL] {2}'s [ICON_CITIZEN] Population increased by 3.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_HASMONARCHY_EFFECT">
+			<Text>{2} has new Citizens, due to your Monarchy.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_HASMILTRAD">
+			<Text>Military Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMILTRAD_DESC">
+			<Text>A[ICON_CULTURE] unit has acquired a new promotion through traditional training, improving their prowess in battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMILTRAD_OPTION1_DESC">
+			<Text>"Charge!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMILTRAD_OPTION1_TIP">
+			<Text>Unit gained the Second Attack promotion.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_HASMILTRAD_EFFECT">
+			<Text>Part of your army became more powerful through Military Tradition.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_HASMERITOCRACY">
+			<Text>Meritocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMERITOCRACY_DESC">
+			<Text>Your [ICON_CULTURE] Meritocracic system has improved your national economy, increasing your [ICON_GOLD] reserves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMERITOCRACY_OPTION1_DESC">
+			<Text>"What an investment!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_HASMERITOCRACY_OPTION1_TIP">
+			<Text>Each current non-puppet city gives you an amount of [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_HASMERITOCRACY_EFFECT">
+			<Text>Your Meroticracy earned you additional gold.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_ENTREPENEUR">
+			<Text>Entrepeneur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ENTREPENEUR_DESC">
+			<Text>A wealthy merchant has settled in {2}, constructing a new economic building for city-wide use.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ENTREPENEUR_OPTION1_DESC">
+			<Text>"This will benefit the local economy."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_ENTREPENEUR_OPTION1_TIP">
+			<Text>A free Market/Bank/Stock Exchange was built.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_ENTREPENEUR_EFFECT1">
+			<Text>{2} has a new Market.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_ENTREPENEUR_EFFECT2">
+			<Text>{2} has a new Bank.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_ENTREPENEUR_EFFECT3">
+			<Text>{2} has a new Stock Exchange.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_USER_EVENT_EXP">
+			<Text>Survival Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_EXP_DESC">
+			<Text>Your {3} has started an exceptionally harsh survival training, which will increase the unit's experience.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_EXP_OPTION1_DESC">
+			<Text>"This should harden them some."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_EVENT_EXP_OPTION1_TIP">
+			<Text>Unit will get + 15 XP.</Text>
+		</Row>
+		<Row Tag="TXT_USER_EVENT_EXP_EFFECT">
+			<Text>Your {3} has earned additional XP.</Text>
+		</Row>
+	</Language_KO_KR>
+</GameData>

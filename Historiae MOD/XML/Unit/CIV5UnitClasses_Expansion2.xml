@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<UnitClasses>
+		<Delete/>
+		<!--민간-->
+		<!--개척자-->
+		<Row>
+			<ID>0</ID>
+			<Type>UNITCLASS_SETTLER</Type>
+			<Description>TXT_KEY_UNIT_SETTLER</Description>
+			<DefaultUnit>UNIT_SETTLER</DefaultUnit>
+		</Row>
+		<!--일꾼-->
+		<Row>
+			<Type>UNITCLASS_WORKER</Type>
+			<Description>TXT_KEY_UNIT_WORKER</Description>
+			<DefaultUnit>UNIT_WORKER</DefaultUnit>
+		</Row>
+		<!--갤리선-->
+		<Row>
+			<Type>UNITCLASS_GALLEY</Type>
+			<Description>TXT_KEY_UNIT_GALLEY</Description>
+			<DefaultUnit>UNIT_GALLEY</DefaultUnit>
+		</Row>
+		<!--일꾼-->
+		<Row>
+			<Type>UNITCLASS_SPECIAL</Type>
+			<Description>TXT_KEY_UNIT_SPECIAL</Description>
+			<DefaultUnit>UNIT_SPECIAL</DefaultUnit>
+		</Row>
+
+		<!--FAKE-->
+		<Row>
+			<Type>UNITCLASS_FAKE</Type>
+			<Description>TXT_KEY_UNIT_FAKE</Description>
+			<DefaultUnit>UNIT_FAKE</DefaultUnit>
+		</Row>
+
+		<!--선지자-->
+		<Row>
+			<Type>UNITCLASS_PROPHET</Type>
+			<Description>TXT_KEY_UNIT_PROPHET</Description>
+			<DefaultUnit>UNIT_PROPHET</DefaultUnit>
+		</Row>
+		<!--선교사-->
+		<Row>
+			<Type>UNITCLASS_MISSIONARY</Type>
+			<Description>TXT_KEY_UNIT_MISSIONARY</Description>
+			<DefaultUnit>UNIT_MISSIONARY</DefaultUnit>
+		</Row>
+		<!--작업선-->
+		<Row>
+			<Type>UNITCLASS_WORKBOAT</Type>
+			<Description>TXT_KEY_UNIT_WORK_BOAT</Description>
+			<DefaultUnit>UNIT_WORKBOAT</DefaultUnit>
+		</Row>
+		<!--ㅜ-->
+		<Row>
+			<Type>UNITCLASS_INQUISITOR</Type>
+			<Description>TXT_KEY_UNIT_INQUISITOR</Description>
+			<DefaultUnit>UNIT_INQUISITOR</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GREAT_ADMIRAL</Type>
+			<Description>TXT_KEY_UNIT_GREAT_ADMIRAL</Description>
+			<DefaultUnit>UNIT_GREAT_ADMIRAL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARGO_SHIP</Type>
+			<Description>TXT_KEY_UNIT_CARGO_SHIP</Description>
+			<DefaultUnit>UNIT_CARGO_SHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARAVAN</Type>
+			<Description>TXT_KEY_UNIT_CARAVAN</Description>
+			<DefaultUnit>UNIT_CARAVAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_WRITER</Type>
+			<Description>TXT_KEY_UNIT_GREAT_WRITER</Description>
+			<DefaultUnit>UNIT_WRITER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MUSICIAN</Type>
+			<Description>TXT_KEY_UNIT_GREAT_MUSICIAN</Description>
+			<DefaultUnit>UNIT_MUSICIAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ARCHAEOLOGIST</Type>
+			<Description>TXT_KEY_UNIT_ARCHAEOLOGIST</Description>
+			<DefaultUnit>UNIT_ARCHAEOLOGIST</DefaultUnit>
+		</Row>
+		<!--<Row>
+			<Type>UNITCLASS_FOREIGNLEGION</Type>
+			<Description>TXT_KEY_UNIT_FRENCH_FOREIGNLEGION</Description>
+			<DefaultUnit>UNIT_FRENCH_FOREIGNLEGION</DefaultUnit>
+		</Row>-->
+		<Row>
+			<Type>UNITCLASS_ARTIST</Type>
+			<Description>TXT_KEY_UNIT_GREAT_ARTIST</Description>
+			<DefaultUnit>UNIT_ARTIST</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SCIENTIST</Type>
+			<Description>TXT_KEY_UNIT_GREAT_SCIENTIST</Description>
+			<DefaultUnit>UNIT_SCIENTIST</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MERCHANT</Type>
+			<Description>TXT_KEY_UNIT_MERCHANT</Description>
+			<DefaultUnit>UNIT_MERCHANT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ENGINEER</Type>
+			<Description>TXT_KEY_UNIT_GREAT_ENGINEER</Description>
+			<DefaultUnit>UNIT_ENGINEER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GREAT_GENERAL</Type>
+			<Description>TXT_KEY_UNIT_GREAT_GENERAL</Description>
+			<DefaultUnit>UNIT_GREAT_GENERAL</DefaultUnit>
+		</Row>
+		<!--근접 지상 유닛-->
+		<!--전사-->
+		<Row>
+			<Type>UNITCLASS_WARRIOR</Type>
+			<Description>TXT_KEY_UNIT_WARRIOR</Description>
+			<DefaultUnit>UNIT_WARRIOR</DefaultUnit>
+		</Row>
+		<!--도끼병 -->
+		<Row>
+			<Type>UNITCLASS_AXE</Type>
+			<Description>TXT_KEY_UNIT_AXE</Description>
+			<DefaultUnit>UNIT_AXE</DefaultUnit>
+		</Row>
+		<!-- 방패보병  DEFWARRIOR-->
+		<Row>
+			<Type>UNITCLASS_DEFWARRIOR</Type>
+			<Description>TXT_KEY_UNIT_DEFWARRIOR</Description>
+			<DefaultUnit>UNIT_DEFWARRIOR</DefaultUnit>
+		</Row>
+		<!--창병-->
+		<Row>
+			<Type>UNITCLASS_SPEARMAN</Type>
+			<Description>TXT_KEY_UNIT_SPEARMAN</Description>
+			<DefaultUnit>UNIT_SPEARMAN</DefaultUnit>
+		</Row>
+		<!--검사-->
+		<Row>
+			<Type>UNITCLASS_SWORDSMAN</Type>
+			<Description>TXT_KEY_UNIT_SWORDSMAN</Description>
+			<DefaultUnit>UNIT_SWORDSMAN</DefaultUnit>
+		</Row>
+		<!--파이크병-->
+		<Row>
+			<Type>UNITCLASS_PIKEMAN</Type>
+			<Description>TXT_KEY_UNIT_PIKEMAN</Description>
+			<DefaultUnit>UNIT_PIKEMAN</DefaultUnit>
+		</Row>
+		<!--장검-->
+		<Row>
+			<Type>UNITCLASS_LONGSWORDSMAN</Type>
+			<Description>Longswordsmen</Description>
+			<DefaultUnit>UNIT_LONGSWORDSMAN</DefaultUnit>
+		</Row>
+		<!--친위대 HONORGUARD-->
+		<Row>
+			<Type>UNITCLASS_HONORGUARD</Type>
+			<Description>TXT_KEY_UNIT_HONORGUARD</Description>
+			<DefaultUnit>UNIT_HONORGUARD</DefaultUnit>
+		</Row>
+		<!--머스킷-->
+		<Row>
+			<Type>UNITCLASS_MUSKETMAN</Type>
+			<Description>TXT_KEY_UNIT_MUSKETMAN</Description>
+			<DefaultUnit>UNIT_MUSKETMAN</DefaultUnit>
+		</Row>
+		<!--소총-->
+		<Row>
+			<Type>UNITCLASS_RIFLEMAN</Type>
+			<Description>TXT_KEY_UNIT_RIFLEMAN</Description>
+			<DefaultUnit>UNIT_RIFLEMAN</DefaultUnit>
+		</Row>
+		<!--1차 보병-->
+		<Row>
+			<Type>UNITCLASS_GREAT_WAR_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_GREAT_WAR_INFANTRY</Description>
+			<DefaultUnit>UNIT_GREAT_WAR_INFANTRY</DefaultUnit>
+		</Row>
+		<!--보병-->
+		<Row>
+			<Type>UNITCLASS_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_INFANTRY</Description>
+			<DefaultUnit>UNIT_INFANTRY</DefaultUnit>
+		</Row>
+		<!--해병대-->
+		<Row>
+			<Type>UNITCLASS_MARINE</Type>
+			<Description>TXT_KEY_UNIT_MARINE</Description>
+			<DefaultUnit>UNIT_MARINE</DefaultUnit>
+		</Row>
+		<!--공수부대-->
+		<Row>
+			<Type>UNITCLASS_PARATROOPER</Type>
+			<Description>TXT_KEY_UNIT_PARATROOPER</Description>
+			<DefaultUnit>UNIT_PARATROOPER</DefaultUnit>
+		</Row>
+		<!--xcom-->
+		<Row>
+			<Type>UNITCLASS_XCOM_SQUAD</Type>
+			<Description>TXT_KEY_UNIT_XCOM_SQUAD</Description>
+			<DefaultUnit>UNIT_XCOM_SQUAD</DefaultUnit>
+		</Row>
+		<!--기계화 보병-->
+		<Row>
+			<Type>UNITCLASS_MECHANIZED_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_MECHANIZED_INFANTRY</Description>
+			<DefaultUnit>UNIT_MECHANIZED_INFANTRY</DefaultUnit>
+		</Row>
+		<!--파워슈트POWERSUIT -->
+		<Row>
+			<Type>UNITCLASS_POWERSUIT</Type>
+			<Description>TXT_KEY_UNIT_POWERSUIT</Description>
+			<DefaultUnit>UNIT_POWERSUIT</DefaultUnit>
+		</Row>
+		<!--나노슈트  NANOSUIT-->
+		<Row>
+			<Type>UNITCLASS_NANOSUIT</Type>
+			<Description>TXT_KEY_UNIT_NANOSUIT</Description>
+			<DefaultUnit>UNIT_NANOSUIT</DefaultUnit>
+		</Row>
+		<!--차량화 보병 MORTORIZED_INFANTRY-->
+		<Row>
+			<Type>UNITCLASS_MORTORIZED_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_MORTORIZED_INFANTRY</Description>
+			<DefaultUnit>UNIT_MORTORIZED_INFANTRY</DefaultUnit>
+		</Row>
+
+
+		<!--정찰 테크-->
+		<!--정찰병-->
+		<Row>
+			<Type>UNITCLASS_SCOUT</Type>
+			<Description>TXT_KEY_UNIT_SCOUT</Description>
+			<DefaultUnit>UNIT_SCOUT</DefaultUnit>
+		</Row>
+		<!--척후병 PATROL-->
+		<Row>
+			<Type>UNITCLASS_PATROL</Type>
+			<Description>TXT_KEY_UNIT_PATROL</Description>
+			<DefaultUnit>UNIT_PATROL</DefaultUnit>
+		</Row>
+		<!--탐험가
+		<Row>
+			<Type>UNITCLASS_EXPLORER</Type>
+			<Description>TXT_KEY_UNIT_EXPLORER</Description>
+			<DefaultUnit>UNIT_EXPLORER</DefaultUnit>
+		</Row>-->
+		<!--첩보요원 SPY
+		<Row>
+			<Type>UNITCLASS_SPY</Type>
+			<Description>TXT_KEY_UNIT_SPY</Description>
+			<DefaultUnit>UNIT_SPY</DefaultUnit>
+		</Row>-->
+		<!--UAV
+		<Row>
+			<Type>UNITCLASS_UAV</Type>
+			<Description>TXT_KEY_UNIT_UAV</Description>
+			<DefaultUnit>UNIT_UAV</DefaultUnit>
+		</Row>-->
+
+		<!--육지 원거리 테크-->
+		<!--전차궁수-->
+		<Row>
+			<Type>UNITCLASS_CHARIOT_ARCHER</Type>
+			<Description>Chariot Archers</Description>
+			<DefaultUnit>UNIT_CHARIOT_ARCHER</DefaultUnit>
+		</Row>
+		<!--투창기병  - M_SPEARTHROWER-->
+		<Row>
+			<Type>UNITCLASS_M_SPEARTHROWER</Type>
+			<Description>TXT_KEY_UNIT_M_SPEARTHROWER</Description>
+			<DefaultUnit>UNIT_M_SPEARTHROWER</DefaultUnit>
+		</Row>
+		<!--투창병 SPEARTHROWER-->
+		<Row>
+			<Type>UNITCLASS_SPEARTHROWER</Type>
+			<Description>TXT_KEY_UNIT_SPEARTHROWER</Description>
+			<DefaultUnit>UNIT_SPEARTHROWER</DefaultUnit>
+		</Row>
+		<!--투석병 ROCKTHROWER-->
+		<Row>
+			<Type>UNITCLASS_ROCKTHROWER</Type>
+			<Description>TXT_KEY_UNIT_ROCKTHROWER</Description>
+			<DefaultUnit>UNIT_ROCKTHROWER</DefaultUnit>
+		</Row>
+		<!--궁수-->
+		<Row>
+			<Type>UNITCLASS_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_ARCHER</Description>
+			<DefaultUnit>UNIT_ARCHER</DefaultUnit>
+		</Row>
+		<!--궁기병 MOUNTED_ARCHERY-->
+		<Row>
+			<Type>UNITCLASS_MOUNTED_ARCHERY</Type>
+			<Description>TXT_KEY_UNIT_MOUNTED_ARCHERY</Description>
+			<DefaultUnit>UNIT_MOUNTED_ARCHERY</DefaultUnit>
+		</Row>
+		<!--정궁기병 JMOUNTED_ARCHERY-->
+		<Row>
+			<Type>UNITCLASS_JMOUNTED_ARCHERY</Type>
+			<Description>TXT_KEY_UNIT_JMOUNTED_ARCHERY</Description>
+			<DefaultUnit>UNIT_JMOUNTED_ARCHERY</DefaultUnit>
+		</Row>
+		<!--합궁-->
+		<Row>
+			<Type>UNITCLASS_COMPOSITE_BOWMAN</Type>
+			<Description>TXT_KEY_UNIT_COMPOSITE_BOWMAN</Description>
+			<DefaultUnit>UNIT_COMPOSITE_BOWMAN</DefaultUnit>
+		</Row>
+		<!--석궁-->
+		<Row>
+			<Type>UNITCLASS_CROSSBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_CROSSBOWMAN</Description>
+			<DefaultUnit>UNIT_CROSSBOWMAN</DefaultUnit>
+		</Row>
+		<!--용기병 - DRAGOON-->
+		<Row>
+			<Type>UNITCLASS_DRAGOON</Type>
+			<Description>TXT_KEY_UNIT_DRAGOON</Description>
+			<DefaultUnit>UNIT_DRAGOON</DefaultUnit>
+		</Row>
+		<!--개틀링-->
+		<Row>
+			<Type>UNITCLASS_GATLINGGUN</Type>
+			<Description>TXT_KEY_UNIT_GATLINGGUN</Description>
+			<DefaultUnit>UNIT_GATLINGGUN</DefaultUnit>
+		</Row>
+		<!--기관총-->
+		<Row>
+			<Type>UNITCLASS_MACHINE_GUN</Type>
+			<Description>TXT_KEY_UNIT_MACHINE_GUN</Description>
+			<DefaultUnit>UNIT_MACHINE_GUN</DefaultUnit>
+		</Row>
+		<!--바주카-->
+		<Row>
+			<Type>UNITCLASS_BAZOOKA</Type>
+			<Description>TXT_KEY_UNIT_BAZOOKA</Description>
+			<DefaultUnit>UNIT_BAZOOKA</DefaultUnit>
+		</Row>
+		<!--대전차포 -->
+		<Row>
+			<Type>UNITCLASS_ANTI_TANK_GUN</Type>
+			<Description>Anti-Tank Guns</Description>
+			<DefaultUnit>UNIT_ANTI_TANK_GUN</DefaultUnit>
+		</Row>
+		<!--구축 전차 -->
+		<Row>
+			<Type>UNITCLASS_ANTI_TANK</Type>
+			<Description>TXT_KEY_ANTI_TANK</Description>
+			<DefaultUnit>UNIT_ANTI_TANK</DefaultUnit>
+		</Row>
+
+		<!--대전차 미사일 -->
+		<Row>
+			<Type>UNITCLASS_ANTI_TANK_MISSILE</Type>
+			<Description>Anti-Tank Missiles</Description>
+			<DefaultUnit>UNIT_ANTI_TANK_MISSILE</DefaultUnit>
+		</Row>
+		<!--레일건 -->
+		<Row>
+			<Type>UNITCLASS_RAILGUN</Type>
+			<Description>TXT_KEY_UNIT_RAILGUN</Description>
+			<DefaultUnit>UNIT_RAILGUN</DefaultUnit>
+		</Row>
+
+		<!--기마-->
+		<!--경기병 LIGHT_CAVALRY -->
+		<Row>
+			<Type>UNITCLASS_LIGHT_CAVALRY</Type>
+			<Description>TXT_KEY_UNIT_LIGHT_CAVALRY</Description>
+			<DefaultUnit>UNIT_LIGHT_CAVALRY</DefaultUnit>
+		</Row>
+		<!--철갑기병  ARMOR_CAVALRY-->
+		<Row>
+			<Type>UNITCLASS_ARMOR_CAVALRY</Type>
+			<Description>TXT_KEY_UNIT_ARMOR_CAVALRY</Description>
+			<DefaultUnit>UNIT_ARMOR_CAVALRY</DefaultUnit>
+		</Row>
+		<!--기마병-->
+		<Row>
+			<Type>UNITCLASS_HORSEMAN</Type>
+			<Description>Horsemen</Description>
+			<DefaultUnit>UNIT_HORSEMAN</DefaultUnit>
+		</Row>
+		<!--정찰기병 SCOUT_MOUNT-->
+		<Row>
+			<Type>UNITCLASS_SCOUT_MOUNT</Type>
+			<Description>Horsemen</Description>
+			<DefaultUnit>UNIT_SCOUT_MOUNT</DefaultUnit>
+		</Row>
+		<!--기사-->
+		<Row>
+			<Type>UNITCLASS_KNIGHT</Type>
+			<Description>TXT_KEY_UNIT_KNIGHT</Description>
+			<DefaultUnit>UNIT_KNIGHT</DefaultUnit>
+		</Row>
+		<!--약탈기병 PILLAGE_MOUNT-->
+		<Row>
+			<Type>UNITCLASS_PILLAGE_MOUNT</Type>
+			<Description>TXT_KEY_UNIT_PILLAGE_MOUNT</Description>
+			<DefaultUnit>UNIT_PILLAGE_MOUNT</DefaultUnit>
+		</Row>
+		<!--창기병-->
+		<Row>
+			<Type>UNITCLASS_LANCER</Type>
+			<Description>Lancers</Description>
+			<DefaultUnit>UNIT_LANCER</DefaultUnit>
+		</Row>
+		<!--기병대-->
+		<Row>
+			<Type>UNITCLASS_CAVALRY</Type>
+			<Description>TXT_KEY_UNIT_CAVALRY</Description>
+			<DefaultUnit>UNIT_CAVALRY</DefaultUnit>
+		</Row>
+		<!-- 1차 탱크-->
+		<Row>
+			<Type>UNITCLASS_WWI_TANK</Type>
+			<Description>TXT_KEY_UNIT_WWI_TANK</Description>
+			<DefaultUnit>UNIT_WWI_TANK</DefaultUnit>
+		</Row>
+		<!--지상함  -->
+		<Row>
+			<Type>UNITCLASS_LANDSHIP</Type>
+			<Description>TXT_KEY_UNIT_LANDSHIP</Description>
+			<DefaultUnit>UNIT_LANDSHIP</DefaultUnit>
+		</Row>
+
+		<!--탱크 2차-->
+		<Row>
+			<Type>UNITCLASS_TANK</Type>
+			<Description>TXT_KEY_UNIT_TANK</Description>
+			<DefaultUnit>UNIT_TANK</DefaultUnit>
+		</Row>
+		<!--현대전차-->
+		<Row>
+			<Type>UNITCLASS_MODERN_ARMOR</Type>
+			<Description>TXT_KEY_UNIT_MODERN_ARMOR</Description>
+			<DefaultUnit>UNIT_MODERN_ARMOR</DefaultUnit>
+		</Row>
+		<!--퀴라시에 (흉갑기병) -->
+		<Row>
+			<Type>UNITCLASS_CUIRASSIER</Type>
+			<Description>TXT_KEY_UNIT_CUIRASSIER</Description>
+			<DefaultUnit>UNIT_CUIRASSIER</DefaultUnit>
+		</Row>
+		<!--자이언트 데스로봇-->
+		<!--<Row>
+			<Type>UNITCLASS_GIANT_DEATH</Type>
+			<Description>TXT_KEY_UNIT_GIANT_DEATH</Description>
+			<DefaultUnit>UNIT_GIANT_DEATH</DefaultUnit>
+		</Row>-->
+		
+		<!--레이저 전차 LASERTANK-->
+		<Row>
+			<Type>UNITCLASS_LASERTANK</Type>
+			<Description>TXT_KEY_UNIT_LASERTANK</Description>
+			<DefaultUnit>UNIT_LASERTANK</DefaultUnit>
+		</Row>
+		<!--추격기병 PURSUIT_CAVALRY-->
+		<Row>
+			<Type>UNITCLASS_PURSUIT_CAVALRY</Type>
+			<Description>TXT_KEY_UNIT_PURSUIT_CAVALRY</Description>
+			<DefaultUnit>UNIT_PURSUIT_CAVALRY</DefaultUnit>
+		</Row>
+
+		<!--공성테크-->
+		<!--투석기-->
+		<Row>
+			<Type>UNITCLASS_CATAPULT</Type>
+			<Description>TXT_KEY_UNIT_CATAPULT</Description>
+			<DefaultUnit>UNIT_CATAPULT</DefaultUnit>
+		</Row>
+		<!--트레뷰셋-->
+		<Row>
+			<Type>UNITCLASS_TREBUCHET</Type>
+			<Description>TXT_KEY_UNIT_TREBUCHET</Description>
+			<DefaultUnit>UNIT_TREBUCHET</DefaultUnit>
+		</Row>
+		<!--대포-->
+		<Row>
+			<Type>UNITCLASS_CANNON</Type>
+			<Description>TXT_KEY_UNIT_CANNON</Description>
+			<DefaultUnit>UNIT_CANNON</DefaultUnit>
+		</Row>
+		<!--야포-->
+		<Row>
+			<Type>UNITCLASS_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_ARTILLERY</Description>
+			<DefaultUnit>UNIT_ARTILLERY</DefaultUnit>
+		</Row>
+		<!--다연장 로켓포UNITCLASS_ROCKET_ARTILLERY-->
+		<Row>
+			<Type>UNITCLASS_ROCKET_ARTILLERY</Type>
+			<Description>Rocket Artillery</Description>
+			<DefaultUnit>UNIT_ROCKET_ARTILLERY</DefaultUnit>
+		</Row>
+		<!--로켓미사일 포대UNITCLASS_ROCKET_MISSILE-->
+		<Row>
+			<Type>UNITCLASS_ROCKET_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_ROCKET_MISSILE</Description>
+			<DefaultUnit>UNIT_ROCKET_MISSILE</DefaultUnit>
+		</Row>
+		<!--열차포
+		<Row>
+			<Type>UNITCLASS_RAILROAD_GUN</Type>
+			<Description>TXT_KEY_UNIT_RAILROAD_GUN</Description>
+			<DefaultUnit>UNIT_RAILROAD_GUN</DefaultUnit>
+		</Row>-->
+		<!--자주포 SELFP_GUN-->
+		<Row>
+			<Type>UNITCLASS_SELFP_GUN</Type>
+			<Description>TXT_KEY_UNIT_SELFP_GUN</Description>
+			<DefaultUnit>UNIT_SELFP_GUN</DefaultUnit>
+		</Row>
+		<!--공성탑 SIEGE_TOWER-->
+		<Row>
+			<Type>UNITCLASS_SIEGE_TOWER</Type>
+			<Description>TXT_KEY_UNIT_SIEGE_TOWER</Description>
+			<DefaultUnit>UNIT_SIEGE_TOWER</DefaultUnit>
+		</Row>
+		<!--박격포 BOMBARD_CANNON-->
+		<Row>
+			<Type>UNITCLASS_BOMBARD_CANNON</Type>
+			<Description>TXT_KEY_UNIT_BOMBARD_CANNON</Description>
+			<DefaultUnit>UNIT_BOMBARD_CANNON</DefaultUnit>
+		</Row>
+		<!--공성추 RAM-->
+		<Row>
+			<Type>UNITCLASS_RAM</Type>
+			<Description>TXT_KEY_UNIT_RAM</Description>
+			<DefaultUnit>UNIT_RAM</DefaultUnit>
+		</Row>
+
+		<!--대공-->
+		<!--대공포-->
+		<Row>
+			<Type>UNITCLASS_ANTI_AIRCRAFT_GUN</Type>
+			<Description>Anti-Aircraft Guns</Description>
+			<DefaultUnit>UNIT_ANTI_AIRCRAFT_GUN</DefaultUnit>
+		</Row>
+		<!--지대공-->
+		<Row>
+			<Type>UNITCLASS_MOBILE_SAM</Type>
+			<Description>TXT_KEY_UNIT_MOBILE_SAM</Description>
+			<DefaultUnit>UNIT_MOBILE_SAM</DefaultUnit>
+		</Row>
+		<!--대공전차 - ANTI_AIR_TANK-->
+		<Row>
+			<Type>UNITCLASS_ANTI_AIR_TANK</Type>
+			<Description>Anti-Aircraft Tank</Description>
+			<DefaultUnit>UNIT_ANTI_AIR_TANK</DefaultUnit>
+		</Row>
+		<!--아이언돔 - MD-->
+		<Row>
+			<Type>UNITCLASS_MD</Type>
+			<Description>TXT_KEY_UNIT_MD</Description>
+			<DefaultUnit>UNIT_MD</DefaultUnit>
+		</Row>
+
+		<!--비행-->
+		<!-- 2차 세계대전 전투-->
+		<Row>
+			<Type>UNITCLASS_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_FIGHTER</Description>
+			<DefaultUnit>UNIT_FIGHTER</DefaultUnit>
+		</Row>
+		<!--2차 세계대전 폭격-->
+		<Row>
+			<Type>UNITCLASS_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_BOMBER</Description>
+			<DefaultUnit>UNIT_BOMBER</DefaultUnit>
+		</Row>
+		<!--1차 전투-->
+		<Row>
+			<Type>UNITCLASS_TRIPLANE</Type>
+			<Description>TXT_KEY_UNIT_TRIPLANE</Description>
+			<DefaultUnit>UNIT_TRIPLANE</DefaultUnit>
+		</Row>
+		<!--1차 폭격-->
+		<Row>
+			<Type>UNITCLASS_WWI_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_WWI_BOMBER</Description>
+			<DefaultUnit>UNIT_WWI_BOMBER</DefaultUnit>
+		</Row>
+		<!--제트전투기 -  4G-->
+		<Row>
+			<Type>UNITCLASS_JET_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_JET_FIGHTER</Description>
+			<DefaultUnit>UNIT_JET_FIGHTER</DefaultUnit>
+		</Row>
+		<!--스텔스 - 폭격-->
+		<Row>
+			<Type>UNITCLASS_STEALTH_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_STEALTH_BOMBER</Description>
+			<DefaultUnit>UNIT_STEALTH_BOMBER</DefaultUnit>
+		</Row>
+		<!--스텔스 전투기 5-->
+		<Row>
+			<Type>UNITCLASS_STEALTH_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_STEALTH_FIGHTER</Description>
+			<DefaultUnit>UNIT_STEALTH_FIGHTER</DefaultUnit>
+		</Row>
+		<!--제트 폭격 JET_BOMBER -->
+		<Row>
+			<Type>UNITCLASS_JET_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_JET_BOMBER</Description>
+			<DefaultUnit>UNIT_JET_BOMBER</DefaultUnit>
+		</Row>
+
+
+		<!--미사일-->
+		<!--핵폭-->
+		<Row>
+			<Type>UNITCLASS_ATOMIC_BOMB</Type>
+			<Description>TXT_KEY_UNIT_ATOMIC_BOMB</Description>
+			<DefaultUnit>UNIT_ATOMIC_BOMB</DefaultUnit>
+		</Row>
+		<!--유도 미사일-->
+		<Row>
+			<Type>UNITCLASS_GUIDED_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_GUIDED_MISSILE</Description>
+			<DefaultUnit>UNIT_GUIDED_MISSILE</DefaultUnit>
+		</Row>
+		<!--핵미-->
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_MISSILE</Description>
+			<DefaultUnit>UNIT_NUCLEAR_MISSILE</DefaultUnit>
+		</Row>
+		<!--ICBM-->
+		<Row>
+			<Type>UNITCLASS_ICBM</Type>
+			<Description>ICBM</Description>
+			<DefaultUnit>UNIT_ICBM</DefaultUnit>
+		</Row>
+		<!--크루즈 미사일-->
+		<Row>
+			<Type>UNITCLASS_CRUISE_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_CRUISE_MISSILE</Description>
+			<DefaultUnit>UNIT_CRUISE_MISSILE</DefaultUnit>
+		</Row>
+
+
+
+		<!--헬기-->
+		<!--중형 헬기-->
+		<Row>
+			<Type>UNITCLASS_HELICOPTER_GUNSHIP</Type>
+			<Description>Helicopter Gunships</Description>
+			<DefaultUnit>UNIT_HELICOPTER_GUNSHIP</DefaultUnit>
+		</Row>
+		<!--경무장헬기-->
+		<Row>
+			<Type>UNITCLASS_LIGHT_HELI</Type>
+			<Description>TXT_KEY_UNIT_LIGHT_HELI</Description>
+			<DefaultUnit>UNIT_LIGHT_HELI</DefaultUnit>
+		</Row>
+
+
+
+		<!--해군-->
+		<!--탐험정-->
+		<Row>
+			<Type>UNITCLASS_RECON_SHIP</Type>
+			<Description>TXT_KEY_UNIT_RECON_SHIP</Description>
+			<DefaultUnit>UNIT_RECON_SHIP</DefaultUnit>
+		</Row>
+		<!--삼단노선-->
+		<Row>
+			<Type>UNITCLASS_TRIREME</Type>
+			<Description>TXT_KEY_UNIT_TRIREME</Description>
+			<DefaultUnit>UNIT_TRIREME</DefaultUnit>
+		</Row>
+		<!--캐러벨-->
+		<Row>
+			<Type>UNITCLASS_CARAVEL</Type>
+			<Description>TXT_KEY_UNIT_CARAVEL</Description>
+			<DefaultUnit>UNIT_CARAVEL</DefaultUnit>
+		</Row>
+		<!--프리깃-->
+		<Row>
+			<Type>UNITCLASS_FRIGATE</Type>
+			<Description>TXT_KEY_UNIT_FRIGATE</Description>
+			<DefaultUnit>UNIT_FRIGATE</DefaultUnit>
+		</Row>
+		<!--철갑함-->
+		<Row>
+			<Type>UNITCLASS_IRONCLAD</Type>
+			<Description>TXT_KEY_UNIT_IRONCLAD</Description>
+			<DefaultUnit>UNIT_IRONCLAD</DefaultUnit>
+		</Row>
+		<!--구축함-->
+		<Row>
+			<Type>UNITCLASS_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_DESTROYER</Description>
+			<DefaultUnit>UNIT_DESTROYER</DefaultUnit>
+		</Row>
+		<!--전함-->
+		<Row>
+			<Type>UNITCLASS_BATTLESHIP</Type>
+			<Description>TXT_KEY_UNIT_BATTLESHIP</Description>
+			<DefaultUnit>UNIT_BATTLESHIP</DefaultUnit>
+		</Row>
+		<!--잠수함-->
+		<Row>
+			<Type>UNITCLASS_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_SUBMARINE</Description>
+			<DefaultUnit>UNIT_SUBMARINE</DefaultUnit>
+		</Row>
+		
+		<!--항공모함-->
+		<Row>
+			<Type>UNITCLASS_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_CARRIER</Description>
+			<DefaultUnit>UNIT_CARRIER</DefaultUnit>
+		</Row>
+		<!--핵잠-->
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_SUBMARINE</Description>
+			<DefaultUnit>UNIT_NUCLEAR_SUBMARINE</DefaultUnit>
+		</Row>
+		<!--미사일 순양-->
+		<Row>
+			<Type>UNITCLASS_MISSILE_CRUISER</Type>
+			<Description>TXT_KEY_UNIT_MISSILE_CRUISER</Description>
+			<DefaultUnit>UNIT_MISSILE_CRUISER</DefaultUnit>
+		</Row>
+		<!--이지스-->
+		<Row>
+			<Type>UNITCLASS_AEGIS</Type>
+			<Description>TXT_KEY_UNIT_AEGIS</Description>
+			<DefaultUnit>UNIT_AEGIS</DefaultUnit>
+		</Row>
+		<!--갈레아스 -->
+		<Row>
+			<Type>UNITCLASS_GALLEASS</Type>
+			<Description>TXT_KEY_UNIT_GALLEASS</Description>
+			<DefaultUnit>UNIT_GALLEASS</DefaultUnit>
+		</Row>
+		<!--사략선-->
+		<Row>
+			<Type>UNITCLASS_PRIVATEER</Type>
+			<Description>TXT_KEY_UNIT_PRIVATEER</Description>
+			<DefaultUnit>UNIT_PRIVATEER</DefaultUnit>
+		</Row>
+		<!--화공선-->
+		<Row>
+			<Type>UNITCLASS_FIRE_SHIP</Type>
+			<Description>TXT_KEY_UNIT_FIRE_SHIP</Description>
+			<DefaultUnit>UNIT_FIRE_SHIP</DefaultUnit>
+		</Row>
+		<!--경순양함 LIGHT_CRUISER-->
+		<Row>
+			<Type>UNITCLASS_LIGHT_CRUISER</Type>
+			<Description>TXT_KEY_UNIT_LIGHT_CRUISER</Description>
+			<DefaultUnit>UNIT_LIGHT_CRUISER</DefaultUnit>
+		</Row>
+		<!--용병-->
+		<Row>
+			<Type>UNITCLASS_MERC</Type>
+			<Description>TXT_KEY_UNIT_MERC</Description>
+			<DefaultUnit>UNIT_MERC</DefaultUnit>
+		</Row>
+
+
+
+		<!--우주선-->
+		<!--외부장갑-->
+		<Row>
+			<Type>UNITCLASS_SS_ARMOR</Type>
+			<Description>TXT_KEY_SS_ARMOR</Description>
+			<DefaultUnit>UNIT_SS_ARMOR</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<!--생명유지-->
+		<Row>
+			<Type>UNITCLASS_SS_LIFE_SUPPORT</Type>
+			<Description>TXT_KEY_SS_LIFE_SUPPORT</Description>
+			<DefaultUnit>UNIT_SS_LIFE_SUPPORT</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<!--덩면-->
+		<Row>
+			<Type>UNITCLASS_SS_COCKPIT</Type>
+			<Description>TXT_KEY_SS_COCKPIT</Description>
+			<DefaultUnit>UNIT_SS_COCKPIT</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<!--조종석-->
+		<Row>
+			<Type>UNITCLASS_SS_STASIS_CHAMBER</Type>
+			<Description>TXT_KEY_SS_STASIS_CHAMBER</Description>
+			<DefaultUnit>UNIT_SS_STASIS_CHAMBER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<!--엔진-->
+		<Row>
+			<Type>UNITCLASS_SS_ENGINE</Type>
+			<Description>TXT_KEY_SS_ENGINE</Description>
+			<DefaultUnit>UNIT_SS_ENGINE</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<!--추진-->
+		<Row>
+			<Type>UNITCLASS_SS_BOOSTER</Type>
+			<Description>TXT_KEY_SS_BOOSTER</Description>
+			<DefaultUnit>UNIT_SS_BOOSTER</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+		
+		
+	</UnitClasses>
+
+	<DeleteMissingReferences table="UnitClasses" column="Type"/>
+
+</GameData>

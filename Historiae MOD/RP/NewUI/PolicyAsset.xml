@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/22/2015 6:27:25 PM -->
+<GameData>
+	<Language_KO_KR>
+		<Replace Tag="TXT_KEY_ADVANCEMENTS_SCREEN">
+			<Text>정책 창</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PLACEHOLDER">
+			<Text>Placeholder - Sod off!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_POLICY_COUNT_ADOPTED">
+			<Text>{1_AdoptedPolicies} of {2_TotalPolicies} Policies</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_POLICY_COUNT_NOT_ADOPTED">
+			<Text>{1_TotalPolicies} 정책들</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_NO_ERA_REQUIRED">
+			<Text>시대 요구 없음</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_ERA_REQUIRED">
+			<Text>{1_EraLabel}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_BLOCKED">
+			<Text>막힘</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_NOT_ADOPTED">
+			<Text>채택되지 않음</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_ADOPTED">
+			<Text>채택</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_COMPLETED">
+			<Text>완료</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_ADOPT">
+			<Text>채택</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICYBRANCH_ADOPT_BLOCKED">
+			<Text>채택 (Blocked)</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TENETSTACK_LABEL">
+			<Text>티어{1_TierLevel} 테넌트</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TENET_SHOW_ALL">
+			<Text>모든 테넌트 공개</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TENET_ADOPT">
+			<Text>채택</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BRANCHCLASS_SOCIAL_POLICY">
+			<Text>사회정책</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BRANCHCLASS_IDEOLOGY">
+			<Text>이념</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BRANCHCLASS_SOCIAL_POLICY_2">
+			<Text>Test Policies</Text>
+		</Replace>
+	</Language_KO_KR>
+</GameData>

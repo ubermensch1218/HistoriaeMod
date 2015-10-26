@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2014 1:18:58 PM -->
+
+<GameData>
+		<!--전통 초록-->
+	<Language_KO_KR>
+	<Replace Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]미학[ENDCOLOR][NEWLINE]모든 도시 국가와의 기본 [ICON_INFLUENCE] 우호도가 20만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]전제정치[ENDCOLOR]는 세게 정복을 꿈꾸는 군사 문명에 적합합니다.[NEWLINE][NEWLINE]전제정치를 채택하면 유닛의 유지비로 드는 [ICON_GOLD] 금이 33%만큼 감소하므로 더 큰 군대를 유지할 수 있습니다. 정복한 도시에서 생산하는 [ICON_CULTURE] 문화 1당 [ICON_CULTURE] 문화 10을 전리품으로 받습니다.[NEWLINE][NEWLINE]전제정치 계열의 정책을 모두 채택하면 50턴 동안 모든 군사 유닛의 공격력이 25%만큼 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE] 신앙으로 위대한 장군이나 위대한 제독을 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]전제정치는 평등이나 질서와 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]상업[ENDCOLOR]은 해양으로 진출하거나 [ICON_GOLD] 금 생산에 집중하는 제국에 적합합니다.[NEWLINE][NEWLINE]상업을 채택하면 [ICON_GOLD] 금 생산량과 [ICON_CAPITAL] 수도의 생산량이 25%만큼 증가합니다.[NEWLINE][NEWLINE]상업 계열의 정책을 모두 채택하면 교역소당 [ICON_GOLD] 금이 1만큼 증가하며 위대한 상인의 무역 임무로 거두어들이는 [ICON_GOLD] 금이 두 배가 됩니다.[NEWLINE][NEWLINE][ICON_PEACE] 신앙으로 위대한 상인을 구입할 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]평등[ENDCOLOR]은 규모가 작고 한 가지에 집중하는 문명에 적합합니다. [ICON_GREAT_PEOPLE] 위인과 전문가에 보너스를 제공하는 특징이 있습니다.[NEWLINE][NEWLINE]평등을 채택하면 [ICON_GREAT_PEOPLE] 위인 출현율이 25%만큼 증가합니다.[NEWLINE][NEWLINE]평등 계열의 정책을 모두 채택하면 위인으로 건설하는 시설의 기본 생산량이 100%만큼 증가하며 [ICON_GOLDEN_AGE] 황금기가 50%만큼 더 지속됩니다.[NEWLINE][NEWLINE][ICON_PEACE] 신앙으로 위대한 예술가를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]평등은 전제정치나 질서와 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]명예[ENDCOLOR]는 이를 채택한 문명의 군대를 다양한 방법으로 강화합니다.[NEWLINE][NEWLINE]명예를 채택하면 야만인과 싸울 때 33%만큼의 전투력 보너스를 받으며 이미 정찰한 지역에 새로운 야만인 야영지가 생기면 이를 알 수 있습니다. 야만인 유닛을 처치할 때마다 [ICON_CULTURE] 문화를 얻습니다.[NEWLINE][NEWLINE]명예 계열의 정책을 모두 채택하면 유닛을 처치할 때마다 [ICON_GOLD] 금을 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]질서[ENDCOLOR]는 도시 수가 많을수록 그 효과도 증가하므로 큰 문명에 좋습니다.[NEWLINE][NEWLINE]질서를 채택하면 도시당 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.[NEWLINE][NEWLINE]질서 계열의 모든 정책을 채택하면 도시당 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_GOLD] 금 및 [ICON_CULTURE] 문화가 2만큼 증가합니다.[NEWLINE][NEWLINE][ICON_PEACE] 신앙으로 위대한 기술자를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]질서는 평등이나 전제정치와 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]신앙[ENDCOLOR]은 제국의 [ICON_PEACE] 신앙과 [ICON_CULTURE] 문화를 늘려줍니다.[NEWLINE][NEWLINE]신앙을 채택하면 성소와 사원을 짓는 데 걸리는 시간이 반으로 줄어듭니다.[NEWLINE][NEWLINE]신앙 계열의 모든 정책을 채택하면 [ICON_PEACE] 신앙으로 구입하는 종교 유닛과 건물의 가격이 20%만큼 감소하며 성지에서 [ICON_GOLD] 금과 [ICON_CULTURE] 문화를 3만큼 생산합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]신앙은 합리주의와 동시에 활성화할 수 없습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 [ICON_RESEARCH] 과학을 사용하고 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]합리주의를 채택하면 연구 협정으로 얻는 [ICON_RESEARCH] 과학이 50%만큼 증가합니다.[NEWLINE][NEWLINE]합리주의 계열의 모든 정책을 채택하면 [ICON_RESEARCH] 과학 건물에서 [ICON_GOLD] 금을 1만큼 생산합니다.[NEWLINE][NEWLINE][ICON_PEACE] 신앙으로 위대한 과학자를 구입할 수 있습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]합리주의는 신앙과 동시에 활성화할 수 없습니다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]공산주의[ENDCOLOR][NEWLINE]도시당 [ICON_PRODUCTION] 생산력이 2만큼 증가하며 광산이나 채석장마다 [ICON_PRODUCTION] 생산력이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]규율[ENDCOLOR][NEWLINE]옆 타일에 다른 군사 유닛이 있을 때 근접 유닛의 [ICON_STRENGTH] 전투력이 15%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FASCISM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]파시즘[ENDCOLOR][NEWLINE]제국이 생산하는 전략 자원의 량이 두 배로 늘어납니다. 위대한 장군의 [ICON_MOVES] 행동력이 2만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION">
+		<Text>종교적 관용</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]종교적 관용[ENDCOLOR][NEWLINE]향후 정책을 도입하는 데 필요한 [ICON_CULTURE] 문화가 10%만큼 감소합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE]대학, 천문대나 공립학교를 건설하면 도시의 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]중상주의[ENDCOLOR][NEWLINE]도시에서 유닛이나 건물을 구입할 때 필요한 [ICON_GOLD] 금이 25%만큼 감소합니다. 조폐국, 시장, 은행 및 증권 거래소마다 [ICON_RESEARCH] 과학 생산량이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]군사 계급[ENDCOLOR][NEWLINE]유닛이 주둔한 도시의 [ICON_HAPPINESS_1] 행복이 1, [ICON_CULTURE] 문화 생산량이 2만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]해상 혈통[ENDCOLOR][NEWLINE]해상 유닛의 [ICON_MOVES] 행동력이 1만큼 증가하고 해상 군사 유닛의 시야가 1만큼 증가합니다. 위대한 제독이 출현합니다. 위대한 제독의 [ICON_MOVES] 행동력이 2만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]과두제[ENDCOLOR][NEWLINE]도시에 주둔한 유닛은 유지비가 필요 없으며 유닛이 주둔하는 도시는 [ICON_RANGE_STRENGTH] 원거리 전투력이 50%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]종교 체제[ENDCOLOR][NEWLINE]성소와 사원으로부터 [ICON_PEACE] 신앙을 1만큼 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]계획 경제[ENDCOLOR][NEWLINE]공장을 지으면 도시의 [ICON_RESEARCH] 과학 생산량이 25%만큼 증가합니다. 공장 건설 속도가 반으로 줄어듭니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]경찰 국가[ENDCOLOR][NEWLINE]법원 하나당 도시의 [ICON_HAPPINESS_1] 행복이 3만큼 증가합니다. 법원 건설 속도가 반으로 줄어듭니다. 적 스파이의 효율성이 25%만큼 감소합니다. 적 스파이를 잡을 확률이 25%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]직업 군대[ENDCOLOR][NEWLINE]군사 유닛을 업그레이드하는 데 드는 [ICON_GOLD] 금이 33%만큼 감소하며 도시에 건설한 방어 건물(성벽, 성, 군수창고, 군사 기지) 하나당 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]보호무역주의[ENDCOLOR][NEWLINE]사치품 자원 하나당 [ICON_HAPPINESS_1] 행복이 2만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]과학 혁명[ENDCOLOR][NEWLINE]연구 협정으로 얻는 [ICON_RESEARCH] 과학이 50%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]국민주권[ENDCOLOR][NEWLINE][ICON_RESEARCH] 과학 건물에서 [ICON_GOLD] 금을 1만큼 생산합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR][NEWLINE]군사 유닛을 생산할 때 [ICON_PRODUCTION] 생산력이 25%만큼 증가하며 새로운 군사 유닛은 경험치를 15만큼 받습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_UNLOCK_SPEND">
+		<Text>[COLOR_POSITIVE_TEXT]이 계열을 선택할 수 있습니다! 여기를 클릭한 다음 {1_Num}의 [ICON_CULTURE] 문화를 사용하여 이 사회 정책 계열을 채택하십시오.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CANNOT_UNLOCK">
+		<Text>[COLOR_WARNING_TEXT]이 정책을 채택하려면 선행 정책을 먼저 획득해야 합니다.[ENDCOLOR]</Text>
+	</Replace>
+
+	
+
+	
+
+
+	<!--HONOR-->
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR">
+		<Text>[COLOR_FONT_RED]명예[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_CAP">
+		<Text>[COLOR_FONT_RED]명예[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+		<Text>[COLOR_FONT_RED]명예[ENDCOLOR]는 이를 채택한 문명의 군대를 다양한 방법으로 강화합니다.[NEWLINE][NEWLINE]명예를 채택하면 야만인과 싸울 때 50%만큼의 전투력 보너스를 받으며 이미 정찰한 지역에 새로운 야만인 야영지가 생기면 이를 알 수 있습니다. 유닛이 전투로 얻는 경험치가 25% 상승하며 야만인 유닛을 처치할 때마다 [ICON_CULTURE] 문화를 얻습니다. 그러나 모든 도시에서 [ICON_HAPPINESS_4] 불행이 1 증가합니다.[NEWLINE][NEWLINE]명예 계열의 정책을 모두 채택하면 유닛을 처치할 때마다 처치한 적 유닛 전투력의 두 배에 해당하는 [ICON_GOLD] 골드를 얻으며 추가 경험치를 25% 얻습니다.[NEWLINE][NEWLINE]명예를 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]제우스 상, 만리장성, 게이트 오브 바빌론, 병마용, 히메지 성, 브란덴부르크 문[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE">
+		<Text>[COLOR_FONT_RED]군사 계급[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+		<Text>[COLOR_FONT_RED]군사 계급[ENDCOLOR][NEWLINE]군대가 주둔하는 도시 하나당 해당 국가의 [ICON_HAPPINESS_1] 행복이 1 만큼, [ICON_CULTURE] 문화가 3만큼 증가하며, 도시 방어 건물과 군사 양성 건물을 지을 때 생산력이 50% 증가합니다. 또한 국가 불가사의인 [COLOR_POSITIVE_TEXT]영웅 서사시[ENDCOLOR]에서 [ICON_HAPPINESS_1] 지역 행복이 4만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DISCIPLINE">
+		<Text>[COLOR_FONT_RED]규율[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+		<Text>[COLOR_FONT_RED]규율[ENDCOLOR][NEWLINE]옆 타일에 다른 군사 유닛이 있을 때 근접 유닛의 [ICON_STRENGTH] 전투력이 20%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_TRADITION">
+		<Text>[COLOR_FONT_RED]군사 혈통[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP">
+		<Text>[COLOR_FONT_RED]군사 혈통[ENDCOLOR][NEWLINE]군사 유닛이 전투로 얻는 경험치가 50% 증가하며 적 유닛 처치 시 적 전투력 절반만큼의 [ICON_CULTURE] 문화를 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_WARRIOR_CODE">
+		<Text>[COLOR_FONT_RED]전사 규범[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+		<Text>[COLOR_FONT_RED]전사 규범[ENDCOLOR][NEWLINE]근접 유닛을 생산할 때 25%의 [ICON_PRODUCTION] 생산력 보너스를 받으며 [ICON_CAPITAL] 수도 주위에서 위대한 장군이 출현합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HEROISM">
+		<Text>[COLOR_FONT_RED]영웅주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HEROISM_HELP">
+		<Text>[COLOR_FONT_RED]영웅주의[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] 위대한 장군의 출현율이 25% 상승합니다. 또한 적대 도시를 점령 시 해당 도시가 생산하는 [ICON_CULTURE] 문화량의 10배를 약탈합니다. [COLOR_POSITIVE_TEXT]야만용사를 즉시 1기 제공하며, 또한 도시에서 구입할 수 있습니다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_STANDING_ARMY">
+		<Text>[COLOR_FONT_RED]상비군[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_STANDING_ARMY_HELP">
+		<Text>[COLOR_FONT_RED]상비군[ENDCOLOR][NEWLINE]유닛 8기까지의 [ICON_GOLD] 유지비가 무료로 제공되며, 생산되는 군사 유닛들은 경험치를 +15 받고 생산됩니다. 도시에 유닛이 주둔하고 있을 시 도시 공격 데미지가 33% 상승합니다. 병영에서 [ICON_PRODUCTION] 생산력이 2 증가하지만 모든 도시의 [ICON_FOOD] 식량이 2 감소합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY">
+		<Text>[COLOR_FONT_RED]군제 개혁[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+		<Text>[COLOR_FONT_RED]직업 군대[ENDCOLOR][NEWLINE]군사 유닛을 업그레이드하는 데 드는 [ICON_GOLD] 금이 33%만큼 감소하며 모든 군사 관련 건물을 50% 더 빨리 건설합니다. 도시에 건설한 유닛 양성 건물(병영, 무기고, 사관학교, 해군 기지, 공군 기지, 사격장, 정밀사격장) 하나당 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다. [COLOR_POSITIVE_TEXT]스위스 용병을 구입할 수 있습니다.[ENDCOLOR]</Text>
+	</Replace>
+
+
+	<!--PIETY-->
+
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY">
+		<Text>[COLOR_YELLOW]신앙[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP">
+		<Text>[COLOR_YELLOW]신앙[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION">
+		<Text>[COLOR_WARNING_TEXT]이 계열은 종교가 있어야만 열립니다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+		<Text>[COLOR_YELLOW]신앙[ENDCOLOR]은 제국의 [ICON_PEACE] 신앙을 늘려줍니다.[NEWLINE][NEWLINE]신앙을 채택하면 성소와 사원, 선교단을 짓는 데 걸리는 시간이 반으로 줄어들고 사원과 성소, 선교단에서 추가로 1 [ICON_PEACE] 신앙을 얻습니다. 그러나 모든 도서관의 [ICON_RESEARCH] 과학력이 10% 감소하고 대학과 공립학교, 연구소의 건설속도가 50% 감소합니다.[NEWLINE][NEWLINE]신앙 계열의 모든 정책을 채택하면 모든 도시에 [ICON_PEACE] 신앙이 3 증가합니다. 또한 신앙으로 구입하는 종교 유닛과 건물의 가격이 10% 만큼 감소하며 전문가당 [ICON_PEACE] 신앙이 1 증가하고, 소도시, 대도시마다 [ICON_PEACE] 신앙을 1, 성지에서 [ICON_CULTURE] 문화를 3, [ICON_PEACE] 신앙을 추가로 6만큼 생산합니다.[NEWLINE][NEWLINE]신앙을 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]팔만대장경, 성 소피아 대성당, 쉐다곤 파야, 석굴암[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION">
+		<Text>[COLOR_YELLOW]조직화된 종교[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+		<Text>[COLOR_YELLOW]조직화된 종교[ENDCOLOR][NEWLINE]성소, 사원, 수도원, 선교단에서 [ICON_PEACE] 신앙과 [ICON_HAPPINESS_1] 행복을 1 얻습니다. 포도원, 구빈원을 제외한 신앙으로 구입하는 건물로부터 [ICON_PEACE] 신앙을 1만큼 추가로 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN">
+		<Text>[COLOR_YELLOW]천명[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+		<Text>[COLOR_YELLOW]천명[ENDCOLOR][NEWLINE][ICON_PEACE] 신앙으로 구입하는 유닛, 건물의 비용이 15% 줄어듭니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_REFORMATION">
+		<Text>[COLOR_YELLOW]종교 개혁[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+		<Text>[COLOR_YELLOW]종교 개혁[ENDCOLOR][NEWLINE]종교를 창설했다면 개혁 교리를 보너스로 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_THEOCRACY">
+		<Text>[COLOR_YELLOW]신권 정치[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+		<Text>[COLOR_YELLOW]신권 정치[ENDCOLOR][NEWLINE]사원과 수도원, 선교단이 있는 도시의 [ICON_GOLD] 금 생산량이 각각 +5% 만큼 증가합니다. 모스크, 대성당, 수도원, 시나고그와 파고다를 보유한 도시는 각각 추가로 +10%씩의 보너스가 더 붙습니다. 성지에서 [ICON_GOLD] 금을 3 추가로 얻으며 생산되는 모든 유닛에게 경험치를 10 추가로 제공합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CRUSADER">
+		<Text>[COLOR_YELLOW]성전[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CRUSADER_HELP">
+		<Text>[COLOR_YELLOW]성전[ENDCOLOR][NEWLINE]적 유닛을 처치할 시 적 유닛 전투력의 50%에 해당하는 [ICON_GOLD] 금을 얻으며, 모든 군사 양성 건물에서 [ICON_PEACE] 신앙이 증가하고 생산되는 군사 유닛이 15의 추가 경험치를 얻습니다. 증가치는 건물에 따라 조금씩 다릅니다.</Text>
+	</Replace>
+
+	<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION">
+		<Text>[COLOR_YELLOW]종교의 자유[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+		<Text>[COLOR_YELLOW]종교의 자유[ENDCOLOR][NEWLINE]가장 대중적인 종교를 믿는 도시는 두 번째로 대중적인 종교의 종교관 보너스를 함께 얻습니다. [ICON_CULTURE] 무료 정책을 하나 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_EVERYWHERE_YOU_GO">
+		<Text>[COLOR_YELLOW]만신론[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_EVERYWHERE_YOU_GO_HELP">
+		<Text>[COLOR_YELLOW]만신론[ENDCOLOR][NEWLINE]모든 일반 시설에서 [ICON_PEACE] 신앙을 추가로 1 얻고 위인 시설에서는 2 얻습니다.</Text>
+	</Replace>
+
+
+	<!--PATRONAGE-->
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE">
+		<Text>[COLOR_FONT_GREEN]후원[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP">
+		<Text>[COLOR_FONT_GREEN]후원[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+		<Text>[COLOR_FONT_GREEN]후원[ENDCOLOR]은 도시 국가와의 친밀도를 높여줍니다.[NEWLINE][NEWLINE] 후원을 채택하면 도시 국가와의 [ICON_INFLUENCE] 우호도가 50%만큼 느리게 감소하며, 모든 플레이어의 [ICON_CAPITAL] 수도 위치가 지도상에 드러납니다. 후원을 개방한 플레이어에게 도시 국가는 공물을 잘 바치지 않을 것입니다.[NEWLINE][NEWLINE]후원 계열의 모든 정책을 채택하면 도시 국가로부터 일정 턴마다 위인을 선물받으며, 다른 플레이어와 도시 국가 사이의 [ICON_INFLUENCE] 우호도가 추가로 75% 빠르게 감소하며 동맹 관계에 있는 도시국가와 정략결혼이 가능해집니다. 후원을 완료한 플레이어에게 도시 국가는 공물을 더더욱 잘 바치지 않으려 할 것입니다.[NEWLINE][NEWLINE]후원을 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]자금성, 대사관[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CONSULATES">
+		<Text>[COLOR_FONT_GREEN]영사관[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+		<Text>[COLOR_FONT_GREEN]영사관[ENDCOLOR][NEWLINE]모든 도시 국가의 [ICON_INFLUENCE] 우호도 정지점이 25까지 증가합니다. 도시 국가에 대한 보호 선언으로 증가하는 증가치와 중복됩니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY">
+		<Text>[COLOR_FONT_GREEN]상인 연합[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
+		<Text>[COLOR_FONT_GREEN]상인 연합[ENDCOLOR][NEWLINE]위대한 상인을 1명 무료로 얻습니다. 도시 국가와 연결된 교역로의 [ICON_GOLD] 금이 4만큼 증가하고 대상 숙소와 항구에서 [ICON_PRODUCTION] 망치와 [ICON_GOLD] 금을 추가로 +2만큼 얻습니다. 세관에서 [ICON_INVEST] 금이 +25% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_TEXT">
+		<Text>상업 동맹 혹은 무역 조합으로 더 잘 알려진 상인 엽합은 교역로로 연결된 국가와 도시의 상인들의 이윤과 외교 특권을 보호하기 위해 만들어졌다. 비록 이와 같은 상인 연합이 공식적인 직위를 가지고 있었던 것은 아니지만, 1407년에 창설된 런던 모험가-상인 회사나 1356년에 조직된 한자동맹과 같이 경제적으로 큰 영향력을 행사하고 장기간 특정 교역로를 지배해온 연합이 여럿 존재했다. 르네상스 초기에 특정 물품의 국외 거래 시 교역인의 이익을 보호하기 위해 베니스와 제노바 등의 지역에서 상인 연합이 조직되었다. 이와 같은 상인 동맹은 15세기에서 16세기에 가장 왕성하게 활동했으나, 상인 동맹이 기존에 지니고 있던 규제력과 외교력을 국가 정부나 왕의 허가를 받은 회사가 서서히 지니게 됨에 따라 쇠퇴해갔다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY">
+		<Text>[COLOR_FONT_GREEN]문화 외교[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP">
+		<Text>[COLOR_FONT_GREEN]문화 외교[ENDCOLOR][NEWLINE]도시 국가에서 선물하는 자원의 양이 100%만큼 증가하고, 선물 받은 사치품 자원에서 발생하는 [ICON_HAPPINESS_1] 행복이 50%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY">
+		<Text>[COLOR_FONT_GREEN]박애주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY_HELP">
+		<Text>[COLOR_FONT_GREEN]박애주의[ENDCOLOR][NEWLINE]도시 국가에 [ICON_GOLD] 금을 선물할 때 얻는 [ICON_INFLUENCE] 우호도가 25%만큼 증가하고, 도시 국가의 요청을 들어줬을 때 증가하는 [ICON_INFLUENCE] 우호도가 두 배로 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_EXCHANGE">
+		<Text>[COLOR_FONT_GREEN]연합군[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_EXCHANGE_HELP">
+		<Text>[COLOR_FONT_GREEN]연합군[ENDCOLOR][NEWLINE]군사적 도시국가와 [ICON_INFLUENCE] 동맹 시 도시국가가 군사유닛을 두 배 자주 제공하며, 적 플레이어들의 도시 국가에 대한 우호도가 +25% 빨리 감소합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SCHOLASTICISM">
+		<Text>[COLOR_CYAN]스콜라 철학[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP">
+		<Text>[COLOR_CYAN]스콜라 철학[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]인 도시 국가가 생성하는 [ICON_RESEARCH] 과학력의 25%에 해당하는 과학력을 보너스로 받으며, [ICON_INFLUENCE] 연구 협정으로 인해 얻는 과학력이 50% 상승합니다. 모든 과학 건물에서 [ICON_RESEARCH] 과학을 1 추가로 얻고 기술을 하나 연구 완료할 때마다 [ICON_CULTURE] 25의 문화를 얻습니다. 무료 기술로 얻는 기술은 해당되지 않습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HOTLINE">
+		<Text>[COLOR_FONT_GREEN]핫라인[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HOTLINE_HELP">
+		<Text>[COLOR_FONT_GREEN]핫라인[ENDCOLOR][NEWLINE][ICON_INTERNATIONAL_TRADE] 교역로가 연결된 도시국가에 미치는 [ICON_INFLUENCE] 영향력이 매 턴 +2 씩 상승합니다. 도시국가에 유닛을 선물했을 때 얻는 [ICON_INFLUENCE] 영향력이 5 증가합니다.</Text>
+	</Replace>
+
+
+
+	<!--AESTHETICS-->
+	<Replace Tag="TXT_KEY_POLICY_AESTHETICS">
+		<Text>[COLOR_MAGENTA]미학[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS">
+		<Text>[COLOR_MAGENTA]미학[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP">
+		<Text>[COLOR_MAGENTA]미학[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+		<Text>[COLOR_MAGENTA]미학[ENDCOLOR]은 문명이 [ICON_CULTURE] 문화를 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]미학을 채택하면 위대한 작가, 예술가, 음악가를 25% 더 빨리 얻을 수 있습니다.[NEWLINE][NEWLINE]모든 정책을 채택하면 박물관과 불가사의에서 얻을 수 있는 [ICON_TOURISM] 대작 조합 보너스가 50% 증가하며 [ICON_GOLDEN_AGE] 황금기의 길이가 50% 증가합니다. 또한, 국경 개방을 한 문명, 같은 종교를 믿는 문명, [ICON_INTERNATIONAL_TRADE] 교역로를 연결한 문명에게 가하는 [ICON_TOURISM] 관광 압력이 10% 증가하며 [ICON_PEACE] 신앙심으로 위대한 작가, 예술가 또는 음악가를 구매할 수 있습니다.[NEWLINE][NEWLINE]미학을 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]알함브라 궁전, 금각사, 노이슈반슈타인 성, 조르주 퐁피두 센터, 록펠러 센터, 코토쿠인[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS">
+		<Text>[COLOR_MAGENTA]예술의 천재[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+		<Text>[COLOR_MAGENTA]예술의 천재[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] 위대한 예술가, 작가, 음악가가 각가 한 명씩 출현합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">
+		<Text>[COLOR_MAGENTA]문화의 중심[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP">
+		<Text>[COLOR_MAGENTA]문화의 중심[ENDCOLOR][NEWLINE]기념비, 공예소, 원형 극장, 오페라 극장, 박물관 및 방송탑의 건설 속도가 절반으로 줄어듭니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FINE_ARTS">
+		<Text>[COLOR_MAGENTA]순수 예술[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+		<Text>[COLOR_MAGENTA]순수 예술[ENDCOLOR][NEWLINE]국가가 행복 상태일 때 현재 [ICON_HAPPINESS_1] 행복 수치만큼 턴 당 [ICON_CULTURE] 문화가 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS">
+		<Text>[COLOR_MAGENTA]예술 번영[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP">
+		<Text>[COLOR_MAGENTA]예술 번영[ENDCOLOR][NEWLINE]세계 불가사의를 건설한 모든 도시의 [ICON_CULTURE] 문화 생성량이 33%만큼 증가하고 즉시 [ICON_GOLDEN_AGE] 황금기에 들어갑니다. [ICON_TOURISM] 대작 조합 보너스가 50% 상승합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ETHICS">
+		<Text>[COLOR_MAGENTA]윤리[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ETHICS_HELP">
+		<Text>[COLOR_MAGENTA]윤리[ENDCOLOR][NEWLINE]미래에 채택할 정책의 [ICON_CULTURE] 문화 비용을 10%만큼 줄여주며 무료 정책을 하나 얻고 기술을 하나 연구 완료할 때마다 [ICON_CULTURE] 25의 문화를 얻습니다. 무료 기술로 얻는 기술은 해당되지 않습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NATIONAL_TOURIST_CENTER">
+		<Text>[COLOR_MAGENTA]문화 체육 관광부[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NATIONAL_TOURIST_CENTER_TEXT">
+		<Text>모든 국가들은 자국의 문화를 조금이라도 더 빨리, 넓게 알리기 위해 애쓰곤 한다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NATIONAL_TOURIST_CENTER_HELP">
+		<Text>[COLOR_MAGENTA]문화 체육 관광부[ENDCOLOR][NEWLINE][ICON_CAPITAL] 수도에서 [ICON_TOURISM] 관광+40% 가 추가되며, 대사관이 있으면 추가로 35%를 더 생산합니다. 국경 개방을 한 문명, 같은 종교를 믿는 문명, [ICON_INTERNATIONAL_TRADE] 교역로를 연결한 문명에게 가하는 [ICON_TOURISM] 관광 압력이 35% 증가합니다.</Text>
+	</Replace>
+
+
+
+
+	<!--COMMERCE-->
+
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE">
+		<Text>[COLOR_YIELD_GOLD]상업[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP">
+		<Text>[COLOR_YIELD_GOLD]상업[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+		<Text>[COLOR_YIELD_GOLD]상업[ENDCOLOR]은 해양으로 진출하거나 [ICON_GOLD] 금 생산에 집중하는 제국에 적합합니다.[NEWLINE][NEWLINE]상업을 채택하면 [ICON_CAPITAL] 수도의 [ICON_GOLD] 금 생산량이 33%만큼 증가하며 시장 건설 속도가 두 배로 증가합니다. 그러나 시민이 생성하는 [ICON_HAPPINESS_4] 불행이 5% 증가합니다.[NEWLINE][NEWLINE]상업 계열의 정책을 모두 채택하면 각 전문가 1명과 소도시, 대도시, 기업 건물 하나당 [ICON_GOLD] 금이 1만큼 증가하며 위대한 상인과 기업가의 무역 임무로 거두어들이는 [ICON_GOLD] 금이 두 배가 됩니다.[NEWLINE][NEWLINE]정책 완성 시 [ICON_PEACE] 신앙으로 위대한 상인을 구입할 수 있습니다.[NEWLINE][NEWLINE]상업을 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]빅 벤, 중앙은행, 세계 무역센터[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP">
+		<Text>[COLOR_YIELD_GOLD]기업가 정신[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+		<Text>[COLOR_YIELD_GOLD]기업가 정신[ENDCOLOR][NEWLINE]위대한 상인이 50% 더 자주 출현하며, 승선 유닛의 이동력이 1 증가합니다. 또한 [COLOR_POSITIVE_TEXT]위대한 상인[ENDCOLR]이나 [COLOR_POSITIVE_TEXT]기업가[ENDCOLOR]가 국경 개방 여부나 지형제약에 상관없이 자유롭게 이동할 수 있으며, 도시 국가에서 무역 임무를 수행할 때 획특하는 [ICON_INVEST] 골드와 [ICON_INFLUENCE] 영향력이 두 배로 상승합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CARAVANS">
+		<Text>[COLOR_YIELD_GOLD]교역 행렬[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+		<Text>[COLOR_YIELD_GOLD]교역 행렬[ENDCOLOR][NEWLINE] 모든 육상 교역로에서 얻는 [ICON_GOLD] 금이 3 증가하고 대상 숙소와 시장에서 [ICON_GOLD] 금을 +3 얻습니다. 골드로 유닛이나 건물을 구입할 시 가격이 10% 할인됩니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCANTILISM">
+		<Text>[COLOR_YIELD_GOLD]중상주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+		<Text>[COLOR_YIELD_GOLD]중상주의[ENDCOLOR][NEWLINE]도시에서 유닛이나 건물을 구입할 때 필요한 [ICON_GOLD] 금이 15%만큼 할인됩니다. 대상 숙소, 세관, 조폐국, 시장, 은행 및 증권 거래소마다 [ICON_RESEARCH] 과학을 2만큼 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INVISIBLE_HAND">
+		<Text>[COLOR_YIELD_GOLD]자유시장주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INVISIBLE_HAND_HELP">
+		<Text>[COLOR_YIELD_GOLD]자유시장주의[ENDCOLOR][NEWLINE]시장, 은행, 증권거래소, 조폐국, 식료품거래소, 원유거래소, 국고, 중앙은행, 국제 무역 센터에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다, 시장, 은행, 증권거래소의 건설 속도가 50% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+		<Text>[COLOR_YIELD_GOLD]노동 조합[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+		<Text>[COLOR_YIELD_GOLD]노동조합[ENDCOLOR][NEWLINE]도로 및 철도 유지에 필요한 [ICON_GOLD] 금이 50%만큼 감소합니다. 대상 숙소와 항만에서 [ICON_PRODUCTION] 망치가 +2 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM">
+		<Text>[COLOR_YIELD_GOLD]보호무역주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+		<Text>[COLOR_YIELD_GOLD]보호무역주의[ENDCOLOR][NEWLINE]사치품 자원 하나당 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다. 기업 본사가 [ICON_INVEST] 골드를 10%더 산출해냅니다.</Text>
+	</Replace>
+
+
+
+
+
+	<!--EXPLORATION-->
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION">
+		<Text>[COLOR_CITY_GREEN]탐험[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
+		<Text>[COLOR_CITY_GREEN]탐험[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
+		<Text>[COLOR_CITY_GREEN]탐험[ENDCOLOR]은 바다를 넘어 제국을 확장하는 능력을 강화합니다.[NEWLINE][NEWLINE]탐험을 채택하면 지도 상에 나타나지 않았던 숨겨진 사적지가 드러나며, 모든 해안도시에서 [ICON_PRODUCTION] 생산력이 +2 증가합니다.[NEWLINE][NEWLINE]모든 정책을 채택하면 대작 하나당 [ICON_CULTURE] 문화를 +2 생성하며, 승선 유닛의 이동력이 2 증가하고 무료 위인을 하나 얻습니다. 또한, 산업 시대 시작부터 [ICON_PEACE] 신앙심으로 위대한 제독을 구매할 수 있습니다.[NEWLINE][NEWLINE]탐험을 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]앙코르와트, 치첸 이트사, 루브르, 헐리우드[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
+		<Text>[COLOR_CITY_GREEN]해안 공공시설[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP">
+		<Text>[COLOR_CITY_GREEN]해안 공공시설[ENDCOLOR][NEWLINE]모든 해안 도시의 [ICON_PRODUCTION] 생산량이 4, [ICON_FOOD] 식량이 6만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NAVAL_TRADITION">
+		<Text>[COLOR_CITY_GREEN]해상 전통[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+		<Text>[COLOR_CITY_GREEN]해상 전통[ENDCOLOR][NEWLINE]해군 유닛과 승선 유닛의 이동력, 시야가 1 증가합니다. 각 등대, 항만, 항구의 건설시간이 절반으로 줄어들고 [ICON_HAPPINESS_1] 행복을 1, [ICON_CULTURE] 문화를 2만큼 생성합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCHANT_NAVY">
+		<Text>[COLOR_CITY_GREEN]상선대[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+		<Text>[COLOR_CITY_GREEN]상선대[ENDCOLOR][NEWLINE]해상 유닛의 시야가 2칸 늘어나며 승선 유닛의 이동력이 1 증가합니다. 드라이도크, 조선소, 해군기지의 건설시간이 절반으로 줄어들며, 유닛 구입 시 한정으로 필요한 [ICON_INVEST] 골드가 20% 할인됩니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL">
+		<Text>[COLOR_CITY_GREEN]항해 학교[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
+		<Text>[COLOR_CITY_GREEN]항해 학교[ENDCOLOR][NEWLINE]위대한 제독이 출현합니다. 모든 위대한 제독의 [ICON_MOVES] 이동력이 2만큼 증가하며 위대한 제독이 50% 빨리 출현합니다. 항구에서 [ICON_RESEARCH] 과학이 +25%, 기상관측소에서 +10% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
+		<Text>[COLOR_CITY_GREEN]보물선단[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
+		<Text>[COLOR_CITY_GREEN]보물선단[ENDCOLOR][NEWLINE]플레이어의 모든 해상 무역로에서 얻는 [ICON_GOLD] 금이 6만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INDIANA_JONES">
+		<Text>[COLOR_CITY_GREEN]위대한 탐험가[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INDIANA_JONES_TEXT">
+		<Text>인디아나 존스에게 왜 열광하는 지를 조금이라도 알고 싶다면 영화를 보라는 말이 있다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INDIANA_JONES_HELP">
+		<Text>[COLOR_CITY_GREEN]위대한 탐험가[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]해군 기지[ENDCOLOR]에서 [ICON_RESEARCH] 과학이 +25% 증가하며 대작이 [ICON_CULTURE] 문화를 1 추가로 생성합니다. 위대한 제독이 태어났을 때 알려진 모든 문명에게 [ICON_TOURISM] 관광 영향력이 +300 증가합니다.</Text>
+	</Replace>
+
+
+
+
+	<!--RATIONALISM-->
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM">
+		<Text>[COLOR_CYAN]합리[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP">
+		<Text>[COLOR_CYAN]합리[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+		<Text>[COLOR_CYAN]합리주의[ENDCOLOR]는 [ICON_RESEARCH] 과학을 사용하고 생성하는 능력을 강화합니다.[NEWLINE][NEWLINE]합리주의를 채택하면 연구 협정으로 얻는 [ICON_RESEARCH] 과학이 50%만큼 증가하고 국가가 행복 상태일 때 과학력이 10% 증가합니다.[NEWLINE][NEWLINE]합리주의 계열의 모든 정책을 채택하면 무료 기술을 2개 얻으며, [ICON_RESEARCH] 과학 건물에서 [ICON_GOLD] 금을 1만큼(천문대는 추가 +1) 생산합니다.[NEWLINE][NEWLINE]정책을 완성하면 [ICON_PEACE] 신앙으로 위대한 과학자를 구입할 수 있습니다.[NEWLINE][NEWLINE]합리주의를 개방하면[NEWLINE][COLOR_POSITIVE_TEXT]영곡탑, 허블 망원경, 거대 강입자 충돌기[ENDCOLOR] 불가사의를 지을 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FREE_THOUGHT">
+		<Text>[COLOR_CYAN]자유 사상[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
+		<Text>[COLOR_CYAN]자유 사상[ENDCOLOR][NEWLINE]소도시와 대도시에 [ICON_RESEARCH] 과학이 +1 만큼 증가하며 대학과 공립학교의 [ICON_RESEARCH] 과학 생산량이 각각 +17%, +15%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SECULARISM">
+		<Text>[COLOR_CYAN]세속주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SECULARISM_HELP">
+		<Text>[COLOR_CYAN]세속주의[ENDCOLOR][NEWLINE]전문가 1인당 [ICON_RESEARCH] 과학이 2 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_PROOF">
+		<Text>[COLOR_CYAN]과학적 방법론[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_PROOF_HELP">
+		<Text>[COLOR_CYAN]과학적 방법론[ENDCOLOR][NEWLINE]교역소와 마을을 제외한 모든 일반 시설에서 [ICON_RESEARCH] 과학이 +1 증가하며 위인 시설에서는 +2 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HUMANISM">
+		<Text>[COLOR_CYAN]인본주의[ENDCOLOR]</Text>
+	</Replace>
+
+	<Replace Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+		<Text>[COLOR_CYAN]인본주의[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] 위대한 과학자가 50% 더 빨리 나타나며 기술을 하나 연구 완료할 때마다 [ICON_CULTURE] 50의 문화를 얻습니다. 무료 기술로 얻는 기술은 해당되지 않습니다.니다. 대학에서 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY">
+		<Text>[COLOR_CYAN]국민 주권[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+		<Text>[COLOR_CYAN]국민 주권[ENDCOLOR][NEWLINE]국가가 [ICON_HAPPINESS_1] 행복 상태일 때 과학력이 15% 만큼 추가로 증가하고, [ICON_RESEARCH] 과학 건물에서 [ICON_GOLD] 금을 2만큼 생산합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION">
+		<Text>[COLOR_CYAN]국민 주권[ENDCOLOR]</Text>
+	</Replace>
+
+
+	<!--IDEOLOGY_FREEDOM-->
+
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM">
+		<Text>[COLOR_CITY_BLUE]평등[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP">
+		<Text>[COLOR_CITY_BLUE]평등[ENDCOLOR]</Text>
+	</Replace>
+
+	<!-- LEVEL 1 -->
+	<Replace Tag="TXT_KEY_POLICY_OPEN_SOCIETY">
+		<Text>[COLOR_CITY_BLUE]아방가르드[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP">
+		<Text>[COLOR_CITY_BLUE]아방가르드[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] 위인이 25% 자주 출현합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+		<Text>[COLOR_CITY_BLUE]독창적 표현[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+		<Text>[COLOR_CITY_BLUE]독창적 표현[ENDCOLOR][NEWLINE] 걸작으로 얻는 [ICON_CULTURE] 문화가 1만큼 증가합니다([ICON_TOURISM] 관광은 변함 없음).</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CIVIL_SOCIETY">
+		<Text>[COLOR_CITY_BLUE]신자유주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CIVIL_SOCIETY_HELP">
+		<Text>[COLOR_CITY_BLUE]신자유주의[ENDCOLOR][NEWLINE]전문가는 [ICON_FOOD] 식량을 절반만 소모합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_COVERT_ACTION">
+		<Text>[COLOR_CITY_BLUE]비밀 공작[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP">
+		<Text>[COLOR_CITY_BLUE]비밀 공작[ENDCOLOR][NEWLINE]도시 국가의 선거 조작 성공 확률이 두 배로 늘어납니다. 세계 불가사의인 [COLOR_POSITIVE_TEXT]스코틀랜드 야드[ENDCOLOR]와 국가 불가사의인 [COLOR_POSITIVE_TEXT]국가 정보국[ENDCOLOR]에서 [ICON_RESEARCH] 과학이 +25% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CAPITALISM">
+		<Text>[COLOR_CITY_BLUE]자본주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CAPITALISM_HELP">
+		<Text>[COLOR_CITY_BLUE]자본주의[ENDCOLOR][NEWLINE]모든 조폐국, 은행, 세관 및 증권 거래소의 [ICON_HAPPINESS_1] 행복이 1 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION">
+		<Text>[COLOR_CITY_BLUE]경제 동맹[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+		<Text>[COLOR_CITY_BLUE]경제 동맹[ENDCOLOR][NEWLINE]평등 이념을 따르는 다른 문명과의 교역로에서 얻는 [ICON_GOLD] 금이 12 증가하고 도시 국가에 골드를 선물 시 증가하는 [ICON_INFLUENCE] 영향력이 10% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROPHECY_OF_HAYEK">
+		<Text>[COLOR_CITY_BLUE]하이에크의 예언[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROPHECY_OF_HAYEK_HELP">
+		<Text>[COLOR_CITY_BLUE]하이에크의 예언[ENDCOLOR][NEWLINE]교역소 계통에서 얻는 [ICON_GOLD] 금이 1 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DADAISM">
+		<Text>[COLOR_CITY_BLUE]다다이즘[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DADAISM_HELP">
+		<Text>[COLOR_CITY_BLUE]다다이즘[ENDCOLOR][NEWLINE]대작으로부터 얻는 [ICON_CULTURE] 문화가 1 감소합니다. [ICON_GREAT_PEOPLE] 예술가, 작가, 음악가의 출현속도가 25% 빨라집니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TORCH_OF_PEOPLE">
+		<Text>[COLOR_CITY_BLUE]민중의 지팡이[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TORCH_OF_PEOPLE_HELP">
+		<Text>[COLOR_CITY_BLUE]민중의 지팡이[ENDCOLOR][NEWLINE]경찰서 하나당 [ICON_HAPPINESS_1] 행복이 2 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GENDER_EQUALITY">
+		<Text>[COLOR_CITY_BLUE]양성평등[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GENDER_EQUALITY_HELP">
+		<Text>[COLOR_CITY_BLUE]양성평등[ENDCOLOR][NEWLINE]시민의 [ICON_HAPPINESS_4] 불행이 5% 감소합니다.</Text>
+	</Replace>
+
+	<!-- LEVEL 2 -->
+	<Replace Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY">
+		<Text>[COLOR_CITY_BLUE]의용군[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+		<Text>[COLOR_CITY_BLUE]의용군[ENDCOLOR][NEWLINE]유닛 6개의 유지비를 부담하지 않아도 됩니다. 1차 세계대전 보병 유닛 6개를 즉시 받습니다. [COLOR_CITY_BLUE]용병대 구입 가능.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_URBANIZATION">
+		<Text>[COLOR_CITY_BLUE]도시화[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]도시화[ENDCOLOR][NEWLINE]물레방앗간, 병원 및 의학 연구소 하나당 [ICON_HAPPINESS_1] 지역 행복이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR">
+		<Text>[COLOR_CITY_BLUE]최상의 시간[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP">
+		<Text>[COLOR_CITY_BLUE]최상의 시간[ENDCOLOR][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 50%만큼 증가하고 [ICON_GOLDEN_AGE] 황금기의 길이가 50% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE">
+		<Text>[COLOR_CITY_BLUE]보통선거제도[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+		<Text>[COLOR_CITY_BLUE]보통선거제도[ENDCOLOR][NEWLINE]전문가가 생성하는 [ICON_HAPPINESS_4] 불행 절반, 모든 소도시와 대도시에서 [ICON_PRODUCTION] 망치+1</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NEW_DEAL">
+		<Text>[COLOR_CITY_BLUE]뉴딜 정책[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NEW_DEAL_HELP">
+		<Text>[COLOR_CITY_BLUE]뉴딜 정책[ENDCOLOR][NEWLINE]불가사의 건설 속도가 50% 상승하고, 댐과 수력 발전소의 건설시간이 절반으로 줄어듭니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+		<Text>[COLOR_CITY_BLUE]민주주의의 병기창[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+		<Text>[COLOR_CITY_BLUE]민주주의의 병기창[ENDCOLOR][NEWLINE]군사유닛 생산시 +50% 생산 보너스, 도시국가에 유닛 선물시 우호도 10 증가</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_STONEAGE_OF_CURTIS">
+		<Text>[COLOR_CITY_BLUE]커티스 르 메이의 석기시대[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_STONEAGE_OF_CURTIS_HELP">
+		<Text>[COLOR_CITY_BLUE]커티스 르 메이의 석기시대[ENDCOLOR][NEWLINE]무료로 폭격기 3대를 얻습니다.[NEWLINE][COLOR_WARNING_TEXT]무고한 일반인이란 없다.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_POSTMODERNISM">
+		<Text>[COLOR_CITY_BLUE]포스트모더니즘[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_POSTMODERNISM_HELP">
+		<Text>[COLOR_CITY_BLUE]포스트모더니즘[ENDCOLOR][NEWLINE]원형 극장, 공예소, 오페라 하우스, 박물관, 방송탑에서 [ICON_HAPPINESS_1] 행복이 1 증가합니다.</Text>
+	</Replace>
+
+	<!-- LEVEL 3 -->
+	<Replace Tag="TXT_KEY_POLICY_MEDIA_CULTURE">
+		<Text>[COLOR_CITY_BLUE]미디어 문화[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+		<Text>[COLOR_CITY_BLUE]미디어 문화[ENDCOLOR][NEWLINE]방송탑이 있는 도시에서 생성하는 [ICON_TOURISM] 관광이 34% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION">
+		<Text>[COLOR_CITY_BLUE]조약 기구[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+		<Text>[COLOR_CITY_BLUE]조약 기구[ENDCOLOR][NEWLINE]교역로가 연결된 도시 국가의 [ICON_INFLUENCE] 우호도가 턴당 6(일반적인 속도로) 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS">
+		<Text>[COLOR_CITY_BLUE]우주 사업 조달[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+		<Text>[COLOR_CITY_BLUE]우주 사업 조달[ENDCOLOR][NEWLINE]우주선 부품을 [ICON_GOLD] 금으로 구매할 수 있습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_WELFARE_STATE">
+		<Text>[COLOR_CITY_BLUE]복지 국가[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_WELFARE_STATE_HELP">
+		<Text>[COLOR_CITY_BLUE]복지 국가[ENDCOLOR][NEWLINE]시민의 [ICON_HAPPINESS_4] 불행이 10% 감소하며 다음 정책 채택에 필요한 [ICON_CULTURE] 문화량을 15% 감소시킵니다.</Text>
+	</Replace>
+
+	<!--IDEOLOGY ORDER-->
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER">
+		<Text>[COLOR_FONT_RED]체제[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP">
+		<Text>[COLOR_FONT_RED]체제[ENDCOLOR]</Text>
+	</Replace>
+	<!-- LEVEL 1 -->
+	<Replace Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE">
+		<Text>[COLOR_FONT_RED]인민 영웅[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+		<Text>[COLOR_FONT_RED]인민 영웅[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] 위인이 25%만큼 자주 출현합니다. [COLOR_POSITIVE_TEXT]용병대 구입 가능.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM">
+		<Text>[COLOR_FONT_RED]사회주의 리얼리즘[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP">
+		<Text>[COLOR_FONT_RED]사회주의 리얼리즘[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]기념관[ENDCOLOR]이 생성하는 [ICON_HAPPINESS_1] 행복이 1만큼 증가하며 건설 시간이 반으로 줄어듭니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SKYSCRAPERS">
+		<Text>[COLOR_FONT_RED]마천루[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP">
+		<Text>[COLOR_FONT_RED]마천루[ENDCOLOR][NEWLINE]건물 구매 시에 드는 [ICON_GOLD] 금이 15%만큼 감소하며, 고층빌딩의 건설 속도가 절반으로 줄어들고 [ICON_HAPPINESS_1] 지역 행복 1을 생산합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+		<Text>[COLOR_FONT_RED]대조국전쟁[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+		<Text>[COLOR_FONT_RED]대조국전쟁[ENDCOLOR][NEWLINE]우호 지역에서 싸울 때 33%의 공격 보너스를 받습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS">
+		<Text>[COLOR_FONT_RED]이중 간첩[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP">
+		<Text>[COLOR_FONT_RED]이중 간첩[ENDCOLOR][NEWLINE]스파이가 기술을 훔치려는 적의 스파이를 체포할 확률이 두 배가 됩니다. 세계 불가사의인 [COLOR_POSITIVE_TEXT]스코틀랜드 야드[ENDCOLOR]와 국가 불가사의인 [COLOR_POSITIVE_TEXT]국가 정보국[ENDCOLOR]에서 [ICON_RESEARCH] 과학이 +25% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_PIONEERS">
+		<Text>[COLOR_FONT_RED]피오네르 소년단[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP">
+		<Text>[COLOR_FONT_RED]피오네르 소년단[ENDCOLOR][NEWLINE]작업장, 대장간, 공장, 2차 공장 하나당 [ICON_HAPPINESS_1] 지역 행복이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DAS_KAPITAL">
+		<Text>[COLOR_FONT_RED]자본론[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_DAS_KAPITAL_HELP">
+		<Text>[COLOR_FONT_RED]자본론[ENDCOLOR][NEWLINE]모든 시장, 조폐국, 은행, 세관에서 [ICON_PRODUCTION] 생산 +2 를 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_FARM">
+		<Text>[COLOR_FONT_RED]플랜테이션ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_COLLECTIVE_FARM_HELP">
+		<Text>[COLOR_FONT_RED]플랜테이션[ENDCOLOR][NEWLINE]모든 도시에서 [ICON_FOOD] 식량이 4 감소하지만 모든 농장에서 [ICON_FOOD] 식량과 [ICON_PRODUCTION] 생산력을 1 추가로 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NATIONAL_FIRM">
+		<Text>[COLOR_FONT_RED]기업 국유화[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_NATIONAL_FIRM_HELP">
+		<Text>[COLOR_FONT_RED]기업 국유화[ENDCOLOR][NEWLINE]모든 기업 본사에서 [ICON_PRODUCTION] 생산력이 10% 증가하고 모든 작업장(시설)에 [ICON_PRODUCTION] 망치를 +1 더합니다. 건물의 유지비가 15% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PROLETARIAN_CONGRESS">
+		<Text>[COLOR_FONT_RED]프롤레타리아 총회[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_PROLETARIAN_CONGRESS_HELP">
+		<Text>[COLOR_FONT_RED]프롤레타리아 총회[ENDCOLOR][NEWLINE]모든 공장에서 [ICON_HAPPINESS_1] 행복이 3 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INVISIBLE_EYES">
+		<Text>[COLOR_FONT_RED]보이지 않는 눈[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_INVISIBLE_EYES_HELP">
+		<Text>[COLOR_FONT_RED]보이지 않는 눈[ENDCOLOR][NEWLINE]적 도시에 침입한 [ICON_SPY] 스파이 효율이 50% 상승하며, 모든 시민 주거지에서 [ICON_HAPPINESS_1] 행복을 1 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TROTSKYSM">
+		<Text>[COLOR_FONT_RED]트로츠키의 팽창론[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_TROTSKYSM_HELP">
+		<Text>[COLOR_FONT_RED]트로츠키의 팽창론[ENDCOLOR][NEWLINE][ICON_INTERNATIONAL_TRADE] 교역로가 연결된 도시국가에 미치는 [ICON_INFLUENCE] 영향력이 턴마다 1씩 상승하며, 유닛을 선물했을 때 상승하는 [ICON_INFLUENCE] 영향력이 5 증가합니다.</Text>
+	</Replace>
+
+	<!-- LEVEL 2 -->
+	<Replace Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES">
+		<Text>[COLOR_FONT_RED]과학 아카데미[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+		<Text>[COLOR_FONT_RED]과학 아카데미[ENDCOLOR][NEWLINE]모든 천문대, 공립학교, 연구소, 해양연구소, 극지연구소가 생성하는 [ICON_RESEARCH] 과학이 6만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP">
+		<Text>[COLOR_FONT_RED]당 지도부[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP">
+		<Text>[COLOR_FONT_RED]당 지도부[ENDCOLOR][NEWLINE]도시당 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_GOLD] 금, [ICON_CULTURE] 문화가 6씩 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_RESETTLEMENT">
+		<Text>[COLOR_FONT_RED]재정착[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+		<Text>[COLOR_FONT_RED]재정착[ENDCOLOR][NEWLINE]새 도시의 [ICON_CITIZEN] 인구가 3명 추가됩니다. 추가된 3명의 인구는 각 도시에 6의 [ICON_FOOD] 식량을 무료로 얻어 유지됩니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION">
+		<Text>[COLOR_FONT_RED]문화 대혁명[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+		<Text>[COLOR_FONT_RED]문화 대혁명[ENDCOLOR][NEWLINE]대작과 불가사의에서 얻는 문화가 1 감소합니다. 다른 체제 문명에 대한 [ICON_TOURISM] 관광이 34% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES">
+		<Text>[COLOR_FONT_RED]노동자 시설[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+		<Text>[COLOR_FONT_RED]노동자 시설[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]공장[ENDCOLOR]이 건설된 도시의 [ICON_RESEARCH] 연구 생산량이 10%만큼 증가합니다. [COLOR_POSITIVE_TEXT]2차 공장[ENDCOLOR]이 건설되면 [ICON_RESEARCH] 연구 생산량이 추가로 15%만큼 증가합니다. 공장, 2차 공장 건설 속도가 평소의 두 배로 빨라집니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN">
+		<Text>[COLOR_FONT_RED]5개년 계획[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP">
+		<Text>[COLOR_FONT_RED]5개년 계획[ENDCOLOR][NEWLINE]도시당 [ICON_PRODUCTION] 생산량이 3만큼 증가하고 모든 광산 및 채석장의 [ICON_PRODUCTION] 생산량이 각각 1, 2만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MODIFIED_CAPITALISM">
+		<Text>[COLOR_FONT_RED]수정자본주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_MODIFIED_CAPITALISM_HELP">
+		<Text>[COLOR_FONT_RED]수정자본주의[ENDCOLOR][NEWLINE]모든 국가 불가사의에서 [ICON_PRODUCTION] 생산력이 +4 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MOTHERLAND_BLOOD">
+		<Text>[COLOR_FONT_RED]어머니 조국의 피[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_MOTHERLAND_BLOOD_HELP">
+		<Text>[COLOR_FONT_RED]어머니 조국의 피[ENDCOLOR][NEWLINE]1차대전 보병이 무료로 6기 제공됩니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MOTHERLAND_GUTS">
+		<Text>[COLOR_FONT_RED]자원 복제![ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_YOUNG_MOTHERLAND_GUTS_HELP">
+		<Text>[COLOR_FONT_RED]자원 복제![ENDCOLOR][NEWLINE]국가가 획득하는 전략 자원이 세배로 증가합니다.</Text>
+	</Replace>
+	<!-- LEVEL 3 -->
+	<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT">
+		<Text>[COLOR_FONT_RED]프롤레타리아 독재[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+		<Text>[COLOR_FONT_RED]프롤레타리아 독재[ENDCOLOR][NEWLINE] [ICON_HAPPINESS_1] 행복이 적은 문명의 [ICON_TOURISM] 관광이 34% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_IRON_CURTAIN">
+		<Text>[COLOR_FONT_RED]철의 장막[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP">
+		<Text>[COLOR_FONT_RED]철의 장막[ENDCOLOR][NEWLINE]모든 도시에서 [ICON_SPY] 스파이 활동을 완전봉쇄하지만 [ICON_INTERNATIONAL_TRADE] 대외 무역로 수입이 30% 감소합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS">
+		<Text>[COLOR_FONT_RED]우주비행 개척자[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP">
+		<Text>[COLOR_FONT_RED]우주비행 개척자[ENDCOLOR][NEWLINE]위대한 기술자나 건축가로 우주선 부품을 완성할 수 있습니다. [ICON_CAPITAL] 수도 근처에서 무료로 위대한 기술자가 2명, 위대한 과학자가 1명 출현합니다.</Text>
+	</Replace>
+
+
+	<!--IDEOLOGY AUTOCRACY-->
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY">
+		<Text>[COLOR_CITY_BReplaceN]전제정치[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP">
+		<Text>[COLOR_CITY_BReplaceN]전제정치[ENDCOLOR]</Text>
+	</Replace>
+	<!-- LEVEL 1 -->
+	<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES">
+		<Text>[COLOR_CITY_BReplaceN]정예 부대[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP">
+		<Text>[COLOR_CITY_BReplaceN]정예 부대[ENDCOLOR][NEWLINE]상처입은 군사 유닛은 보통 상태보다 50% 더 많은 피해를 줍니다. [COLOR_CITY_BReplaceN]용병대 구입 가능.[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MOBILIZATION">
+		<Text>[COLOR_CITY_BReplaceN]총동원령[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MOBILIZATION_HELP">
+		<Text>[COLOR_CITY_BReplaceN]총동원령[ENDCOLOR][NEWLINE][ICON_GOLD] 금으로 유닛을 구매하는 비용이 20%만큼 감소합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT">
+		<Text>[COLOR_CITY_BReplaceN]통일 전선[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+		<Text>[COLOR_CITY_BReplaceN]통일 전선[ENDCOLOR][NEWLINE]플레이어의 문명이 군사 도시 국가와 동일한 적과 전쟁을 벌일 경우 해당 도시 국가로부터 유닛을 여섯 배 자주 받습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FUTURISM">
+		<Text>[COLOR_CITY_BReplaceN]미래파[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FUTURISM_HELP">
+		<Text>[COLOR_CITY_BReplaceN]미래파[ENDCOLOR][NEWLINE]위대한 작가, 예술가 또는 음악가가 탄생할 때 알려진 문명의 [ICON_TOURISM] 관광이 250만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE">
+		<Text>[COLOR_CITY_BReplaceN]산업 스파이[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]산업 스파이[ENDCOLOR][NEWLINE]스파이가 두 배 더 빨리 기술을 훔칩니다.</Text>
+	</Replace>
+
+	<Replace Tag="TXT_KEY_POLICY_MILITARISM">
+		<Text>[COLOR_CITY_BReplaceN]군국주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+		<Text>[COLOR_CITY_BReplaceN]군국주의[ENDCOLOR][NEWLINE]모든 군사 관련 건물에서 [ICON_HAPPINESS_1] 행복이 3 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS">
+		<Text>[COLOR_CITY_BReplaceN]국경 강화[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]국경 강화[ENDCOLOR][NEWLINE]모든 성, 군수창고 및 군사 기지에서 생성하는 [ICON_HAPPINESS_1] 행복이 2만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MANEUVER_WARFARE">
+		<Text>[COLOR_CITY_BReplaceN]종심작전[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MANEUVER_WARFARE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]종심작전[ENDCOLOR][NEWLINE]병영에서 [ICON_RESEARCH] 과학+5%, 사관학교에서 +10% 를 제공합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_POLICE">
+		<Text>[COLOR_CITY_BReplaceN]군경통치[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MILITARY_POLICE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]군경통치[ENDCOLOR][NEWLINE]경찰대, 경찰서에서 [ICON_HAPPINESS_1] 행복이 1 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_IDOLISM">
+		<Text>[COLOR_CITY_BReplaceN]우상화[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_IDOLISM_HELP">
+		<Text>[COLOR_CITY_BReplaceN]우상화[ENDCOLOR][NEWLINE]수도에서 [ICON_HAPPINESS_1] 행복이 6 증가하며, 모든 기념비에서 [ICON_HAPPINESS_1] 행복이 1 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PMC">
+		<Text>[COLOR_CITY_BReplaceN]군산복합체[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_PMC_HELP">
+		<Text>[COLOR_CITY_BReplaceN]군산복합체[ENDCOLOR][NEWLINE]모든 기업의 본사에서 [ICON_PRODUCTION] 생산력이 10% 상승합니다. 별개로 군사 유닛을 생산할 때 생산력이 50% 상승합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_LOHENGRIN">
+		<Text>[COLOR_CITY_BReplaceN]로엔그린[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_LOHENGRIN_HELP">
+		<Text>[COLOR_CITY_BReplaceN]로엔그린[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] 위대한 음악가의 출현율이 75% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GESTAPO">
+		<Text>[COLOR_CITY_BReplaceN]게슈타포[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GESTAPO_HELP">
+		<Text>[COLOR_CITY_BReplaceN]게슈타포[ENDCOLOR][NEWLINE][ICON_SPY] 스파이가 도시국가 쿠테타를 성공시킬 확률이 증가하며, 스파이를 더 잘 잡게 됩니다.</Text>
+	</Replace>
+
+	<!-- LEVEL 2 -->
+	<Replace Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE">
+		<Text>[COLOR_CITY_BReplaceN]전격전[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]전격전[ENDCOLOR][NEWLINE]모든 위대한 장군의 [ICON_MOVES] 이동력이 3만큼 증가합니다. 기갑 유닛의 공격력이 25% 증가하고, 이동력은 1만큼 증가하며, 적군의 통제 지역을 무시합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_POLICE_STATE">
+		<Text>[COLOR_CITY_BReplaceN]경찰국가[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]경찰국가[ENDCOLOR][NEWLINE]법원, 경찰대, 경찰서 하나당 [ICON_HAPPINESS_1] 행복이 1 증가합니다. 이 건물들의 건설에 걸리는 시간이 반으로 줄어듭니다. 세계 불가사의인 [COLOR_POSITIVE_TEXT]스코틀랜드 야드[ENDCOLOR]와 국가 불가사의인 [COLOR_POSITIVE_TEXT]국가 정보국[ENDCOLOR]에서 [ICON_RESEARCH] 과학이 +25% 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NATIONALISM">
+		<Text>[COLOR_CITY_BReplaceN]민족주의[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+		<Text>[COLOR_CITY_BReplaceN]민족주의[ENDCOLOR][NEWLINE]유닛의 유지비로 쓰이는 [ICON_GOLD] 금의 양이 50% 감소하며 시민이 생산하는 [ICON_HAPPINESS_4] 불행이 5% 감소합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE">
+		<Text>[COLOR_CITY_BReplaceN]제3의 수단[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]제3의 수단[ENDCOLOR][NEWLINE]제국이 생산하는 전략 자원의 양이 100% 증가합니다. 수도에서 생산하는 [ICON_RESEARCH] 과학과 [ICON_FOOD] 식량이 5만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY">
+		<Text>[COLOR_CITY_BReplaceN]포함 외교[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+		<Text>[COLOR_CITY_BReplaceN]포함 외교[ENDCOLOR][NEWLINE]공물을 요구할 수 있는 도시 국가의 [ICON_INFLUENCE] 우호도가 턴당 6(일반적인 속도로) 증가합니다. 모든 해상 유닛들은 특수 승급을 얻어 [ICON_STRENGTH] 전투력이 25% 만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BARBAROSSA">
+		<Text>[COLOR_CITY_BReplaceN]바르바롯사 작전[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_BARBAROSSA_HELP">
+		<Text>[COLOR_CITY_BReplaceN]바르바롯사 작전[ENDCOLOR][NEWLINE]기갑 유닛들이 +2의 행동력 보너스를 받으며 도시 공격력이 50% 상승합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ELECTED_PEOPLE">
+		<Text>[COLOR_CITY_BReplaceN]선민사상[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ELECTED_PEOPLE_HELP">
+		<Text>[COLOR_CITY_BReplaceN]선민사상[ENDCOLOR][NEWLINE]같은 독재(전제정치)를 선택한 문명에게 가하는 [ICON_TOURISM] 관광 압력이 34% 증가하며 자신의 문명보다 낮은 [ICON_HAPPINESS_1] 행복도를 가진 문명에게 [ICON_TOURISM] 관광 압력이 25% 추가로 증가합니다.[NEWLINE][COLOR_WARNING_TEXT]이 얼마나 끔찍하고 무시무시한 생각이니? - 이원복[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_JUCHEISM">
+		<Text>[COLOR_CITY_BReplaceN]주체사상[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_JUCHEISM_HELP">
+		<Text>[COLOR_CITY_BReplaceN]주체사상[ENDCOLOR][NEWLINE]시민의 [ICON_HAPPINESS_4] 불행이 5% 증가합니다. 적 도시를 점령할 때 해당 도시가 생산하던 [ICON_CULTURE] 문화력의 15배를 강탈합니다.</Text>
+	</Replace>
+
+	<!-- LEVEL 3 -->
+	<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY">
+		<Text>[COLOR_CITY_BReplaceN]미래파[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+		<Text>[COLOR_CITY_BReplaceN]미래파[ENDCOLOR] [COLOR_POSITIVE_TEXT]위대한 장군[ENDCOLOR]이나 [COLOR_POSITIVE_TEXT]위대한 제독[ENDCOLOR]이 출현할 때 알려진 다른 문명에 대한 [ICON_TOURISM] 관광이 1000 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR">
+		<Text>[COLOR_CITY_BReplaceN]총력전[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY">
+		<Text>개인 숭배</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]개인 숭배[ENDCOLOR][NEWLINE]공동의 적을 상대로 싸우는 문명이 얻는 [ICON_TOURISM] 관광이 200%만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY">
+		<Text>포함 외교</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]포함 외교[ENDCOLOR][NEWLINE]공물을 요구할 수 있는 도시 국가의 [ICON_INFLUENCE] 우호도가 턴당 10(보통 속도로) 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+		<Text>[COLOR_CITY_BReplaceN]총력전[ENDCOLOR][NEWLINE]군사유닛 생산시 +100% 생산 보너스, 새로 생산되는 군사유닛이 경험치를 +30 얻습니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NEW_ORDER">
+		<Text>[COLOR_CITY_BReplaceN]클라우제비츠의 유산[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_NEW_ORDER_HELP">
+		<Text>[COLOR_CITY_BReplaceN]클라우제비츠의 유산[ENDCOLOR][NEWLINE]모든 유닛의 포위 공격 보너스가 두 배로 증가하고 전투력이 25% 상승합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_STARWARS">
+		<Text>[COLOR_CITY_BReplaceN]스타워즈 프로젝트[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_STARWARS_HELP">
+		<Text>[COLOR_CITY_BReplaceN]스타워즈 프로젝트[ENDCOLOR][NEWLINE]우주선 공장이 [ICON_PRODUCTION] 생산력 +50% 보너스를 얻습니다. [COLOR_POSITIVE_TEXT]XCOM 분대[ENDCOLOR]가 무료로 1기 주어집니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ARMAGEDDON">
+		<Text>[COLOR_CITY_BReplaceN]라그나로크[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_ARMAGEDDON_HELP">
+		<Text>[COLOR_CITY_BReplaceN]라그나로크[ENDCOLOR][NEWLINE]모든 유닛이 2회의 추가공격을 가할 수 있습니다. 적을 처치할 때마다 체력을 75 회복합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_PROMOTION_ARMAGEDDON">
+		<Text>[COLOR_CITY_BReplaceN]라그나로크[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_PROMOTION_ARMAGEDDON_HELP">
+		<Text>[COLOR_CITY_BReplaceN]라그나로크[ENDCOLOR][NEWLINE]모든 유닛이 2회의 추가공격을 가할 수 있습니다. 적을 처치할 때마다 체력을 75 회복합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE">
+		<Text>국민 의료보험</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]국민 의료보험[ENDCOLOR][NEWLINE]모든 국가 불가사의 하나당 [ICON_HAPPINESS_1] 지역 행복이 1만큼 증가합니다.</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCENARIES">
+		<Text>용병대</Text>
+	</Replace>
+	<Replace Tag="TXT_KEY_POLICY_MERCENARIES_HELP">
+		<Text>[COLOR_POSITIVE_TEXT]용병대[ENDCOLOR][NEWLINE]용병대 6기가 무료로 제공됩니다.</Text>
+	</Replace>
+		<Replace Tag="TXT_KEY_POLICY_AESTHETICS">
+			<Text>미학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]미학[ENDCOLOR][NEWLINE]모든 도시 국가에 대한 [ICON_INFLUENCE] 우호도 최소치가 20이 됩니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_ARISTOCRACY">
+			<Text>관료제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]관료제[ENDCOLOR][NEWLINE]불가사의를 건설할 때 [ICON_PRODUCTION] 생산력이 15%만큼, 시민 10명마다 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY">
+			<Text>전제정치</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP">
+			<Text>전제정치</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]전제정치[ENDCOLOR]는 세계 정복을 꿈꾸는 군사 문명에 적합합니다.[NEWLINE][NEWLINE]전제정치를 채택하면 유닛 유지에 소모되는 [ICON_GOLD] 금이 33%만큼 감소하므로 군대 규모를 확장할 수 있습니다.[NEWLINE][NEWLINE]전제정치 계열의 모든 정책을 채택하면 모든 군사 유닛의 공격력이 30턴 동안 20%만큼 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 계열은 평등 또는 질서와 함께 사용할 수 없습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_BLOCKED">
+			<Text>[COLOR_WARNING_TEXT]플레이어가 선택한 다른 계열의 정책 때문에 이 정책의 효과를 받을 수 없습니다.[ENDCOLOR][NEWLINE]전환하려면 여기를 클릭하십시오.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK">
+			<Text>[COLOR_WARNING_TEXT]이 계열은 지금 바로 사용할 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_CULTURE">
+			<Text>[COLOR_WARNING_TEXT]{1_Num}의 [ICON_CULTURE] 문화가 필요합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA">
+			<Text>[COLOR_WARNING_TEXT]이 정책을 채택하려면 {1_EraString:textkey} 시대에 있어야 합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE">
+			<Text>상업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP">
+			<Text>상업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]상업[ENDCOLOR]은 해양 국가 및 [ICON_GOLD] 금을 모으는 데 집중하는 국가에 보너스를 제공합니다.[NEWLINE][NEWLINE]상업을 채택하면 [ICON_CAPITAL] 수도의 [ICON_GOLD] 금 생산이 25%만큼 증가합니다.[NEWLINE][NEWLINE]상업 계열의 모든 정책을 채택하면 전문가 한명당 [ICON_GOLD] 금을 1만큼 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM">
+			<Text>평등</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP">
+			<Text>평등</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]평등[ENDCOLOR]은 소규모 특화 국가에 적합합니다. [ICON_GREAT_PEOPLE] 위인과 전문가에 대한 보너스를 제공합니다.[NEWLINE][NEWLINE]평등을 채택하면 [ICON_GREAT_PEOPLE] 위인 출현율이 25%만큼 증가합니다.[NEWLINE][NEWLINE]평등 계열의 모든 정책을 채택하면 주요 시설의 기본 생산량이 100%만큼 증가하고 [ICON_GOLDEN_AGE] 황금기의 지속 시간이 50%만큼 늘어납니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 계열은 전제정치 또는 질서와 함께 사용할 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR">
+			<Text>명예</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_CAP">
+			<Text>명예</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]명예[ENDCOLOR]는 다양한 방법으로 군대의 효율성을 높여줍니다.[NEWLINE][NEWLINE]명예를 채택하면 야만인과 싸울 때 25%의 전투 보너스를 받으며 시야 범위 내에 야만인 야영지가 생길 경우 경고문이 바로 표시됩니다. 야만인 유닛을 처치할 때마다 [ICON_CULTURE] 문화를 획득합니다.[NEWLINE][NEWLINE]명예 계열의 모든 정책을 채택하면 적 유닛을 처치할 때마다 [ICON_GOLD] 금을 추가로 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY">
+			<Text>자유</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP">
+			<Text>자유</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]자유[ENDCOLOR]는 빠른 확장을 원하는 문명에 적합합니다.[NEWLINE][NEWLINE]자유를 채택하면 모든 도시의 [ICON_CULTURE] 문화가 1만큼 증가합니다.[NEWLINE][NEWLINE]자유 계열의 모든 정책을 채택하면 원하는 위인 한 명이 [ICON_CAPITAL] 수도 근처에 출현합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER">
+			<Text>체제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP">
+			<Text>질서</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]질서[ENDCOLOR]는 도시의 수에 비례해 국가의 힘을 높여주므로 규모가 크고 확장을 중시하는 국가에 적합합니다.[NEWLINE][NEWLINE]질서를 채택하면 도시당 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.[NEWLINE][NEWLINE]질서 계열의 모든 정책을 채택하면 각 도시의 [ICON_FOOD] 식량, [ICON_PRODUCTION] 생산, [ICON_RESEARCH] 과학, [ICON_GOLD] 금, [ICON_CULTURE] 문화가 1만큼 증가합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 계열은 평등 또는 전제정치와 함께 사용할 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE">
+			<Text>후원</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP">
+			<Text>후원</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]후원[ENDCOLOR]은 도시 국가와의 친밀도를 높여줍니다.[NEWLINE][NEWLINE]도시 국가와의 [ICON_INFLUENCE] 우호도가 25%만큼 느리게 감소합니다.[NEWLINE][NEWLINE]후원 계열의 모든 정책을 채택하면 다른 플레이어와 도시 국가 사이의 [ICON_INFLUENCE] 우호도가 33%만큼 빠르게 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY">
+			<Text>신앙</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP">
+			<Text>신앙</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]신앙[ENDCOLOR]은 국가의 [ICON_CULTURE] 문화를 높여줍니다.[NEWLINE][NEWLINE]신앙을 도입하면 [ICON_CULTURE] 문화와 관련된 건물을 건설하는 시간이 15%만큼 줄어듭니다.[NEWLINE][NEWLINE]신앙 계열의 모든 정책을 채택하면 다른 정책을 채택하는 데 필요한 [ICON_CULTURE] 문화가 10%만큼 감소합니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 사회 정책은 합리주의와 함께 사용할 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM">
+			<Text>합리주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP">
+			<Text>합리주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]합리주의[ENDCOLOR]는 [ICON_RESEARCH] 과학을 활용하고 발전시키는 능력을 높여줍니다.[NEWLINE][NEWLINE]합리주의를 채택하면 연구 협정으로 얻게 되는 [ICON_RESEARCH] 과학이 50%만큼 증가합니다.[NEWLINE][NEWLINE]합리주의 계열의 모든 정책을 채택하면 건설한 [ICON_RESEARCH] 과학 건물 하나당 [ICON_GOLD] 금을 1만큼 받습니다.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]이 계열은 신앙과 함께 사용할 수 없습니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION">
+			<Text>전통</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_CAP">
+			<Text>전통</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]전통[ENDCOLOR]은 소규모 국가에 적합합니다.[NEWLINE][NEWLINE]전통을 채택하면 도시의 영토 확장 속도가 큰 폭으로 증가하며 [ICON_CAPITAL] 수도의 [ICON_CULTURE] 문화가 3만큼 증가합니다.[NEWLINE][NEWLINE]전통 계열의 모든 정책을 채택하면 도시당 [ICON_FOOD] 식량 생산량이 15%만큼 증가하고 [ICON_FOOD] 식량이 2만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_UNLOCK_SPEND">
+			<Text>[COLOR_POSITIVE_TEXT]이 계열을 선택할 수 있습니다! 여기를 클릭한 다음 {1_Num}의 [ICON_CULTURE] 문화를 사용하여 이 사회 정책 계열을 채택하십시오.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CANNOT_UNLOCK">
+			<Text>[COLOR_WARNING_TEXT]이 정책을 채택하려면 선행 정책을 먼저 획득해야 합니다.[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP">
+			<Text>시민권</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]시민권[ENDCOLOR][NEWLINE]타일 시설 건설 속도가 25%만큼 증가하며 [ICON_CAPITAL] 수도 근처에 노동자 한 명이 추가됩니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CIVIL_SOCIETY">
+			<Text>시민 사회</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CIVIL_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]시민 사회[ENDCOLOR][NEWLINE]전문가는 [ICON_FOOD] 식량을 절반만 소모합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE">
+			<Text>집단체제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]집단체제[ENDCOLOR][NEWLINE][ICON_CAPITAL] 수도에 있는 [COLOR_POSITIVE_TEXT]개척자[ENDCOLOR]의 생산 속도가 50% 증가하며 [ICON_CAPITAL] 수도 근처에 개척자 하나가 비용 없이 추가됩니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_COMMUNISM">
+			<Text>공산주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공산주의[ENDCOLOR][NEWLINE] 도시당 [ICON_PRODUCTION] 생산력이 2만큼 증가하고 건물을 건설할 때 10%의 [ICON_PRODUCTION] 생산력 보너스를 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CONSTITUTION">
+			<Text>헌법</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CONSTITUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]헌법[ENDCOLOR][NEWLINE] 각 세계 불가사의가 제공하는 [ICON_CULTURE] 문화가 2만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY">
+			<Text>문화 외교</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]문화 외교[ENDCOLOR][NEWLINE]도시 국가에서 선물하는 자원의 양이 100%만큼 증가하고, 선물 받은 사치품 자원에서 발생하는 [ICON_HAPPINESS_1] 행복이 50%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_DEMOCRACY">
+			<Text>민주주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_DEMOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]민주주의[ENDCOLOR][NEWLINE]각 도시의 전문가가 생성하는 [ICON_HAPPINESS_4] 불행이 50%만큼 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_DISCIPLINE">
+			<Text>규율</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]규율[ENDCOLOR][NEWLINE]군사 유닛과 인접한 타일에 다른 군사 유닛이 있을 경우 [ICON_STRENGTH] 전투력이 10%만큼 증가합니다. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_EDUCATED_ELITE">
+			<Text>지식인</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_EDUCATED_ELITE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]지식인[ENDCOLOR][NEWLINE]때로는 동맹 도시 국가에서 [ICON_GREAT_PEOPLE] 위인을 선물하기도 합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FASCISM">
+			<Text>파시즘</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FASCISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]파시즘[ENDCOLOR][NEWLINE]국가에서 생산하는 전략 자원의 양이 100%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION">
+			<Text>종교 자유</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]종교 자유[ENDCOLOR][NEWLINE] 각 기념비, 사원 및 수도원이 제공하는 [ICON_CULTURE] 문화가 1만큼 증가하며 정책 1개를 비용 없이 획득합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FREE_SPEECH">
+			<Text>언론 자유</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FREE_SPEECH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]언론 자유[ENDCOLOR][NEWLINE]유닛 8개를 비용 없이 유지할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FREE_THOUGHT">
+			<Text>자유 사상</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]자유 사상[ENDCOLOR][NEWLINE]교역소 하나당 [ICON_RESEARCH] 과학이 1만큼 증가하며 대학의 [ICON_RESEARCH] 과학 생산량이 17%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_HUMANISM">
+			<Text>인본주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]인본주의[ENDCOLOR][NEWLINE]모든 대학, 천문대 및 공립학교의 [ICON_HAPPINESS_1] 행복 생성량이 1만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE">
+			<Text>대지주</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]대지주[ENDCOLOR][NEWLINE][ICON_CAPITAL] 수도의 [ICON_FOOD] 성장률이 10%만큼, [ICON_HAPPINESS_1] 행복이 2만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_LEGALISM">
+			<Text>율법 정치</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_LEGALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]율법 정치[ENDCOLOR][NEWLINE]처음 건설된 도시 4곳에서 문화 건물을 비용 없이 건설할 수 있습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN">
+			<Text>천명</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]천명[ENDCOLOR][NEWLINE]턴마다 [ICON_CULTURE] 문화가 초과 [ICON_HAPPINESS_1] 행복의 50%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MERCANTILISM">
+			<Text>중상주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]중상주의[ENDCOLOR][NEWLINE]도시에 필요한 아이템을 구입하는 데 필요한 [ICON_GOLD] 금이 25%만큼 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MERCHANT_NAVY">
+			<Text>상선대</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]상선대[ENDCOLOR][NEWLINE]모든 해안 도시의 [ICON_PRODUCTION] 생산력이 3 올라갑니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY">
+			<Text>능력주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]능력주의[ENDCOLOR][NEWLINE][ICON_CAPITAL] 수도와 [ICON_CONNECTED] 연결된 도시의 [ICON_HAPPINESS_1] 행복이 1만큼 증가하며 점령되지 않은 도시의 [ICON_CITIZEN] 시민이 생성하는 [ICON_HAPPINESS_4] 불행이 5%만큼 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MILITARISM">
+			<Text>군국주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]군국주의[ENDCOLOR][NEWLINE]유닛에 필요한 [ICON_GOLD] 금이 33%만큼 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE">
+			<Text>군사 계급</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]군사 계급[ENDCOLOR][NEWLINE]군대가 주둔하는 도시 하나당 해당 국가의 [ICON_HAPPINESS_1] 행복이 1만큼, [ICON_CULTURE] 문화가 2만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MILITARY_TRADITION">
+			<Text>군사 혈통</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]군사 혈통[ENDCOLOR][NEWLINE]군사 유닛이 전투로 얻는 경험치가 50%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MONARCHY">
+			<Text>군주제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MONARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]군주제[ENDCOLOR][NEWLINE][ICON_CAPITAL] 수도에 거주하는 [ICON_CITIZEN] 시민 2명당 [ICON_GOLD] 금 1이 증가하고 [ICON_HAPPINESS_4] 불행이 1 내려갑니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>민족주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]민족주의[ENDCOLOR][NEWLINE]우호 지역에서 전투할 경우 공격력이 15%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_NAVAL_TRADITION">
+			<Text>해상 혈통</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]해상 혈통[ENDCOLOR][NEWLINE]해상 유닛의 [ICON_MOVES] 행동력과 시야가 1 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY">
+			<Text>과두제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]과두제[ENDCOLOR][NEWLINE]주둔 유닛에 유지비가 소모되지 않으며 유닛이 주둔한 도시가 100%의 [ICON_RANGE_STRENGTH] 원거리 전투력 보너스를 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION">
+			<Text>종교 체제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]종교 체제[ENDCOLOR][NEWLINE]기념비, 사원 및 수도원 하나당 [ICON_HAPPINESS_1] 행복 생성량이 1만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY">
+			<Text>박애주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]박애주의[ENDCOLOR][NEWLINE]도시 국가에 [ICON_GOLD] 금을 선물할 때 얻는 [ICON_INFLUENCE] 우호도가 25%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PLANNED_ECONOMY">
+			<Text>계획 경제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]계획 경제[ENDCOLOR][NEWLINE]공장을 보유한 도시의 [ICON_RSEARCH] 과학 생산량이 25%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_POLICE_STATE">
+			<Text>경찰국가</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]경찰 국가[ENDCOLOR][NEWLINE]각 법원이 제공하는 [ICON_HAPPINESS_1] 행복이 3만큼 증가합니다. 법원 건설 시간이 반으로 줄어듭니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_POPULISM">
+			<Text>포퓰리즘</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_POPULISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]포퓰리즘[ENDCOLOR][NEWLINE]부상당한 유닛이 적에게 입히는 피해가 25%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY">
+			<Text>직업 군대</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]직업 군대[ENDCOLOR][NEWLINE]군사 유닛 업그레이드에 필요한 [ICON_GOLD] 금이 33%만큼 감소하고 각 방어용 건물(성벽, 성, 군수창고, 군사 기지)이 제공하는 [ICON_HAPPINESS_1] 행복이 1만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM">
+			<Text>보호무역주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]보호무역주의[ENDCOLOR][NEWLINE]사치품 1개당 [ICON_HAPPINESS_1] 행복이 1 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_REFORMATION">
+			<Text>종교 개혁</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]종교 개혁[ENDCOLOR][NEWLINE]세계 불가사의를 건설한 모든 도시의 [ICON_CULTURE] 문화가 33%만큼 증가하며 바로 [ICON_GOLDEN_AGE] 황금기가 시작됩니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_REPRESENTATION">
+			<Text>대의제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_REPRESENTATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]대의제[ENDCOLOR][NEWLINE]추가 도시 건설하면 사회 정책 채택에 필요한 [ICON_CULTURE] 문화 요구량이 증가하는데, 대의제를 채택하면 이 증가 수치가 33%만큼 감소합니다. 또한 [ICON_GOLDEN_AGE] 황금기가 열립니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_REPUBLIC">
+			<Text>공화국</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_REPUBLIC_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]공화국[ENDCOLOR][NEWLINE]모든 도시의 [ICON_PRODUCTION] 생산력이 1만큼 증가하며 도시에서 건물을 건설할 때 5%의 [ICON_PRODUCTION] 생산력 보너스를 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SCHOLASTICISM">
+			<Text>스콜라 철학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]스콜라 철학[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]동맹[ENDCOLOR]인 도시 국가가 생성하는 [ICON_RESEARCH] 과학력의 25%에 해당하는 과학력을 보너스로 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION">
+			<Text>과학 혁명</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]과학 혁명[ENDCOLOR][NEWLINE]기술 2개를 지급합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SECULARISM">
+			<Text>세속주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SECULARISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]세속주의[ENDCOLOR][NEWLINE]전문가 1인당 [ICON_RESEARCH] 과학이 2 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SOCIALISM">
+			<Text>사회주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SOCIALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]사회주의[ENDCOLOR][NEWLINE]건물 유지에 필요한 [ICON_GOLD] 금이 15%만큼 감소합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY">
+			<Text>국민주권</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]국민주권[ENDCOLOR][NEWLINE]국가가 [ICON_HAPPINESS_1] 행복한 상태이면 [ICON_RESEARCH] 과학력이 15%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_THEOCRACY">
+			<Text>신권 정치</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]신권 정치[ENDCOLOR][NEWLINE]사원이 있는 도시의 [ICON_GOLD] 금 생산량이 10%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR">
+			<Text>총력전</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]총력전[ENDCOLOR][NEWLINE]군사 유닛을 생산할 때 [ICON_PRODUCTION] 생산력이 15%만큼 증가하고 새 군사 유닛은 경험치를 15만큼 받습니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+			<Text>노동조합</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]노동조합[ENDCOLOR][NEWLINE]도로 및 철도 유지에 필요한 [ICON_GOLD] 금이 33%만큼 감소합니다. 항만과 항구에서 생산하는 [ICON_GOLD] 금이 1만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT">
+			<Text>통일 전선</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]통일 전선[ENDCOLOR][NEWLINE]플레이어가 군국주의 도시 국가의 적과 전쟁을 벌이면 해당 도시 국가가 유닛을 두 배 자주 제공합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE">
+			<Text>보통선거제도</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]보통선거제도[ENDCOLOR][NEWLINE]도시의 [ICON_STRENGTH] 전투력이 33%만큼 증가합니다.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_WARRIOR_CODE">
+			<Text>전사 규범</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]전사 규범[ENDCOLOR][NEWLINE]근접전 유닛을 생산할 때 15%의 [ICON_PRODUCTION] 생산력 보너스를 받으며 [ICON_CAPITAL] 수도 주위에서 위대한 장군이 출현합니다.</Text>
+		</Replace>
+
+	</Language_KO_KR>
+</GameData>
