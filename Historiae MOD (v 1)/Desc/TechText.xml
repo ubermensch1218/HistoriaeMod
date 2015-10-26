@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2015 7:07:39 PM -->
+<GameData>
+	<!--Tech-->
+	<!--Tech-->
+
+	<Language_KO_KR>
+
+		<Replace Tag="TXT_KEY_TECH_ANCIENT_SOCIETY_TITLE">
+			<Text>원시공동체</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANCIENT_SOCIETY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANCIENT_SOCIETY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANCIENT_SOCIETY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_STONEAGE_TITLE">
+			<Text>석기</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STONEAGE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STONEAGE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STONEAGE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_AGRICULTURE_TITLE">
+			<Text>농업혁명</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AGRICULTURE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AGRICULTURE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AGRICULTURE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE">
+			<Text>사육</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ARCHERY_TITLE">
+			<Text>궁술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARCHERY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARCHERY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARCHERY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MINING_TITLE">
+			<Text>광업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MINING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MINING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MINING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_THE_WHEEL_TITLE">
+			<Text>바퀴</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_THE_WHEEL_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_THE_WHEEL_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_THE_WHEEL_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ALPHABET_TITLE">
+			<Text>문자</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ALPHABET_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ALPHABET_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ALPHABET_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CALENDAR_TITLE">
+			<Text>역법</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CALENDAR_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CALENDAR_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CALENDAR_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SAILING_TITLE">
+			<Text>항해</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SAILING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SAILING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SAILING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_HORSEBACK_RIDING_TITLE">
+			<Text>기마술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HORSEBACK_RIDING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HORSEBACK_RIDING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BRONZE_WORKING_TITLE">
+			<Text>청동 기술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BRONZE_WORKING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BRONZE_WORKING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BRONZE_WORKING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MASONRY_TITLE">
+			<Text>석공술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MASONRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MASONRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MASONRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MATHEMATICS_TITLE">
+			<Text>수학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MATHEMATICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MATHEMATICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MATHEMATICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_LITERATURE_TITLE">
+			<Text>문학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_LITERATURE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_LITERATURE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_LITERATURE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SEA_TRADE_TITLE">
+			<Text>해상 교역</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SEA_TRADE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SEA_TRADE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SEA_TRADE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TRAIN_TITLE">
+			<Text>전투 훈련</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TRAIN_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TRAIN_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TRAIN_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_IRON_WORKING_TITLE">
+			<Text>철제 기술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_IRON_WORKING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_IRON_WORKING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_IRON_WORKING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ROAD_TITLE">
+			<Text>도로</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROAD_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROAD_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROAD_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CONSTRUCTION_TITLE">
+			<Text>건축</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CONSTRUCTION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CONSTRUCTION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CONSTRUCTION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PHILOSOPHY_TITLE">
+			<Text>철학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PHILOSOPHY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PHILOSOPHY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PHILOSOPHY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TARO_TITLE">
+			<Text>점성술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TARO_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TARO_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TARO_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_OPTICS_TITLE">
+			<Text>광학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_OPTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_OPTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_OPTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_STIRRUP_TITLE">
+			<Text>등자</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STIRRUP_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STIRRUP_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STIRRUP_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NAVY_STRATEGY_TITLE">
+			<Text>해전 교본</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NAVY_STRATEGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NAVY_STRATEGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NAVY_STRATEGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_METAL_CASTING_TITLE">
+			<Text>금속 주조</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METAL_CASTING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METAL_CASTING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METAL_CASTING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ENGINEERING_TITLE">
+			<Text>공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENGINEERING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENGINEERING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENGINEERING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GEOMETRY_TITLE">
+			<Text>기하학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GEOMETRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GEOMETRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GEOMETRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PIETY_TITLE">
+			<Text>신앙</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PIETY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PIETY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PIETY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SEA_ROUTE_TITLE">
+			<Text>항로</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SEA_ROUTE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SEA_ROUTE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SEA_ROUTE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CHIVALRY_TITLE">
+			<Text>기사도</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CHIVALRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CHIVALRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CHIVALRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CURRENCY_TITLE">
+			<Text>화폐</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CURRENCY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CURRENCY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CURRENCY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_STEEL_TITLE">
+			<Text>강철</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEEL_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEEL_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEEL_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CIVIL_SERVICE_TITLE">
+			<Text>공공 행정</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CIVIL_SERVICE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CIVIL_SERVICE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CIVIL_SERVICE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BLUEPRINT_TITLE">
+			<Text>설계</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BLUEPRINT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BLUEPRINT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BLUEPRINT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ART_TITLE">
+			<Text>예술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ART_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ART_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ART_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_PHILOSOPHY_TITLE">
+			<Text>종교 철학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_PHILOSOPHY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_PHILOSOPHY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_PHILOSOPHY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_COMPASS_TITLE">
+			<Text>나침반</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMPASS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMPASS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GOLD_STANDARD_TITLE">
+			<Text>금본위제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GOLD_STANDARD_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GOLD_STANDARD_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GOLD_STANDARD_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MONARCHY_TITLE">
+			<Text>봉건 군주제</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MONARCHY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MONARCHY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MONARCHY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_FARM_IMPLEMENT_TITLE">
+			<Text>농기구</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FARM_IMPLEMENT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FARM_IMPLEMENT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FARM_IMPLEMENT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GUILDS_TITLE">
+			<Text>길드</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GUILDS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GUILDS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GUILDS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MACHINERY_TITLE">
+			<Text>기계</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MACHINERY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MACHINERY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MACHINERY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_RELIGION_ART_TITLE">
+			<Text>종교 예술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGION_ART_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGION_ART_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGION_ART_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_THEOLOGY_TITLE">
+			<Text>신학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_THEOLOGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_THEOLOGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_THEOLOGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SCOPE_TITLE">
+			<Text>망원경</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SCOPE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SCOPE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SCOPE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ALCHEMY_TITLE">
+			<Text>연금술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ALCHEMY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ALCHEMY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ALCHEMY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MANOR_TITLE">
+			<Text>장원</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MANOR_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MANOR_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MANOR_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TAX_TITLE">
+			<Text>세금</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TAX_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TAX_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TAX_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TRACING_TITLE">
+			<Text>필사법</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TRACING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TRACING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TRACING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ORGANIZED_RELIGION_TITLE">
+			<Text>조직적 종교</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ORGANIZED_RELIGION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ORGANIZED_RELIGION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ORGANIZED_RELIGION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SHIPBUILDING_TITLE">
+			<Text>조선술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SHIPBUILDING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SHIPBUILDING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SHIPBUILDING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_TITLE">
+			<Text>직업 군인</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_URBANIZATION_TITLE">
+			<Text>도시화</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_URBANIZATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_URBANIZATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_URBANIZATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PRINTING_PRESS_TITLE">
+			<Text>인쇄 기술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PRINTING_PRESS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PRINTING_PRESS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_MUSIC_TITLE">
+			<Text>종교 음악</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_MUSIC_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_MUSIC_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RELIGIOUS_MUSIC_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ASTRONOMY_TITLE">
+			<Text>천문학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ASTRONOMY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ASTRONOMY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ASTRONOMY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GUNPOWDER_TITLE">
+			<Text>흑색 화약</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GUNPOWDER_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GUNPOWDER_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GUNPOWDER_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_METALLURGY_TITLE">
+			<Text>야금술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METALLURGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METALLURGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METALLURGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_DEVINE_RIGHT_TITLE">
+			<Text>왕권신수설</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DEVINE_RIGHT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DEVINE_RIGHT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DEVINE_RIGHT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BANKING_TITLE">
+			<Text>은행업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BANKING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BANKING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BANKING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_REFORMATION_TITLE">
+			<Text>종교 개혁</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REFORMATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REFORMATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REFORMATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NAVIGATION_TITLE">
+			<Text>항해술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NAVIGATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NAVIGATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NAVIGATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_POLYNESIAN_SCENARIO_TECH_WAYFINDING_TITLE">
+			<Text>신항로 개척</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_POLYNESIAN_SCENARIO_TECH_WAYFINDING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_POLYNESIAN_SCENARIO_TECH_WAYFINDING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_POLYNESIAN_SCENARIO_TECH_WAYFINDING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MATH_CALCULUS_TITLE">
+			<Text>미적분학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MATH_CALCULUS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MATH_CALCULUS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MATH_CALCULUS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CHEMISTRY_TITLE">
+			<Text>화학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CHEMISTRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CHEMISTRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CHEMISTRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_DIPLO_TITLE">
+			<Text>국제 외교</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_DIPLO_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_DIPLO_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_DIPLO_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_STOCK_CORPORATION_TITLE">
+			<Text>주식회사</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STOCK_CORPORATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STOCK_CORPORATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STOCK_CORPORATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_EDUCATION_TITLE">
+			<Text>공공 교육</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_EDUCATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_EDUCATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_EDUCATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_POLITICS_TITLE">
+			<Text>정치학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_POLITICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_POLITICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_POLITICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ACOUSTICS_TITLE">
+			<Text>음향학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ACOUSTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ACOUSTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ACOUSTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GEOGRAPHY_TITLE">
+			<Text>지리학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GEOGRAPHY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GEOGRAPHY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GEOGRAPHY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PHYSICS_TITLE">
+			<Text>물리학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PHYSICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PHYSICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PHYSICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CALCULUS_TITLE">
+			<Text>고등 수학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CALCULUS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CALCULUS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CALCULUS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MILITARY_SCIENCE_TITLE">
+			<Text>군사 과학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MILITARY_SCIENCE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MILITARY_SCIENCE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MILITARY_SCIENCE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_FACTORY_TITLE">
+			<Text>공업화</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FACTORY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FACTORY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FACTORY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_TRADE_TITLE">
+			<Text>국제 교역</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_TRADE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_TRADE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBAL_TRADE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ECONOMICS_TITLE">
+			<Text>경제학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ECONOMICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ECONOMICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ECONOMICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_HUMANITIES_TITLE">
+			<Text>인문학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HUMANITIES_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HUMANITIES_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HUMANITIES_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ARCHITECTURE_TITLE">
+			<Text>건축학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARCHITECTURE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARCHITECTURE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARCHITECTURE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NATURAL_SCIENCE_TITLE">
+			<Text>자연과학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NATURAL_SCIENCE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NATURAL_SCIENCE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NATURAL_SCIENCE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ASTROPHYSICS_TITLE">
+			<Text>천체 물리학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ASTROPHYSICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ASTROPHYSICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ASTROPHYSICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MEASUREMENT_TITLE">
+			<Text>측량술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEASUREMENT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEASUREMENT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEASUREMENT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_DYNAMITE_TITLE">
+			<Text>다이너마이트</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DYNAMITE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DYNAMITE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DYNAMITE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_STEAM_POWER_TITLE">
+			<Text>증기기관</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEAM_POWER_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEAM_POWER_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEAM_POWER_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CONCRETE_TITLE">
+			<Text>콘크리트</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CONCRETE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CONCRETE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CONCRETE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CORPORATION_TITLE">
+			<Text>기업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CORPORATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CORPORATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CORPORATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_TITLE">
+			<Text>제국주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_HISTORY_TITLE">
+			<Text>역사학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HISTORY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HISTORY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HISTORY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_EVOLUTION_TITLE">
+			<Text>진화론</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_EVOLUTION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_EVOLUTION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_EVOLUTION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BIOLOGY_TITLE">
+			<Text>생물학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIOLOGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIOLOGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIOLOGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_TITLE">
+			<Text>과학 이론</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_METEOROLOGY_TITLE">
+			<Text>기상학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METEOROLOGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METEOROLOGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_METEOROLOGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_RAILROAD_TITLE">
+			<Text>철도</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RAILROAD_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RAILROAD_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RAILROAD_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_FACTORIZATION_TITLE">
+			<Text>공장화</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FACTORIZATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FACTORIZATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FACTORIZATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ARMS_INDUSTRY_TITLE">
+			<Text>군수산업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMS_INDUSTRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMS_INDUSTRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMS_INDUSTRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MILITARISM_TITLE">
+			<Text>군국주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MILITARISM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MILITARISM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MILITARISM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CAPITALISM_TITLE">
+			<Text>자본론</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CAPITALISM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CAPITALISM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CAPITALISM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NATIONALISM_TITLE">
+			<Text>민족주의</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NATIONALISM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NATIONALISM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NATIONALISM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SOICAL_EVOLUTION_TITLE">
+			<Text>사회진화론</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SOICAL_EVOLUTION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SOICAL_EVOLUTION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SOICAL_EVOLUTION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ELECTRICITY_TITLE">
+			<Text>전기</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTRICITY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTRICITY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTRICITY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_COMBUSTION_TITLE">
+			<Text>내연기관</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMBUSTION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMBUSTION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMBUSTION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_TITLE">
+			<Text>교체형 부품</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_OILCHEM_TITLE">
+			<Text>석유화학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_OILCHEM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_OILCHEM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_OILCHEM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SOCIAL_SCIENCE_TITLE">
+			<Text>사회과학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SOCIAL_SCIENCE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SOCIAL_SCIENCE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SOCIAL_SCIENCE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_FERTILIZER_TITLE">
+			<Text>비료</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FERTILIZER_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FERTILIZER_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FERTILIZER_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_REFRIGERATION_TITLE">
+			<Text>냉각 기술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REFRIGERATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REFRIGERATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_REFRIGERATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ELECTRONICS_TITLE">
+			<Text>전기공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTRONICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTRONICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTRONICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_FLIGHT_TITLE">
+			<Text>비행</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FLIGHT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FLIGHT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FLIGHT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_AUTOMOBILE_TITLE">
+			<Text>자동차</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AUTOMOBILE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AUTOMOBILE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AUTOMOBILE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PLASTICS_TITLE">
+			<Text>플라스틱 공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PLASTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PLASTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PLASTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ARMY_TECH_TITLE">
+			<Text>군수공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMY_TECH_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMY_TECH_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMY_TECH_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MARKETING_TITLE">
+			<Text>마케팅</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MARKETING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MARKETING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MARKETING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PROPAGANDA_TITLE">
+			<Text>프로파간다</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PROPAGANDA_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PROPAGANDA_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PROPAGANDA_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TOURISM_TITLE">
+			<Text>관광업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TOURISM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TOURISM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TOURISM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PENICILIN_TITLE">
+			<Text>페니실린</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PENICILIN_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PENICILIN_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PENICILIN_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ELECTROMAGNETISM_TITLE">
+			<Text>전자기학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTROMAGNETISM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTROMAGNETISM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTROMAGNETISM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BALLISTICS_TITLE">
+			<Text>탄도학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BALLISTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BALLISTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BALLISTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_HIGHWAY_TITLE">
+			<Text>고속도로</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HIGHWAY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HIGHWAY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HIGHWAY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_RADAR_TITLE">
+			<Text>레이더</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RADAR_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RADAR_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_RADAR_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ADVERTISEMENT_TITLE">
+			<Text>광고업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ADVERTISEMENT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ADVERTISEMENT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ADVERTISEMENT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MASS_MEDIA_TITLE">
+			<Text>대중매체</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MASS_MEDIA_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MASS_MEDIA_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MASS_MEDIA_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MEDIC_TITLE">
+			<Text>의료산업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEDIC_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEDIC_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEDIC_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ATOMIC_THEORY_TITLE">
+			<Text>원자론</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ATOMIC_THEORY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ATOMIC_THEORY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ATOMIC_THEORY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_COMPUTERS_TITLE">
+			<Text>컴퓨터</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMPUTERS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMPUTERS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMPUTERS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_COMBINED_ARMS_TITLE">
+			<Text>통합 작전군</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMBINED_ARMS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMBINED_ARMS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COMBINED_ARMS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ACTING_COMPANY_TITLE">
+			<Text>대행 기업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ACTING_COMPANY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ACTING_COMPANY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ACTING_COMPANY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_DELIVERING_TITLE">
+			<Text>유통산업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DELIVERING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DELIVERING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_DELIVERING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MAJOR_COMPANY_TITLE">
+			<Text>대기업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MAJOR_COMPANY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MAJOR_COMPANY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MAJOR_COMPANY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ENVIRONMENT_TITLE">
+			<Text>환경학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENVIRONMENT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENVIRONMENT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENVIRONMENT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FISSION_TITLE">
+			<Text>핵분열</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FISSION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FISSION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MOBILE_TACTICS_TITLE">
+			<Text>기동 전술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MOBILE_TACTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MOBILE_TACTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MOBILE_TACTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ROCKETRY_TITLE">
+			<Text>로켓공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROCKETRY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROCKETRY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROCKETRY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ARMS_CORPORATION_TITLE">
+			<Text>군수기업</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMS_CORPORATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMS_CORPORATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ARMS_CORPORATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GENETICS_TITLE">
+			<Text>유전공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GENETICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GENETICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GENETICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ECOTOUR_TITLE">
+			<Text>생태관광</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ECOTOUR_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ECOTOUR_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ECOTOUR_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_QUANTUM_MECHANICS_TITLE">
+			<Text>양자역학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_QUANTUM_MECHANICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_QUANTUM_MECHANICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_QUANTUM_MECHANICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_LASERS_TITLE">
+			<Text>레이저</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_LASERS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_LASERS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_LASERS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ELECTION_CIRCUIT_TITLE">
+			<Text>전자회로</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTION_CIRCUIT_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTION_CIRCUIT_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ELECTION_CIRCUIT_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_TITLE">
+			<Text>고급 탄도학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SATELLITES_TITLE">
+			<Text>인공위성</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SATELLITES_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SATELLITES_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SATELLITES_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TELECOM_TITLE">
+			<Text>전기통신</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TELECOM_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TELECOM_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TELECOM_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BIOFOOD_TITLE">
+			<Text>바이오푸드</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIOFOOD_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIOFOOD_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIOFOOD_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_UN_TITLE">
+			<Text>국제협약기구</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_UN_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_UN_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_UN_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_TITLE">
+			<Text>입자물리학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ANDROID_TITLE">
+			<Text>스마트폰</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANDROID_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANDROID_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ANDROID_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ROBOTICS_TITLE">
+			<Text>로봇공학</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROBOTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROBOTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ROBOTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_INTERNET_TITLE">
+			<Text>인터넷</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_INTERNET_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_INTERNET_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_INTERNET_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_FIBER_OPTICS_TITLE">
+			<Text>광섬유</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FIBER_OPTICS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FIBER_OPTICS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_FIBER_OPTICS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_COPYING_TITLE">
+			<Text>복제 기술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COPYING_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COPYING_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_COPYING_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_STEALTH_TITLE">
+			<Text>스텔스</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEALTH_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEALTH_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_STEALTH_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SNS_TITLE">
+			<Text>소셜 네트워크</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SNS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SNS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SNS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_TARS_TITLE">
+			<Text>무인기술</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TARS_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TARS_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_TARS_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_GLOBALIZATION_TITLE">
+			<Text>세계화</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBALIZATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBALIZATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_GLOBALIZATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_MEDICAL_REVOLUTION_TITLE">
+			<Text>의료 혁명</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEDICAL_REVOLUTION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEDICAL_REVOLUTION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_MEDICAL_REVOLUTION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NEW_ENERGY_TITLE">
+			<Text>대체 에너지</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEW_ENERGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEW_ENERGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NEW_ENERGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FUSION_TITLE">
+			<Text>핵융합</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FUSION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FUSION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_NUCLEAR_FUSION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BIGDATA_TITLE">
+			<Text>빅데이터</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIGDATA_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIGDATA_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIGDATA_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_AI_TITLE">
+			<Text>인공지능</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AI_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AI_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_AI_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_WORLD_GOV_TITLE">
+			<Text>세계 정부</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_WORLD_GOV_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_WORLD_GOV_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_WORLD_GOV_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_CLONE_TITLE">
+			<Text>휴먼 클론</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CLONE_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CLONE_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_CLONE_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ENDLESS_ENERGY_TITLE">
+			<Text>영구동력</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENDLESS_ENERGY_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENDLESS_ENERGY_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ENDLESS_ENERGY_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_SPACE_EXPLORATION_TITLE">
+			<Text>우주 탐사</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SPACE_EXPLORATION_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SPACE_EXPLORATION_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_SPACE_EXPLORATION_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BIGBRO_TITLE">
+			<Text>빅브라더</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIGBRO_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIGBRO_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BIGBRO_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_HUMANOID_TITLE">
+			<Text>휴머노이드</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HUMANOID_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HUMANOID_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_HUMANOID_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_ISLAND_TITLE">
+			<Text>아일랜드</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ISLAND_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ISLAND_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_ISLAND_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_YAMATO_TITLE">
+			<Text>우주전함</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_YAMATO_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_YAMATO_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_YAMATO_QUOTE">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TECH_BNW_TITLE">
+			<Text>멋진 신세계</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BNW_DESC">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BNW_HELP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TECH_BNW_QUOTE">
+			<Text></Text>
+		</Replace>
+
+	</Language_KO_KR>
+</GameData>

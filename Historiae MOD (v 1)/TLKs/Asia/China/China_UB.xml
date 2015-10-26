@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 10:54:59 PM -->
+<GameData>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_IWHA</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Buildings>
+		<!--성능 - 문화 1 골드 3 과학 3 생산 3 기본 제공
+         도시 공격력 3 +
+         모든 도시에서 시민 1명당 식량생산량 1%씩 증가. 최대 10%
+         수도에서 생성된 근접유닛 승급 <해방> 제공
+		-->
+		<Row>
+			<Type>BUILDING_IHWA</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_IHWA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_IHWA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_IWHA_TEXT</Civilopedia>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<EnhancedYieldTech>TECH_IMPERIALISM</EnhancedYieldTech>
+			<Defense>250</Defense>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CIV_BUILDING_ATLAS_HITM2</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
+			<MutuallyExclusiveGroup>2</MutuallyExclusiveGroup>
+		</Row>
+		<Row>
+			<Type>BUILDING_PAVILON</Type>
+			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<Cost>265</Cost>
+			<GoldMaintenance>4</GoldMaintenance>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_PAVILON_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PAVILON</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PAVILON_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PAVILON_STRATEGY</Strategy>
+			<ArtDefineTag>THEATRE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<SpecialistCount>1</SpecialistCount>
+			<Defense>200</Defense>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Happiness>2</Happiness>
+			<CultureRateModifier>15</CultureRateModifier>
+			<HurryCostModifier>10</HurryCostModifier>
+			<IconAtlas>EXPANSION_SCEN_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_PAPER_MAKER</Type>
+			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_PAPER_MAKER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PAPER_MAKER_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PAPER_MAKER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PAPER_MAKER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_PAPER_MAKER</ArtDefineTag>
+			<EnhancedYieldTech>TECH_DRAMA</EnhancedYieldTech>
+			<EspionageModifier>5</EspionageModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>100</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_FIREWORKS</Type>
+			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
+			<Cost>225</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_FIREWORKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FIREWORKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FIREWORKS_TEXT</Civilopedia>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>400</Defense>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<EnhancedYieldTech>TECH_GUNPOWDER</EnhancedYieldTech>
+			<PortraitIndex>61</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+		</Row>
+	</Buildings>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>20</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<DomainType>DOMAIN_HOVER</DomainType>
+			<Experience>20</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_ResourceYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAVILON</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+
+
+
+
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IHWA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FIREWORKS</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
+
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<ResourceType>RESOURCE_PAPER</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</GameData>

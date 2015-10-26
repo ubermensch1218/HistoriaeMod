@@ -1,0 +1,122 @@
+-- Read me
+-- Author: JS_KANG
+-- DateCreated: 9/4/2014 10:53:37 PM
+--------------------------------------------------------------
+¾È³çÇÏ½Ê´Ï±î
+
+¸ðµå Á¦ÀÛ ÃÑ°ýÀÚ ½ÃÀúÀÔ´Ï´Ù.
+
+¸ðµå Á¦ÀÛÀÚµé ¹× Å©·¹µ÷
+
+·ç¾ÆÆÀ: ½ÃÀú
+
+XMLÆÀ: Augustus Caesar , Bill991230, ¿À½Â¿ì´Ô, porthaky´Ô
+
+±×·¡ÇÈÆÀ: bill991230 ´ß°ú Æë±Ï
+
+±¸»óÆÀ: ¸¶¸£ÄÚ½º´Ô, °³º¹Ä¡´Ô, ºòÅÍ´Ô, Á¶ÀÌµå¹ö±×´Ô, ÈæÁ×´Ô
+
+
+Credits (//currently not in)
+
+//Fallen_Kings for Imigration Mod
+
+Most of Building Graphics -fanatics, sukitract... and other thank you. 
+
+Superpower Mod modders for LUA and graphics, with xml
+
+CCTP Mod modders for LUA and graphics, with xml
+
+IN MOD LUAs
+- Policy Giving Buildings => Machiavelli24	
+- //Random Events => Hollenbo, veyder, Hipfot YET
+- Resources => Resource Generator by DEEP_BLUE 
+- Cultural Overview MOD by Lockstep, Leugi, kaspergm
+- Modular City Info Stack by Sukritact's
+- Carthage
+	- Settling Giving Gold => JFD's Victorian Mod IN
+	- Promotion Allows to give Merchant point every winning battle +  
+		Giving/passing moves to same tile unit => Sukritract's Phoenician Mod
+- Rome
+	- //Roman Road by NerCafel
+- Barbarian Immersion MOD by Leugi
+
+Graphics Credits
+- Iberian MOD Graphics - Tarciosm
+
+Sukitract for the More Mercatile Mod
+
+Barthor's new Resources
+
+regalmanemperor's many new wonders and resources
+
+Markus Beutel for icon support
+
+GRAPHICS FROM GAME OF THRONES MOD - KWADJH
+ (CM_1,CM_2,CM_3)
+
+CivArts-Carthage (»óÀÎ°ú, ÇØ»óÀ¯´Ö ±×·¡ÇÈ) From Sukitract's Phoenician Civ
+
+TCS - CrazyScotsman's Omnibous Mod
+
+BTF - Beyond the Future MOD
+
+HITM - History In the makings MOD
+
+ResBuilding - DJSHenninger
+
+More Buildings, BMF - Moriboe, sukritact
+
+Merc - Unit icon by Wodhann
+
+Super Great Detailed Unit and Building Graphics from JFD's Mods and Sukitract's Mods, Also thanks to janboruta for graphics
+
+Graphics from CCTP
+
+SP Folder graphics from Super Power MODs
+
+P3 graphics from Greek Epics
+
+Most Wonder Graphics From http://forums.civfanatics.com/showthread.php?t=416781 By Pouakai,JANBORUTA, JPBAR81 and Sukitract.
+
+Greece Unit Graphics From LS12 Civilizations, 
+
+Graphics From Iberian Mod
+
+Ancient from Putmalk's Ancient world MOD (¾ÆÀÌÄÜ ¾ÆÆ²¶ó½º ³Ö¾î)
+
+GE GreekEpic Icon
+
+WHoward's plot iterators
+
+
+Advanced - from Civ.Advanced Mod
+Contains part or all of some mods made by Barathor, thecrazyscotsman, davey_henninger, BlouBlou, SushiSquid, Skaz881, Glacierheart, cryptlc, Horem
+http://steamcommunity.com/profiles/76561198030721933/myworkshopfiles/?appid=8930
+http://steamcommunity.com/id/thecrazyscotsman/myworkshopfiles/?appid=8930
+http://steamcommunity.com/profiles/76561197961670922/myworkshopfiles/?appid=8930
+http://steamcommunity.com/profiles/76561198046958746/myworkshopfiles/?appid=8930
+http://forums.civfanatics.com/downloads.php?do=file&amp;id=22621</Description>
+
+
+	Art
+		- Barathor	- for the Dojo, Bull Ring and Viking Longhouse icons
+		- Alan H	- for the Agora icon
+		- janboruta	- for the Landwehr icon
+		- Leugi		- for the Chasqui icon
+		- sukritact	- for the Churches of Lalibela icon
+
+		- bernie14	- for the Landwehr, Khopesh Swordsman and Uhlan unit model
+		- danrell	- for the Eagle and Clibanarii unit model
+		- JTitan	- for the Chasqui and Sofa unit models
+		- Patum333	- for the Forest Prowler unit model
+		
+SPECIAL THANKS
+
+	Special thanks to LastSword for the help in development of special caracteristics
+	And special thanks to all that participate in the thread discussion on CivFanatics
+		
+
+
+
+IF You find any Missing credits from this MOD, Please Email to ubermensch1218@gmail.com 

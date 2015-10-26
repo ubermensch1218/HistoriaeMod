@@ -1,0 +1,53 @@
+-- UpdateLog
+-- Author: Ubermensch
+-- DateCreated: 3/1/2015 9:46:51 PM
+--------------------------------------------------------------
+03. 01. 15
+	Trait Error Fixed, IconAtlas Font errors observed. 
+	##
+	found the error cause. 
+		Cause: Did not put the graphic into the mod and it caused the error. 
+
+03.28. 15
+	Error found:Resource doesn't show when doing trade. 
+	##
+	cause: b/c of SUKITRACTS's Save util was NOT VFSed
+
+04.10.15
+	Some patches
+	Carthage Merchant can go to sea and make a resource. 
+	- CREDIT FOR SCOTLAND MOD BY JFD  <= aborted 5.10.15
+
+05.05.15
+	Graphic - pull out tyrian dye
+	easier code for tyrian dye
+	League declaring war on code (started)
+
+05.05.15
+	US's UA on build. 
+	CREDIT FOR LINCOLN BY JFD
+
+05.10.15 
+	Tech fix, Unit fix, building fix.
+	TSL resources
+
+05.11.15
+	CREDIT FOR ISRAEL MOD and TUPI MOD (Graphic purposes)
+	Kibbutz - Bizantin Theme, and Maloca for LongHouse Improvement.
+	비잔틴 3위인 신앙 구입 가능
+
+05.14.15
+	Major fix began
+
+05.17.15 
+	Major Fix done
+	Social Policy UI by Eric "Jheral" Lindroth (fixed for Historiae MOD Version)
+	Work on other Civs
+
+06.22.15
+	Minor fixes done.
+	Venezia UA done
+	OnSpecificTile Promotion done
+	Tax system out
+	Hunic UA fix
+	Promotion XML on. 
