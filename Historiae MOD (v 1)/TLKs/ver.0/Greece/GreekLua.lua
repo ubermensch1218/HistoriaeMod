@@ -2,13 +2,12 @@
 -- Author: JS
 -- DateCreated: 12/12/2014 3:00:45 PM
 --------------------------------------------------------------
+include("ModTools.lua")
+
 GameEvents.PlayerDoTurn.Add(function(player)
-	local iActivePlayer = Game.GetActivePlayer();
-	local pPlayer = Players[iActivePlayer];
-	local pMinor;
-	if pPlayer:IsMinorCiv() then
-		pMinor = Players[iActivePlayer];
-	end
+
+	local pPlayer = Players[player];
+
 	if pPlayer:IsEverAlive() and pPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_GREECE"] then
 		
 		if not pPlayer:HasPolicy(GameInfoTypes["POLICY_ALEXANDER"]) then
@@ -16,29 +15,34 @@ GameEvents.PlayerDoTurn.Add(function(player)
 				pPlayer:SetNumFreePolicies(0)
 				pPlayer:SetHasPolicy(GameInfoTypes["POLICY_ALEXANDER"], true)
 		end
+	end
+end);
 
-		-- Olympia 
-		local iLastTurnNumMinorsMet = pPlayer:GetNumMinorCivsMet();
+local civilisationID				= GameInfoTypes["CIVILIZATION_GREECE"];
 
-		local NumMinorCivAllies = 0;
-
-		for pCity in pPlayer:Cities() do
-		local CityCulture = pCity:GetJONSCulturePerTurn();
-
-
+function GreekOlympia(iPlayer)
+	local pPlayer = Players[iPlayer]
+	if pPlayer:IsAlive() and not pPlayer:IsMinorCiv() and iPlayer ~= 63 then
+		if (pPlayer:GetCivilizationType() == civilisationID) then
 			if pCity:GetNumRealBuilding(GameInfoTypes["BUILDING_OLYMPIA"]) == 1 then
-				local bAllies = pMinor:IsAllies(pPlayer);
-				for i = 1, iLastTurnNumMinorsMet, 1 do
-					if bAllies then
-						NumMinorCivAllies = NumMinorCivAllies +1;
+				local iAlliedCityState = 0;
+				for iLoopPlayer, pLoopPlayer in pairs(Players) do
+					if pLoopPlayer:IsMinorCiv() then
+						if pLoopPlayer:GetMinorCivFriendshipLevelWithMajor(iPlayer) >= 2 then
+							iAlliedCityState = iAlliedCityState + 1;
+						end
 					end
-				end 
-				pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_GREEK_CULTURE_UNIT_MODIFIER"], math.floor(CityCulture * 0.02 * NumMinorCivAllies));
+				end
+				for pCity in pPlayer:Cities() do
+					pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_GREEK_CULTURE_UNIT_MODIFIER"], math.floor(2* iAlliedCityState))
+				end
 			end
 		end
-
 	end
+end
 
-end);
+if IsCivilisationActive(civilisationID) then
+	GameEvents.PlayerDoTurn.Add(GreekOlympia)
+end
 
 
