@@ -2,6 +2,7 @@
 -- Author: Ubermensch
 -- DateCreated: 5/18/2015 10:13:59 PM
 --------------------------------------------------------------
+include("ModTools.lua")
 include("PlotIterators")
 GameEvents.PlayerDoTurn.Add(function (player)
 	local pPlayer = Players[player];
@@ -48,19 +49,17 @@ GameEvents.PlayerDoTurn.Add(function(player)
 			-- ÁÖµÐÁö
 			if playerStartPlot:IsImprovementPillaged() == false then
 
-					local BaseRand = Game.Rand(10,"Hun Horse Archer Percentage") ;					
+					local BaseRand = Game.Rand(25,"Hun Horse Archer Percentage") ;					
 					local X = playerStartPlot:GetX();
 					local Y = playerStartPlot:GetY();
 
-					if BaseRand == 1 then
+					if (0< BaseRand) and (BaseRand< 6)then
 						pPlayer:InitUnit (HunHorseArcherID, X, Y);
-					elseif BaseRand == 2 then
-						pPlayer:InitUnit (HunHorseArcherID, X, Y);
-					elseif BaseRand == 3 then
-						pPlayer:InitUnit (HunRamID, X, Y);
-					elseif BaseRand == 4 then
-						pPlayer:InitUnit (HunRamID, X, Y);
-					elseif BaseRand == 5 then
+					elseif (5< BaseRand) and (BaseRand< 1) then
+						pPlayer:InitUnit (UNIT_NOMADS_LEADER, X, Y);
+					elseif (10< BaseRand) and (BaseRand< 16) then
+						pPlayer:InitUnit (HunNLeaderID, X, Y);
+					elseif (15< BaseRand) and (BaseRand< 18) then
 						pPlayer:InitUnit (iUnitID, X, Y);
 					end
 				end
@@ -73,13 +72,15 @@ GameEvents.PlayerDoTurn.Add(function(player)
 					local CityY = CityPlot:GetY();
 					if pPlayer:GetNumCities() > 0 then
 						local NumCities = pPlayer:GetNumCities();
-						local BaseRand = Game.Rand(5 + NumCities,"Hun Ram Percentage") ;	
-						if BaseRand == 1 then
+						local BaseRand = Game.Rand(20 + NumCities,"Hun Ram Percentage") ;	
+						if  (0< BaseRand) and (BaseRand< 6) then
 							pPlayer:InitUnit (HunRamID, CityX, CityY);
-						elseif BaseRand == 2 then
+						elseif (5< BaseRand) and (BaseRand< 11)then
 							pPlayer:InitUnit (HunHorseArcherID, CityX, CityY);
-						elseif BaseRand == 3 then
+						elseif (17< BaseRand) and (BaseRand< 20) then
 							pPlayer:InitUnit (iUnitID, CityX, CityY);
+						elseif (10< BaseRand) and (BaseRand< 16) then
+							pPlayer:InitUnit (HunNLeaderID, CityX, CityY);
 						end
 					end
 				end

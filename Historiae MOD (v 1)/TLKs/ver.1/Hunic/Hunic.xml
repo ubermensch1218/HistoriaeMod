@@ -220,6 +220,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
+			<WorkRate>1000</WorkRate>
 			<UnitArtInfo>ART_DEF_UNIT_GENERAL</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
 			<UnitFlagIconOffset>90</UnitFlagIconOffset>
@@ -231,7 +232,7 @@
 			<Class>UNITCLASS_SETTLER</Class>
 			<Type>UNIT_HUN_SETTLER</Type>
 			<Moves>4</Moves>
-			<Capture>UNITCLASS_SETTLER</Capture>
+			<Capture>NULL</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
 			<HurryCostModifier>20</HurryCostModifier>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
@@ -241,9 +242,10 @@
 			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SETTLER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SETTLER_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_SETTLER</Help>
-			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
 			<CombatLimit>0</CombatLimit>
 			<Found>true</Found>
+			<Food>true</Food>
+			<CultureBombRadius>1</CultureBombRadius>
 			<WorkRate>1000</WorkRate>
 			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
 			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
@@ -261,6 +263,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
+			<WorkRate>1000</WorkRate>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_HUN_HORSE_ARCHER</Description>
 			<Civilopedia>TXT_KEY_CIV5_HUN_HORSE_ARCHER_TEXT</Civilopedia>
@@ -289,6 +292,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
+			<WorkRate>1000</WorkRate>
 			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_HUN_BATTERING_RAM</Description>
 			<Civilopedia>TXT_KEY_CIV5_HUN_BATTERING_RAM_TEXT</Civilopedia>
@@ -324,6 +328,10 @@
 		<Replace>
 			<UnitType>UNIT_HUN_SETTLER</UnitType>
 			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Replace>
+		<Replace>
+			<UnitType>UNIT_HUN_SETTLER</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
 		</Replace>
 
 	</Unit_AITypes>
@@ -421,6 +429,10 @@
 	<Unit_Builds>
 		<Replace>
 			<UnitType>UNIT_HUN_SETTLER</UnitType>
+			<BuildType>BUILD_HUN_BARB_CAMP</BuildType>
+		</Replace>
+		<Replace>
+			<UnitType>UNIT_NOMADS_LEADER</UnitType>
 			<BuildType>BUILD_HUN_BARB_CAMP</BuildType>
 		</Replace>
 	</Unit_Builds>

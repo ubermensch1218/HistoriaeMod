@@ -37,7 +37,10 @@ FROM Civilizations WHERE ID >= 0;
 
 INSERT OR REPLACE INTO Unit_FreePromotions (UnitType,	PromotionType)
 SELECT Type, ('PROMOTION_OCEAN_IMPASSABLE')
-FROM Units WHERE Domain = ('DOMAIN_SEA') AND Cost < 350 ;
+FROM Units WHERE Domain = ('DOMAIN_SEA') AND Cost < 400 ;
+
+DELETE FROM Unit_FreePromotions
+WHERE UnitType = 'UNIT_CARTHAGINIAN_QUINQUEREME' AND PromotionType = 'PROMOTION_OCEAN_IMPASSABLE';
 
 /*INSERT INTO Resources	(Type,					Description,							Civilopedia,								Help,										ResourceClassType)
 SELECT					'RESOURCE_TAXES',		'TXT_KEY_RESOURCE_DUMMY',				'TXT_KEY_CIV5_RESOURCE_DUMMY_TEXT',		'TXT_KEY_RESOURCE_DUMMY_HELP',				'RESOURCECLASS_DUMMY';
@@ -64,6 +67,7 @@ SELECT Type, ('PROMOTION_OCEAN_IMPASSABLE')
 FROM Units WHERE Domain = ('DOMAIN_SEA') AND Cost < 350 ;
 
 UPDATE Units SET MoveAfterPurchase=1 WHERE ID >= -1;
+
 
 
 

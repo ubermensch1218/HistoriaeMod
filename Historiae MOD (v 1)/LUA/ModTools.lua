@@ -106,31 +106,3 @@ function IsCivilisationActive(civilisationID)
 
 	return false
 end
-
--- IS IDEOLOGY DIFF
-Ideaologies = { GameInfoTypes["POLICY_BRANCH_AUTOCRACY"], GameInfoTypes["POLICY_BRANCH_FREEDOM"], GameInfoTypes["POLICY_BRANCH_ORDER"]}
-function IsIdeologyDiff(iPlayer,iEnemyPlayer)
-	local pPlayer = Players[iPlayer]
-	local pEnemyPlayer = Players[iEnemyPlayer]
-	if pPlayer:IsEverAlive() and not pPlayer:IsMinorCiv() and iPlayer ~= 63 then
-		local PlayerCiv =  pPlayer:GetCivilizationType()
-		if (pPlayer:GetCivilizationType() == PlayerCiv) and (pEnemyPlayer:GetCivilizationType() ~= PlayerCiv) then
-			for i = 1,3 do
-				if pPlayer:IsPolicyBranchUnlocked(Ideaologies[i]) ~= pEnemyPlayer:IsPolicyBranchUnlocked(Ideaologies[i]) then
-						return true
-				end
-			end
-		end
-	end
-end
---[[
-function GetPlayerTrait(player)
-    if not IsMajorCiv(player) then
-	    return nil;
-	end  
-    local leader = GameInfo.Leaders[player:GetLeaderType()];
-    local leaderTrait = GameInfo.Leader_Traits("LeaderType ='" .. leader.Type .. "'")();
-    local Trait = GameInfo.Traits[leaderTrait.TraitType];
-	return Trait;
-end
-]]--

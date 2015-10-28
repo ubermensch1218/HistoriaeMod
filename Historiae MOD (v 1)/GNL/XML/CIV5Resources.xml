@@ -18,7 +18,7 @@
 			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
 			<AIObjective>1</AIObjective>
-			<ConstAppearance>100</ConstAppearance>
+			<ConstAppearance>120</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
 			<MaxLatitude>90</MaxLatitude>
 			<RandApp1>10</RandApp1>

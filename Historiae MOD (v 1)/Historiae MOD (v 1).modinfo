@@ -39,9 +39,9 @@ Credits are in the ReadMe.txt</Description>
     <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">LUA/CulturalOverview/CultureOverview.xml</File>
     <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">LUA/MCIS/CityInfoStack.lua</File>
     <File md5="120EB71025973A8A48B38314241DD0B3" import="0">LUA/MCIS/CityInfoStack.xml</File>
-    <File md5="68CFFEDAA5D26912A0987F5B370D1695" import="0">LUA/MCIS/Greek_MCIS.lua</File>
+    <File md5="3DF17CA671D0EB04B727E1DB75618261" import="0">LUA/MCIS/Greek_MCIS.lua</File>
     <File md5="8B9B605BB5450CBA15BB723D2E5D89EC" import="0">LUA/MCIS/Greek_MCIS.xml</File>
-    <File md5="696ABD696B868169358A8C71F735FA2A" import="0">LUA/ModTools.lua</File>
+    <File md5="3408D805466E483F3B9964A60B6C7232" import="1">LUA/ModTools.lua</File>
     <File md5="900A0BBAD8575A874BEE24317607825F" import="0">LUA/RandEvents/MyUserEvents.lua</File>
     <File md5="3B59A9BADA8C63A3665ECB6D27293670" import="0">LUA/RandEvents/RandEvents.txt</File>
     <File md5="E6659146CCD9AA9D26729548FE16B730" import="0">LUA/RandEvents/UserEvents.lua</File>
@@ -67,7 +67,7 @@ Credits are in the ReadMe.txt</Description>
     <File md5="BCDFE56499F97C3780F17F0E15B2BEC1" import="0">RP/XML/Policy.sql</File>
     <File md5="E179D6BD00DF4705D23996BE6DC20FA1" import="0">RP/XML/PolicyBranch_del.sql</File>
     <File md5="451E20313485DB474C3F1C0EC7C64050" import="0">RP/XML/Policy_delete.sql</File>
-    <File md5="F1280775FF59D6098C8E117FC32DC372" import="0">SQL/Others.sql</File>
+    <File md5="CDFE8F9A2514AAA922BBDA9667C0963D" import="0">SQL/Others.sql</File>
     <File md5="1F0B6759AB2FE3BE6490A7275920C050" import="0">SQL/Others2.sql</File>
     <File md5="23E5F68ED0C69C1D6998FD3DF51FB318" import="0">SQL/PromotionDel.sql</File>
     <File md5="37B3F9A6F0870CC2705C261825B64989" import="0">TLKs/Africa/Ethiopia/Ethiopia_UB.xml</File>
@@ -81,7 +81,7 @@ Credits are in the ReadMe.txt</Description>
     <File md5="D0CCB4F96ABA54D01ED7E54E57B2668E" import="0">TLKs/ver.1/Arabia/Arabia_UB.xml</File>
     <File md5="7AFE6FABB22A43AB03505B1295519505" import="0">TLKs/ver.1/Celt/LUA/CeltUA.lua</File>
     <File md5="9BA378247FF86819F447990275E090C4" import="0">TLKs/ver.1/Hunic/Hunic.sql</File>
-    <File md5="509AE1185FE0AEFFAFEC77BFB16CE4FF" import="0">TLKs/ver.1/Hunic/HunicUA.lua</File>
+    <File md5="2C3161F372CB7DF70D1CE9F65091A30D" import="0">TLKs/ver.1/Hunic/HunicUA.lua</File>
     <File md5="C0226180CB33877C4BAA3CF1A3946EB3" import="0">TLKs/ver.1/Iroquois/Iroquois_UB.xml</File>
     <File md5="8BB229279C42538A9C68E16A9ADDEF1E" import="0">TLKs/ver.1/Persia/PersiaUA.lua</File>
     <File md5="55A20808DD62DAC51D400496A23F7F08" import="0">TLKs/ver.1/Venezia/LUA/VeneziaUA.lua</File>
@@ -120,17 +120,17 @@ Credits are in the ReadMe.txt</Description>
     <File md5="6D8893E96B1A217A3CB842C162BD30C3" import="0">TLKs/ver.0/Carthage/LUA/CedarOfLebanon.lua</File>
     <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">TLKs/ver.0/Carthage/LUA/PlotIterators.lua</File>
     <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">TLKs/ver.0/Carthage/LUA/Sukritact_SaveUtils.lua</File>
-    <File md5="C7E131165450B135B5B9E5010E96FBEA" import="0">TLKs/ver.0/Carthage/Ver0sql.sql</File>
-    <File md5="3A4AA47FC1AD28505B3900A5479C6B47" import="0">TLKs/ver.0/Greece/GreekLua.lua</File>
+    <File md5="C7161376495117C96A228DC2A0A51357" import="0">TLKs/ver.0/Carthage/Ver0sql.sql</File>
+    <File md5="86A9754DF61596CCB03FB68F227846AE" import="0">TLKs/ver.0/Greece/GreekLua.lua</File>
     <File md5="F6EA698CF728595591BF952F88B6B0AF" import="0">TLKs/ver.0/Rome/Rome.lua</File>
-    <File md5="7C32A365BBBD74B7FA2359F126C7610B" import="0">TLKs/ver.0/Rome/Ver0XMLFile.xml</File>
+    <File md5="B162C995B9B7E172E2520ABA3E71D3E5" import="0">TLKs/ver.0/Rome/Ver0XMLFile.xml</File>
     <File md5="82BBF234892C2AC897ED26FE9290C539" import="0">TLKs/ver.1/Assyria/Assyria.xml</File>
     <File md5="FBCF1147AF5C4E0A92CC0F7A78C4BECB" import="0">TLKs/ver.1/Babylon/Babylon.xml</File>
     <File md5="3344DEB46B2321C3F3A109F0BC717BE3" import="0">TLKs/ver.1/Bizantium/Bizantium.sql</File>
     <File md5="F28E4CC70694B928371EA6AEC425A1C0" import="0">TLKs/ver.1/Bizantium/Byzantium.xml</File>
     <File md5="049AE5DBA94DAC553AA0AE54BE553B58" import="0">TLKs/ver.1/Celt/Celt.xml</File>
     <File md5="887454B76964AF419E82501DF9DA44D7" import="0">TLKs/ver.1/Egypt/Egypt_UB.xml</File>
-    <File md5="B9690B4CF11734B6CB1654D901B473A5" import="0">TLKs/ver.1/Hunic/Hunic.xml</File>
+    <File md5="D0B70927DEB77184933CCF1404AB6B30" import="0">TLKs/ver.1/Hunic/Hunic.xml</File>
     <File md5="6274469D41F6AEAA32C8193AEF134451" import="0">TLKs/ver.1/Persia/Persia.xml</File>
     <File md5="E2A88DDB83B83871C724A96469581106" import="0">TLKs/ver.1/Venezia/Venezia_UB.xml</File>
     <File md5="AD9448F998D474C5AF603264C8CF32D6" import="0">Desc/Text.xml</File>
@@ -163,8 +163,9 @@ Credits are in the ReadMe.txt</Description>
     <File md5="56E79FD670D9493B75656674ABB3DE26" import="0">XML/Buildings/Building.xml</File>
     <File md5="D3537D31159CDC2C44A0D368B00A489C" import="0">XML/Buildings/DummyBuildings.xml</File>
     <File md5="E6388B10DD9B1DD1F08CA37C50C59737" import="0">XML/GlobalDefines.xml</File>
+    <File md5="2350393C2A0846E814158656E30CF177" import="0">XML/Handicaps/CIV5GameSpeeds.xml</File>
     <File md5="FF5BB825909541BCF068527A138DAEB7" import="0">XML/PROMOTION/Promotion.xml</File>
-    <File md5="D6CFEEDA15E109537D2CA08C88A5FCAD" import="0">XML/Religion/CIV5Beliefs.xml</File>
+    <File md5="18B1C19695EADA8631DA7BF9522284DB" import="0">XML/Religion/CIV5Beliefs.xml</File>
     <File md5="DAF6FEE22B330DBED93D9CD331BFE08E" import="0">XML/Routes/CIV5Routes.xml</File>
     <File md5="51484D8176DD2DF633222DC18A156016" import="0">XML/Specialist/CIV5Specialists.xml</File>
     <File md5="1C1DBF8C43AA709473C7EC1724211368" import="0">XML/Technology/Technology.xml</File>
@@ -192,7 +193,7 @@ Credits are in the ReadMe.txt</Description>
     <File md5="14C5B48F5B7B22828128D906D3BEA58A" import="0">GNL/XML/CIV5Builds.xml</File>
     <File md5="65FD76DD058DD437A1EACABCE778A7C6" import="0">GNL/XML/CIV5Features.xml</File>
     <File md5="1B33F86B14B9C11E9BB937FCE9E60C1C" import="0">GNL/XML/CIV5Improvements.xml</File>
-    <File md5="615D9E1E733A5C1985CFDC02BF24C808" import="0">GNL/XML/CIV5Resources.xml</File>
+    <File md5="F3EB88875D7FF98429360E172824643A" import="0">GNL/XML/CIV5Resources.xml</File>
     <File md5="51B2F81961062B94BBF50457DBF4F0C5" import="0">GNL/XML/CIV5Terrains.xml</File>
     <File md5="1C755D10AED92EFDFFC7D2E6C1D8449C" import="0">GNL/XML/CIV5Yields.xml</File>
   </Files>

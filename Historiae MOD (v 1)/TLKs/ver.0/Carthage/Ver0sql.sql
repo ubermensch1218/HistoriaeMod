@@ -2,33 +2,33 @@
 -- Units
 --==========================================================================================================================
 INSERT OR REPLACE INTO Units 	
-			(Type, 				Range, RangedCombat, NumExoticGoods,					PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,							UnitFlagIconOffset,	UnitFlagAtlas,						MoveRate,	PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_PHOENICIA_BIREME'),		2, 10, 1,		('TECH_SAILING'), 6, 250, ('UNITCLASS_RECON_SHIP'), FaithCost+220,	RequiresFaithPurchaseEnabled, 5, ('UNITCOMBAT_NAVALMELEE'), Domain, DefaultUnitAI, ('TXT_KEY_UNIT_PHOENICIA_BIREME'), 	('TXT_KEY_CIV5_UNIT_PHOENICIA_BIREME_TEXT'), 	('TXT_KEY_UNIT_PHOENICIA_BIREME_HELP'), 	('TXT_KEY_UNIT_PHOENICIA_BIREME_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ('TECH_COMPASS'),	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass,  ('ART_DEF_UNIT_U_CARTHAGE_QUINQUEREME'),  0,					('PHOENICIAN_BIREME_FLAG'),		MoveRate,	2, 				('PHOENICIA_ATLAS')
+			(Type, 	ExtraMaintenanceCost,			Range, RangedCombat, NumExoticGoods,					PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,							UnitFlagIconOffset,	UnitFlagAtlas,						MoveRate,	PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_PHOENICIA_BIREME'),	3,	2, 10, 1,		('TECH_SAILING') , 6, 250, ('UNITCLASS_RECON_SHIP'), FaithCost+220,	RequiresFaithPurchaseEnabled, 5, ('UNITCOMBAT_NAVALMELEE'), Domain, DefaultUnitAI, ('TXT_KEY_UNIT_PHOENICIA_BIREME'), 	('TXT_KEY_CIV5_UNIT_PHOENICIA_BIREME_TEXT'), 	('TXT_KEY_UNIT_PHOENICIA_BIREME_HELP'), 	('TXT_KEY_UNIT_PHOENICIA_BIREME_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ('TECH_COMPASS'),	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass,  ('ART_DEF_UNIT_U_CARTHAGE_QUINQUEREME'),  0,					('PHOENICIAN_BIREME_FLAG'),		MoveRate,	2, 				('PHOENICIA_ATLAS')
 FROM Units WHERE (Type = 'UNIT_RECON_SHIP');
 
 INSERT OR REPLACE INTO Units 	
-			(Type, 									PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_DORIPOROS'),	PrereqTech, Combat-2, Cost-25, Class, FaithCost,	RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_DORIPOROS'), 	('TXT_KEY_CIV5_UNIT_DORIPOROS_TEXT'), 	('TXT_KEY_UNIT_DORIPOROS_HELP'), 	('TXT_KEY_UNIT_DORIPOROS_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, ('ART_DEF_UNIT_SPEARMAN'),  9,	UnitFlagAtlas,		MoveRate,	9, 				('UNIT_ATLAS_1')
+			(Type, 				ExtraMaintenanceCost,					PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_DORIPOROS'),	1,PrereqTech, 12, 55, Class, FaithCost,	RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_DORIPOROS'), 	('TXT_KEY_CIV5_UNIT_DORIPOROS_TEXT'), 	('TXT_KEY_UNIT_DORIPOROS_HELP'), 	('TXT_KEY_UNIT_DORIPOROS_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, ('ART_DEF_UNIT_SPEARMAN'),  9,	UnitFlagAtlas,		MoveRate,	9, 				('UNIT_ATLAS_1')
 FROM Units WHERE (Type = 'UNIT_SPEARMAN');
 
 INSERT OR REPLACE INTO Units 	
-			(Type, 									PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_SARDENIAN'),	PrereqTech, Combat+1, Cost-15, Class, FaithCost,	RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_SARDENIAN'), 	('TXT_KEY_CIV5_UNIT_SARDENIAN_TEXT'), 	('TXT_KEY_UNIT_SARDENIAN_HELP'), 	('TXT_KEY_UNIT_SARDENIAN_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, ('ART_DEF_UNIT__WARRIOR'),  3,	UnitFlagAtlas,		MoveRate,	3, 				('UNIT_ATLAS_1')
+			(Type, 				PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_SARDENIAN'), PrereqTech, 8, 30, Class, FaithCost,	RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_SARDENIAN'), 	('TXT_KEY_CIV5_UNIT_SARDENIAN_TEXT'), 	('TXT_KEY_UNIT_SARDENIAN_HELP'), 	('TXT_KEY_UNIT_SARDENIAN_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, ('ART_DEF_UNIT__WARRIOR'),  3,	UnitFlagAtlas,		MoveRate,	3, 				('UNIT_ATLAS_1')
 FROM Units WHERE (Type = 'UNIT_WARRIOR');
 
 INSERT OR REPLACE INTO Units 	
-			(Type, 									PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_IBERIAN'),	PrereqTech, Combat-2, Cost-10, Class, FaithCost-10,	RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_IBERIAN'), 	('TXT_KEY_CIV5_UNIT_IBERIAN_TEXT'), 	('TXT_KEY_UNIT_IBERIAN_HELP'), 	('TXT_KEY_UNIT_IBERIAN_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, ('ART_DEF_UNIT_SWORDSMAN'),  14,	UnitFlagAtlas,		MoveRate,	14, 				('UNIT_ATLAS_1')
+			(Type, 					PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_IBERIAN'), 'TECH_IRON_WORKING', 14, 125, Class, 300,	RequiresFaithPurchaseEnabled, 3, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_IBERIAN'), 	('TXT_KEY_CIV5_UNIT_IBERIAN_TEXT'), 	('TXT_KEY_UNIT_IBERIAN_HELP'), 	('TXT_KEY_UNIT_IBERIAN_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, ('ART_DEF_UNIT_SWORDSMAN'),  14,	UnitFlagAtlas,		MoveRate,	14, 				('UNIT_ATLAS_1')
 FROM Units WHERE (Type = 'UNIT_SWORDSMAN');
 
 INSERT OR REPLACE INTO Units 	
-			(Type, 									PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_GARAMANTIA'),	PrereqTech, Combat, Cost+30, Class, FaithCost+30,	RequiresFaithPurchaseEnabled, Moves+1, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_GARAMANTIA'), 	('TXT_KEY_CIV5_UNIT_GARAMANTIA_TEXT'), 	('TXT_KEY_UNIT_GARAMANTIA_HELP'), 	('TXT_KEY_UNIT_GARAMANTIA_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,  UnitFlagIconOffset,	UnitFlagAtlas,		MoveRate,	17, 				('UNIT_ATLAS_1')
-FROM Units WHERE (Type = 'UNIT_PILLAGE_MOUNT');
+			(Type, 					PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_GARAMANTIA'),	PrereqTech, 10, 80, Class, FaithCost+30,	RequiresFaithPurchaseEnabled, 4, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_GARAMANTIA'), 	('TXT_KEY_CIV5_UNIT_GARAMANTIA_TEXT'), 	('TXT_KEY_UNIT_GARAMANTIA_HELP'), 	('TXT_KEY_UNIT_GARAMANTIA_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,  UnitFlagIconOffset,	UnitFlagAtlas,		MoveRate,	17, 				('UNIT_ATLAS_1')
+FROM Units WHERE (Type = 'UNIT_SCOUT_MOUNT');
 
 INSERT OR REPLACE INTO Units 	
-			(Type, 									PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_KAITRAI'),	PrereqTech, 11, Cost-60, Class, FaithCost-60,	RequiresFaithPurchaseEnabled, 2, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_KAITRAI'), 	('TXT_KEY_CIV5_UNIT_KAITRAI_TEXT'), 	('TXT_KEY_UNIT_KAITRAI_HELP'), 	('TXT_KEY_UNIT_KAITRAI_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,  UnitFlagIconOffset,	UnitFlagAtlas,		MoveRate,	14, 				('UNIT_ATLAS_1')
+			(Type, 		PrereqTech, Combat, Cost, Class, FaithCost,	RequiresFaithPurchaseEnabled,	Moves, 	CombatClass, Domain, DefaultUnitAI, Description, 							Civilopedia, 										Help, 										Strategy,								  			MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech, 	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,UnitFlagIconOffset,	UnitFlagAtlas,	MoveRate,	PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_KAITRAI'),	('TECH_SEA_TRADE') , 13, 100, Class, FaithCost-60,	RequiresFaithPurchaseEnabled, 2, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_KAITRAI'), 	('TXT_KEY_CIV5_UNIT_KAITRAI_TEXT'), 	('TXT_KEY_UNIT_KAITRAI_HELP'), 	('TXT_KEY_UNIT_KAITRAI_STRATEGY'),  	MilitarySupport, MilitaryProduction, Pillage, IgnoreBuildingDefense, AdvancedStartCost, CombatLimit, ObsoleteTech,	XPValueAttack, XPValueDefense, GoodyHutUpgradeUnitClass, UnitArtInfo,  UnitFlagIconOffset,	UnitFlagAtlas,		MoveRate,	14, 				('UNIT_ATLAS_1')
 FROM Units WHERE (Type = 'UNIT_DEFWARRIOR');
 
 
@@ -189,7 +189,9 @@ FROM Unit_ClassUpgrades WHERE (UnitType = 'UNIT_DEFWARRIOR');
 INSERT OR REPLACE INTO UnitPromotions 
          (Type,                            Description,                         Help,                                     Sound,             CannotBeChosen, LostWithUpgrade,   PortraitIndex,   IconAtlas,          PediaType,          PediaEntry)
 VALUES      ('PROMOTION_CEDARS_OF_LEBANON',       'TXT_KEY_PROMOTION_CEDARS_OF_LEBANON',      'TXT_KEY_PROMOTION_CEDARS_OF_LEBANON_HELP',       'AS2D_IF_LEVELUP',    1,             0,                59,          'ABILITY_ATLAS',    'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_CEDARS_OF_LEBANON');
-
+--[67893.000] In XMLSerializer while updating table Language_zh_CN from file Localization/IGE_ZH_CN.xml.
+--[67896.453] near "(": syntax error
+--		3.453		
 INSERT OR REPLACE INTO Unit_FreePromotions 	
 			(UnitType, 							PromotionType)
 SELECT		('UNIT_DORIPOROS'), 		PromotionType
@@ -217,14 +219,9 @@ INSERT OR REPLACE INTO Unit_FreePromotions
 VALUES		('UNIT_IBERIAN', 	'PROMOTION_MOUNTED_PENALTY_1'); 
 
 
-
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
 VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_RANGED_SUPPORT_FIRE'); 
-
-INSERT OR REPLACE INTO Unit_FreePromotions
-			(UnitType, 						PromotionType)
-VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_SCOUTING_1'); 
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
@@ -232,16 +229,11 @@ VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_MARCH');
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
-VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_CITY_PENALTY_1'); 
+VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_CITY_PENALTY_2'); 
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
 VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_FREE_PILLAGE_MOVES'); 
-
-INSERT OR REPLACE INTO Unit_FreePromotions
-			(UnitType, 						PromotionType)
-VALUES		('UNIT_GARAMANTIA', 	'PROMOTION_CAN_MOVE_AFTER_ATTACKING'); 
-
 
 
 INSERT OR REPLACE INTO Unit_FreePromotions
@@ -272,6 +264,8 @@ INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
 VALUES		('UNIT_PHOENICIA_BIREME', 	'PROMOTION_SCOUTING_2'); 
 
+
+
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
 VALUES		('UNIT_TYRIAN_MERCHANT', 	'PROMOTION_CARTHAGE_II'); 
@@ -282,21 +276,11 @@ VALUES		('UNIT_TYRIAN_MERCHANT', 	'PROMOTION_GREAT_EXPLORER');
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
-VALUES		('UNIT_TYRIAN_MERCHANT', 	'PROMOTION_EXTRA_SIGHT_I'); 
-
-INSERT OR REPLACE INTO Unit_FreePromotions
-			(UnitType, 						PromotionType)
 VALUES		('UNIT_KAITRAI', 	'PROMOTION_COVER_1'); 
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
-VALUES		('UNIT_KAITRAI', 	'PROMOTION_COVER_2'); 
-
-INSERT OR REPLACE INTO Unit_FreePromotions
-			(UnitType, 						PromotionType)
-VALUES		('UNIT_KAITRAI', 	'PROMOTION_MARCH'); 
-
-
+VALUES		('UNIT_KAITRAI', 	'PROMOTION_ENFORCING_MARCH'); 
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
@@ -313,6 +297,11 @@ VALUES		('UNIT_CARTHAGINIAN_QUINQUEREME', 	'PROMOTION_COASTAL_RAIDER_1');
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
 VALUES		('UNIT_CARTHAGINIAN_QUINQUEREME', 	'PROMOTION_COASTAL_RAIDER_2'); 
+
+
+
+DELETE FROM Belief_BuildingClassFaithPurchase
+WHERE BeliefType = 'BELIEF_GODIDEA' AND BuildingClassType = 'BUILDINGCLASS_POPE';
 
 INSERT OR REPLACE INTO Unit_FreePromotions
 			(UnitType, 						PromotionType)
@@ -403,10 +392,3 @@ VALUES		('GREAT_WORK_TALES','GREAT_WORK_LITERATURE','TXT_KEY_GREAT_WORK_TALES',	
 			('GREAT_WORK_SOCRATES','GREAT_WORK_LITERATURE','TXT_KEY_GREAT_WORK_SOCRATES',	'TXT_KEY_GREAT_WORK_QUOTE_SOCRATES','GreatWriter_Background.dds');
 			--('GREAT_WORK_','GREAT_WORK_LITERATURE','TXT_KEY_GREAT_WORK_',	'TXT_KEY_GREAT_WORK_QUOTE_','GreatWriter_Background.dds');
 			
-
-INSERT OR REPLACE INTO Unit_FreePromotions 	
-			(UnitType, 							PromotionType)
-VALUES      ('UNIT_KAITRAI',   'PROMOTION_MOUNTED_PENALTY_1'),
-         ('UNIT_ROMAN_LEGION',   'PROMOTION_MOUNTED_PENALTY_1'),
-         ('UNIT_CRETA_ARCHER',   'PROMOTION_MOUNTED_PENALTY_1'),
-         ('UNIT_HASTATI',   'PROMOTION_MOUNTED_PENALTY_1');

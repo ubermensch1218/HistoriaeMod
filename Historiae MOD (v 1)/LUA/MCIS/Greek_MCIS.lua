@@ -60,7 +60,7 @@ function ProcessCityScreen(instance)
 
 	local iOlympia = pCity:GetNumBuilding(GameInfoTypes["BUILDING_GREEK_CULTURE_UNIT_MODIFIER"]);
 
-	if (not pCity:IsHasBuilding(iOlympia)) then
+	if (not pCity:IsHasBuilding(pGreekOlympia)) then
 		instance.IconFrame:SetHide(true)
 		return
 	end

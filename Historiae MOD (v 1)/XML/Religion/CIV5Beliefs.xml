@@ -153,7 +153,7 @@
 			<Description>TXT_KEY_BELIEF_FAITH_HEALERS</Description>
 			<ShortDescription>TXT_KEY_BELIEF_FAITH_HEALERS_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
-			<FriendlyHealChange>40</FriendlyHealChange>
+			<FriendlyHealChange>30</FriendlyHealChange>
 		</Row>
 		<!--신에게 바치는 기념비-->
 		<Row>
@@ -684,6 +684,12 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
@@ -701,13 +707,6 @@
 			<BeliefType>BELIEF_POORPLAN</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>3</YieldChange>
-		</Row>
-
-		<Row>
-			<BeliefType>BELIEF_ASCETISM</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_CEMETARY</BuildingClassType>
-			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>3</YieldChange>
 		</Row>
 		<Row>
@@ -905,7 +904,12 @@
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
-		
+
+		<Row>
+			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
 
 		<Row>
 			<BeliefType>BELIEF_CHARITABLE_MISSIONS</BeliefType>
@@ -953,16 +957,6 @@
 		<Row>
 			<BeliefType>BELIEF_CEREMONIAL_BURIAL</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
-			<Happiness>1</Happiness>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_CEREMONIAL_BURIAL</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_CEMETARY</BuildingClassType>
-			<Happiness>1</Happiness>
-		</Row>
-		<Row>
-			<BeliefType>BELIEF_RELIQUARY</BeliefType>
-			<BuildingClassType>BUILDINGCLASS_CEMETARY</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
 	</Belief_BuildingClassHappiness>
@@ -1565,7 +1559,7 @@
 		<Row>
 			<BeliefType>BELIEF_SACRED_PATH</BeliefType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Belief_FeatureYieldChanges>
@@ -1615,6 +1609,12 @@
 			<BeliefType>BELIEF_GODDESS_HUNT</BeliefType>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GODDESS_HUNT</BeliefType>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<!--환상열석-->
@@ -1622,13 +1622,13 @@
 			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 		<Row>
@@ -1751,6 +1751,42 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
 			<ResourceType>RESOURCE_WEED</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_APPLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_PEACH</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_WEED</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1784,8 +1820,61 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		
-		
+
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ANIMISM</BeliefType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
 		<Row>
 			<BeliefType>BELIEF_ANIMISM</BeliefType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
@@ -1840,6 +1929,8 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		
+		
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
@@ -1892,7 +1983,13 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
-			<ResourceType>RESOURCE_SALT</ResourceType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1993,7 +2090,13 @@
 			<BeliefType>BELIEF_GOD_SEA</BeliefType>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
 		</Row>
 
 
