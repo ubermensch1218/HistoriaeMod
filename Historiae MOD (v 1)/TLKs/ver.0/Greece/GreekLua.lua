@@ -24,6 +24,10 @@ function GreekOlympia(iPlayer)
 	local pPlayer = Players[iPlayer]
 	if pPlayer:IsAlive() and not pPlayer:IsMinorCiv() and iPlayer ~= 63 then
 		if (pPlayer:GetCivilizationType() == civilisationID) then
+<<<<<<< HEAD
+=======
+			if pCity:GetNumRealBuilding(GameInfoTypes["BUILDING_OLYMPIA"]) == 1 then
+>>>>>>> origin/master
 				local iAlliedCityState = 0;
 				for iLoopPlayer, pLoopPlayer in pairs(Players) do
 					if pLoopPlayer:IsMinorCiv() then
@@ -33,10 +37,16 @@ function GreekOlympia(iPlayer)
 					end
 				end
 				for pCity in pPlayer:Cities() do
+<<<<<<< HEAD
 					if pCity:GetNumRealBuilding(GameInfoTypes["BUILDING_OLYMPIA"]) == 1 then
 						pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_GREEK_CULTURE_UNIT_MODIFIER"], math.floor(2* iAlliedCityState))
 					end
 				end
+=======
+					pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_GREEK_CULTURE_UNIT_MODIFIER"], math.floor(2* iAlliedCityState))
+				end
+			end
+>>>>>>> origin/master
 		end
 	end
 end
@@ -44,3 +54,8 @@ end
 if IsCivilisationActive(civilisationID) then
 	GameEvents.PlayerDoTurn.Add(GreekOlympia)
 end
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
